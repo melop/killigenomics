@@ -1,0 +1,62 @@
+#!/bin/bash
+
+tmpdir=$(mktemp -d) #temp dir used to track return codes of background processes
+
+function submit_cmd
+{
+
+	sSRUNCMD="salloc  -p blade -n 1 -c ${CPU} --mem=${MEMORY} $1"
+	{ $sSRUNCMD ; echo "$?" > "$tmpdir/$BASHPID" ; } &
+	echo "submitted command $sSRUNCMD"
+}
+
+sCMD=""
+while [[ $# > 1 ]]
+do
+key="$1"
+case $key in
+    -m|--mem)
+    MEMORY="$2"
+    shift # past argument
+    ;;
+    -c|--cpu)
+    CPU="$2"
+    shift # past argument
+    ;;
+    *)
+    ;;
+esac
+shift # past argument or value
+done
+sCMD=$1
+
+echo MEM  = "${MEMORY}"
+echo CPU     = "${CPU}"
+echo CMD = "${sCMD}"
+
+[ "$sCMD" != ""  ] &&  submit_cmd "$sCMD" ;
+
+while read -r sCMD
+do
+  [ "$sCMD" != ""  ] && submit_cmd "$sCMD" ;
+done </dev/stdin
+
+
+wait
+
+# Get return information for each pid
+LAST_ERROR_CODE=0
+for file in "$tmpdir"/*; do
+    nRetCode="$(<"$file")";
+    printf 'PID %d returned %d\n' "${file##*/}" $nRetCode;
+
+    [ $nRetCode -ne 0  ] && LAST_ERROR_CODE=$nRetCode ;
+done
+
+# Remove the temporary directory
+rm -r "$tmpdir" ;
+exit $LAST_ERROR_CODE ;
+
+
+
+
