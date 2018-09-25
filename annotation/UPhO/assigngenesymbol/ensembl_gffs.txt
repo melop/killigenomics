@@ -1,0 +1,11 @@
+astyanax	gff3/Astyanax_mexicanus.AstMex102.87.gff3.gz
+gadus	gff3/Gadus_morhua.gadMor1.87.gff3.gz
+medaka	gff3/Oryzias_latipes.MEDAKA1.87.chr.gff3.gz
+poecilia	gff3/Poecilia_formosa.PoeFor_5.1.2.87.gff3.gz
+spotted_gar	gff3/Lepisosteus_oculatus.LepOcu1.87.gff3.gz
+stickleback	gff3/Gasterosteus_aculeatus.BROADS1.87.gff3.gz
+takifugu	gff3/Takifugu_rubripes.FUGU4.87.gff3.gz
+tetraodon	gff3/Tetraodon_nigroviridis.TETRAODON8.87.chr.gff3.gz
+tilapia	gff3/Oreochromis_niloticus.Orenil1.0.87.gff3.gz
+xmac	gff3/Xiphophorus_maculatus.Xipmac4.4.2.87.gff3.gz
+zebrafish	gff3/Danio_rerio.GRCz10.87.gff3.gz

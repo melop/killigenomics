@@ -1,0 +1,9 @@
+Group_Id	Gene_Symbol	Gene_Name	AAU	CTO	NOR	PLP
+Group_432_4	foxo3a	forkhead box O3A [Source:ZFIN%3BAcc:ZDB-GENE-050116-1]	029530	022992	000185	025990
+Group_5484_0_1	sirt6	sirtuin 6 [Source:HGNC Symbol%3BAcc:HGNC:14934]	006531	000230	003197	013280
+Group_5484_0_2	sirt6	sirtuin 6 [Source:HGNC Symbol%3BAcc:HGNC:14934]	006531	000230	032209	013280
+Group_798_2	hdac1	histone deacetylase 1 [Source:ZFIN%3BAcc:ZDB-GENE-020419-32]	030417	013426	019970	002872
+Group_3125_1	smc6	si:dkey-119f1.1 [Source:ZFIN%3BAcc:ZDB-GENE-070705-287]	028367	021387	014303	019063
+Group_4276_0	tfam	transcription factor A%2C mitochondrial	018945	017953	006562	021190
+Group_4276_02	tfam.2	transcription factor A%2C mitochondrial	018945	017953	001083	021190
+
