@@ -1,5 +1,5 @@
 # killigenomics
-Scripts for African killifish genomics
+Scripts for African killifish genomics. Some data files are too large to be deposited on github. The raw data can be found on NCBI SRA xxxxx.
 
 * genome_assembly/ scripts for performing genome assembly and improvements
 * annotation/ pipelines for genome annotation and improvements
