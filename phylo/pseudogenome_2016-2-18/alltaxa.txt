@@ -1,0 +1,5 @@
+NotfurRef	/beegfs/group_dv/home/RCui/killifish_genomes/map_bwamem/samtools1.2_relaxed/notfurScflds.fa
+WGA_xma	/beegfs/group_dv/home/RCui/killifish_genomes/phylo/samtools1.2_2016-2-18/Xmac.called.bcf
+WGA_fht	/beegfs/group_dv/home/RCui/killifish_genomes/phylo/samtools1.2_2016-2-18/Fht.called.bcf
+WGA_plp	/beegfs/group_dv/home/RCui/killifish_genomes/phylo/samtools1.2_2016-2-18/PLP.called.bcf
+WGA_alm	/beegfs/group_dv/home/RCui/killifish_genomes/phylo/samtools1.2_2016-2-18/Alm.called.bcf
