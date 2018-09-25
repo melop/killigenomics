@@ -1,6 +1,14 @@
-ln -sf `realpath ../prot_nogap` ./ #link the probe protein sequences
-ln -sf `realpath ../hmm` ./ #link the hmm for each gene (hmmer2 format)
+mkdir -p prot_nogap
+mkdir -p hmm
 
+#Link the ensembl hmms and proteins
+for i in ../UPhO_Ensembl/mclclusters/UPhO_Seqs/*.fasta ; do
+        ln -sf $i  ./prot_nogap/
+done
+
+for j in ../UPhO_Ensembl/mclclusters/hmm/*.hmm; do
+        ln -sf $j ./hmm/
+done
 
 
 ln -sf ./repeatmasker/NOR_v1.0_pilon/scf.fa.masked ./genome.masked.fa #Link the masked version of the genome, for blast
