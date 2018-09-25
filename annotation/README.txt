@@ -7,3 +7,5 @@
 * maker/ main gene annotation pipeline with gene model improvement pipeline
 * CAFE/ gene family evolution analysis with CAFE'
 * UPhO/ gene family identification and assignment, ortholog identification, Ensembl ID mapping and gene symbol assignments.
+* UPhO_Ensembl/ HMM profile preparation for ensembl fish proteins, for genewise alignments.
+
