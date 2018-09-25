@@ -1,0 +1,223 @@
+14629 orthologs included.
+Now try to combine split orthogroups by using ensembl ortholog definitions
+Found ensembl orthologs linking families Group_0_10 and Group_0_172: ENSTRUP00000010422,ENSTNIP00000008493,ENSDARP00000115040,ENSAMXP00000020173
+In paralogs found: AAU,NOR,PLP;CTO,NOR
+NOR : 021257 si:dkey-14k9.3 (0.9889224572004 complete), 001427 (0.99762093576527 complete)  keep 001427
+Found ensembl orthologs linking families Group_0_176 and Group_0_92: ENSAMXP00000009495,ENSDARP00000135278
+No in-paralogs found. znf664
+Found ensembl orthologs linking families Group_0_182 and Group_0_183: ENSPFOP00000025260,ENSXMAP00000010639,ENSONIP00000020674
+No in-paralogs found. zgc:66448
+Found ensembl orthologs linking families Group_102_0 and Group_102_1: ENSAMXP00000006890,ENSTRUP00000030656,ENSTNIP00000009223,ENSDARP00000138563,ENSLOCP00000019124
+In paralogs found: AAU,CTO,NOR;CTO,NOR,PLP
+CTO : 023014 sptbn1 (0.98590947907771 complete), 021246 (0.94976783452934 complete)  keep 023014
+NOR : 012349 sptbn1 (0.97397610921502 complete), 025882 (0.99493457154918 complete)  keep 025882
+Found ensembl orthologs linking families Group_1025_0 and Group_1025_1: ENSDARP00000132680,ENSTRUP00000020803
+No in-paralogs found. snap25b
+Found ensembl orthologs linking families Group_1025_1 and Group_1025_2: ENSTRUP00000020803,ENSAMXP00000010139,ENSGMOP00000013399,ENSTNIP00000014882
+In paralogs found: AAU,NOR,PLP;AAU,CTO,PLP
+AAU : 028172 snap25 (1 complete), 010040 (0.98529411764706 complete)  keep 028172
+PLP : 022827 snap25 (1 complete), 013698 (1 complete)  keep 013698
+Found ensembl orthologs linking families Group_103_12 and Group_103_13: ENSORLP00000016520,ENSPFOP00000001463
+No in-paralogs found. hcn4
+Found ensembl orthologs linking families Group_119_12 and Group_119_13: ENSTRUP00000017744,ENSGMOP00000019796
+No in-paralogs found. nkx2.3
+Found ensembl orthologs linking families Group_1295_1 and Group_1295_2: ENSPFOP00000020156,ENSORLP00000001189
+In paralogs found: AAU,NOR;AAU,CTO,PLP
+AAU : 003394 si:dkey-16i5.8 (1 complete), 018850 (0.94805194805195 complete)  keep 003394
+Found ensembl orthologs linking families Group_133_0 and Group_133_2: ENSTNIP00000006860,ENSGMOP00000012949
+In paralogs found: AAU,NOR;AAU,CTO,PLP
+AAU : 028007 loc107373594 (0.9443137254902 complete), 019737 (0.88206388206388 complete)  keep 028007
+Found ensembl orthologs linking families Group_16_21 and Group_16_22: ENSAMXP00000014202,ENSTRUP00000011910,ENSTNIP00000006351
+No in-paralogs found. pak1
+Found ensembl orthologs linking families Group_1827_0 and Group_1827_2: ENSPFOP00000016772,ENSORLP00000016141,ENSXMAP00000018332
+No in-paralogs found. arpp19a
+Found ensembl orthologs linking families Group_183_7 and Group_183_8: ENSXMAP00000007802,ENSORLP00000021590,ENSPFOP00000011091,ENSONIP00000005526
+In paralogs found: AAU,CTO,NOR;AAU,CTO,PLP
+AAU : 023250 c1qb (0.72388059701493 complete), 026277 (0.95378151260504 complete)  keep 026277
+CTO : 002632 c1qb (0.4890350877193 complete), 002633 (0.40850277264325 complete)  keep 002632
+Found ensembl orthologs linking families Group_19_4 and Group_19_5: ENSAMXP00000003275,ENSLOCP00000004744,ENSGMOP00000005758,ENSTRUP00000043883,ENSTNIP00000007658
+No in-paralogs found. mapk8b
+Found ensembl orthologs linking families Group_1929_0 and Group_1929_1: ENSAMXP00000015526,ENSGMOP00000019299,ENSLOCP00000003451,ENSTRUP00000031893,ENSTNIP00000001479
+In paralogs found: AAU,CTO,NOR;AAU,CTO,PLP
+AAU : 017022 deptor (0.95863746958637 complete), 009196 (0.85150812064965 complete)  keep 017022
+CTO : 030143 deptor (0.94160583941606 complete), 022697 (0.6592039800995 complete)  keep 030143
+Found ensembl orthologs linking families Group_2_71 and Group_2_72: ENSXMAP00000006732,ENSPFOP00000021672,ENSONIP00000014373
+In paralogs found: AAU,NOR,PLP;CTO,PLP
+PLP : 025669 zgc:92590 (1 complete), 025670 (0.96761133603239 complete)  keep 025669
+Found ensembl orthologs linking families Group_20_33 and Group_20_35: ENSXMAP00000002607,ENSORLP00000003160
+No in-paralogs found. ptpn2a
+Found ensembl orthologs linking families Group_20_39 and Group_20_40: ENSLOCP00000020002,ENSTNIP00000002976
+In paralogs found: NOR,PLP;AAU,CTO,PLP
+PLP : 000628 ptprb (0.66305951795376 complete), 010461 (0.94224924012158 complete)  keep 010461
+Found ensembl orthologs linking families Group_22_46 and Group_22_47: ENSAMXP00000015202,ENSGMOP00000014581,ENSTRUP00000028989,ENSTNIP00000011365,ENSDARP00000105196,ENSLOCP00000015985
+In paralogs found: AAU,NOR,PLP;AAU,CTO,NOR
+AAU : 008965 mylk4 (0.92009685230024 complete), 006852 (0.97410071942446 complete)  keep 006852
+NOR : 006654 mylk4 (0.75302663438257 complete), 008937 (0.98273381294964 complete)  keep 008937
+Found ensembl orthologs linking families Group_2207_0 and Group_2207_1: ENSTRUP00000007892,ENSTNIP00000011619,ENSGMOP00000013462
+No in-paralogs found. si:ch211-276f18.2
+Found ensembl orthologs linking families Group_221_0 and Group_221_1: ENSGMOP00000012251,ENSTRUP00000005147,ENSAMXP00000001168,ENSTNIP00000004833
+No in-paralogs found. stx1b
+Found ensembl orthologs linking families Group_268_8 and Group_268_9: ENSONIP00000016040,ENSORLP00000010763,ENSPFOP00000023837,ENSXMAP00000003931
+No in-paralogs found. arrdc2
+Found ensembl orthologs linking families Group_27_31 and Group_27_32: ENSONIP00000026093,ENSPFOP00000020434
+No in-paralogs found. foxl2
+Found ensembl orthologs linking families Group_2772_0 and Group_2772_1: ENSGMOP00000005875,ENSTNIP00000015876,ENSTRUP00000018501
+No in-paralogs found. gid4
+Found ensembl orthologs linking families Group_2788_0 and Group_2788_2: ENSONIP00000005477,ENSXMAP00000003522,ENSORLP00000019454
+No in-paralogs found. lims2
+Found ensembl orthologs linking families Group_290_8 and Group_290_9: ENSORLP00000008436,ENSPFOP00000019461,ENSXMAP00000012994,ENSONIP00000003616
+No in-paralogs found. zgc:175280
+Found ensembl orthologs linking families Group_3_91 and Group_3_92: ENSLOCP00000007402,ENSAMXP00000025751,ENSTRUP00000023288,ENSTNIP00000017587,ENSDARP00000101373
+In paralogs found: CTO,PLP;AAU,NOR,PLP
+PLP : 025424 unknown (0.85757575757576 complete), 025986 (0.89728096676737 complete)  keep 025986
+Found ensembl orthologs linking families Group_3025_0 and Group_3025_1: ENSLOCP00000020209,ENSGMOP00000011599
+In paralogs found: AAU,CTO,PLP;AAU,CTO,NOR
+AAU : 015935 kitlga (0.88888888888889 complete), 029887 (0.90513833992095 complete)  keep 029887
+CTO : 009950 kitlga (0.87847222222222 complete), 013196 (0.94071146245059 complete)  keep 013196
+Found ensembl orthologs linking families Group_3033_0 and Group_3033_1: ENSAMXP00000011777,ENSLOCP00000019878,ENSTRUP00000030942,ENSDARP00000132337,ENSGMOP00000001338,ENSLOCP00000019878
+In paralogs found: AAU,CTO,NOR;AAU,PLP
+AAU : 028790 il17ra1b (0.98757763975155 complete), 030668 (0.72545090180361 complete)  keep 028790
+Found ensembl orthologs linking families Group_3106_0 and Group_3106_1: ENSAMXP00000001695,ENSLOCP00000005817,ENSDARP00000013803,ENSAMXP00000001695,ENSGMOP00000001424,ENSLOCP00000005817,ENSTRUP00000020483,ENSTNIP00000015150,ENSDARP00000013803
+In paralogs found: AAU,CTO,NOR;AAU,NOR,PLP
+AAU : 013702 ncl (0.95374449339207 complete), 019533 (0.58577405857741 complete)  keep 013702
+NOR : 027127 ncl (0.52697095435685 complete), 026823 (0.99023709902371 complete)  keep 026823
+Found ensembl orthologs linking families Group_3120_0 and Group_3120_1: ENSLOCP00000019353,ENSAMXP00000018499,ENSGMOP00000010917,ENSLOCP00000019353,ENSTRUP00000043357
+In paralogs found: AAU,CTO,NOR;AAU,NOR,PLP
+AAU : 005698 ucmaa (0.84210526315789 complete), 027106 (1 complete)  keep 027106
+NOR : 025114 ucmaa (1 complete), 011219 (0.96732026143791 complete)  keep 025114
+Found ensembl orthologs linking families Group_3207_0 and Group_3207_1: ENSLOCP00000022320,ENSLOCP00000022320
+In paralogs found: AAU,NOR,PLP;CTO,NOR,PLP
+NOR : 027541 ompb (1 complete), 031953 (0.95180722891566 complete)  keep 027541
+PLP : 025227 ompb (1 complete), 025404 (0.9578313253012 complete)  keep 025227
+Found ensembl orthologs linking families Group_3226_0 and Group_3226_1: ENSTRUP00000020672,ENSTNIP00000003983,ENSDARP00000103392,ENSDARP00000103392
+In paralogs found: CTO,NOR;AAU,NOR,PLP
+NOR : 019461 dnajc30 (1 complete), 015104 (0.50356294536817 complete)  keep 019461
+Found ensembl orthologs linking families Group_33_3 and Group_33_4: ENSLOCP00000003282,ENSTNIP00000004267
+In paralogs found: CTO,NOR,PLP;AAU,CTO,NOR
+CTO : 008710 tspan18a (0.44573643410853 complete), 016933 (0.97413793103448 complete)  keep 016933
+NOR : 025757 tspan18a (1 complete), 014784 (1 complete)  keep 014784
+Found ensembl orthologs linking families Group_33_25 and Group_33_26: ENSAMXP00000010645,ENSGMOP00000020152,ENSLOCP00000020821,ENSTRUP00000038543,ENSTNIP00000013958,ENSDARP00000113395
+No in-paralogs found. tspan11
+Found ensembl orthologs linking families Group_3301_0 and Group_3301_1: ENSLOCP00000014885,ENSAMXP00000011750,ENSGMOP00000005555,ENSLOCP00000014885,ENSTRUP00000005336,ENSTNIP00000008401,ENSDARP00000140656
+No in-paralogs found. bglap
+Found ensembl orthologs linking families Group_3315_0 and Group_3315_1: ENSGMOP00000000648,ENSLOCP00000020962,ENSDARP00000135674,ENSLOCP00000020962,ENSDARP00000135674
+In paralogs found: AAU,CTO,NOR;AAU,CTO,PLP
+AAU : 002111 fam180a (0.97590361445783 complete), 009294 (0.72619047619048 complete)  keep 002111
+CTO : 009859 fam180a (0.9702380952381 complete), 009328 (0.875 complete)  keep 009859
+Found ensembl orthologs linking families Group_3347_0 and Group_3347_1: ENSLOCP00000017360,ENSAMXP00000007396,ENSGMOP00000018734,ENSLOCP00000017360,ENSTRUP00000034511
+In paralogs found: CTO,PLP;AAU,CTO,NOR
+CTO : 027261 card19 (0.93513513513514 complete), 028993 (0.95 complete)  keep 028993
+Found ensembl orthologs linking families Group_344_0 and Group_344_2: ENSPFOP00000023394,ENSONIP00000021480,ENSXMAP00000017269,ENSORLP00000021924
+In paralogs found: AAU,NOR,PLP;CTO,NOR,PLP
+NOR : 031544 asic1a (1 complete), 002776 (0.95876288659794 complete)  keep 031544
+PLP : 015090 asic1a (0.96031746031746 complete), 013457 (0.36186770428016 complete)  keep 015090
+Found ensembl orthologs linking families Group_3470_0 and Group_3470_1: ENSGMOP00000016482,ENSGMOP00000016482,ENSLOCP00000011197,ENSTRUP00000027090,ENSTNIP00000020204,ENSDARP00000141862
+In paralogs found: CTO,NOR;AAU,CTO,PLP
+CTO : 025664 atpv0e2 (1 complete), 005334 (0.95061728395062 complete)  keep 025664
+Found ensembl orthologs linking families Group_3479_0 and Group_3479_1: ENSLOCP00000019618,ENSAMXP00000001971,ENSLOCP00000019618,ENSTRUP00000041636,ENSTNIP00000011303,ENSDARP00000111556
+In paralogs found: CTO,NOR,PLP;AAU,CTO,NOR
+CTO : 013163 ppp1r3a (0.84590690208668 complete), 001420 (0.29243697478992 complete)  keep 013163
+NOR : 022112 ppp1r3a (1 complete), 015314 (0.99723502304147 complete)  keep 022112
+Found ensembl orthologs linking families Group_35_4 and Group_35_42: ENSAMXP00000018847,ENSLOCP00000016822,ENSTRUP00000002774
+No in-paralogs found. zgc:110712
+Found ensembl orthologs linking families Group_3502_0 and Group_3502_1: ENSDARP00000119897,ENSDARP00000119897
+In paralogs found: AAU,CTO,PLP;AAU,NOR
+AAU : 001589 dusp11 (0.94864048338369 complete), 013259 (0.78632478632479 complete)  keep 001589
+Found ensembl orthologs linking families Group_3577_0 and Group_3577_1: ENSLOCP00000022281,ENSLOCP00000022281,ENSTRUP00000016815
+In paralogs found: CTO,PLP;AAU,NOR,PLP
+PLP : 024621 fgfbp1b (0.57142857142857 complete), 023969 (0.8047619047619 complete)  keep 023969
+Found ensembl orthologs linking families Group_3604_0 and Group_3604_1: ENSAMXP00000004164,ENSGMOP00000011277,ENSLOCP00000007416,ENSTRUP00000003239,ENSTNIP00000019312,ENSDARP00000037350,ENSAMXP00000004164,ENSGMOP00000011277,ENSLOCP00000007416,ENSTRUP00000003239,ENSTNIP00000019312,ENSDARP00000037350
+In paralogs found: AAU,CTO,NOR;CTO,NOR,PLP
+CTO : 016432 nxn (1 complete), 016432 (1 complete)  keep 016432
+NOR : 004282 nxn (1 complete), 004282 (1 complete)  keep 004282
+Found ensembl orthologs linking families Group_364_2 and Group_364_4: ENSORLP00000004453,ENSONIP00000005809,ENSXMAP00000010738
+No in-paralogs found. inadl
+Found ensembl orthologs linking families Group_3689_0 and Group_3689_1: ENSAMXP00000022139,ENSGMOP00000008909,ENSLOCP00000017337,ENSTRUP00000027980,ENSDARP00000079302,ENSAMXP00000022139,ENSGMOP00000008909,ENSLOCP00000017337,ENSTRUP00000027980,ENSDARP00000079302
+In paralogs found: AAU,NOR,PLP;AAU,CTO,NOR
+AAU : 019203 dcaf5 (0.94276629570747 complete), 019203 (0.94276629570747 complete)  keep 019203
+NOR : 008451 dcaf5 (0.29348722176422 complete), 008451 (0.29348722176422 complete)  keep 008451
+Found ensembl orthologs linking families Group_370_3 and Group_370_4: ENSGMOP00000008544,ENSTRUP00000007050,ENSTNIP00000021513
+No in-paralogs found. psmd4b
+Found ensembl orthologs linking families Group_3772_0 and Group_3772_1: ENSAMXP00000003213,ENSGMOP00000005903,ENSLOCP00000004664,ENSTNIP00000007356,ENSDARP00000076640,ENSLOCP00000004664
+No in-paralogs found. irbp
+Found ensembl orthologs linking families Group_38_36 and Group_38_37: ENSORLP00000019368,ENSONIP00000026516,ENSPFOP00000020540,ENSXMAP00000013984
+In paralogs found: CTO,PLP;AAU,CTO,NOR
+CTO : 029597 loc107396001 (0.17180616740088 complete), 020948 (0.69824561403509 complete)  keep 020948
+Found ensembl orthologs linking families Group_394_6 and Group_394_7: ENSGMOP00000004058,ENSTRUP00000036417,ENSAMXP00000025799,ENSDARP00000019391
+In paralogs found: CTO,PLP;AAU,NOR,PLP
+PLP : 024021 unknown (0.95 complete), 024020 (1 complete)  keep 024020
+Found ensembl orthologs linking families Group_4_77 and Group_4_78: ENSAMXP00000015479,ENSGMOP00000003012,ENSTNIP00000012056,ENSDARP00000107354
+No in-paralogs found. rab5aa
+Found ensembl orthologs linking families Group_4008_0 and Group_4008_1: ENSTRUP00000029806,ENSAMXP00000008343,ENSGMOP00000005220,ENSLOCP00000000677,ENSTRUP00000029806,ENSTNIP00000019938
+In paralogs found: AAU,CTO,PLP;NOR,PLP
+PLP : 020200 mrpl11 (1 complete), 020200 (1 complete)  keep 020200
+Found ensembl orthologs linking families Group_4263_0 and Group_4263_1: ENSAMXP00000018850,ENSDARP00000094117,ENSLOCP00000007034
+In paralogs found: AAU,CTO,NOR;NOR,PLP
+NOR : 007087 s100v1 (1 complete), 025907 (0.97087378640777 complete)  keep 007087
+Found ensembl orthologs linking families Group_44_1 and Group_44_43: ENSORLP00000013286,ENSONIP00000006392,ENSXMAP00000018066
+No in-paralogs found. gria4a
+Found ensembl orthologs linking families Group_44_39 and Group_44_41: ENSGMOP00000000096,ENSTNIP00000014748,ENSDARP00000142042
+No in-paralogs found. gria3a
+Found ensembl orthologs linking families Group_44_40 and Group_44_41: ENSGMOP00000006874,ENSLOCP00000017895
+In paralogs found: CTO,NOR;AAU,NOR,PLP
+NOR : 024324 gria3b (1 complete), 001533 (1 complete)  keep 001533
+Found ensembl orthologs linking families Group_44_40 and Group_44_42: ENSGMOP00000006874,ENSTRUP00000019040,ENSTNIP00000011832
+No in-paralogs found. gria3b
+Found ensembl orthologs linking families Group_442_3 and Group_442_4: ENSTRUP00000024619,ENSTNIP00000006505,ENSGMOP00000010190
+No in-paralogs found. ablim2
+Found ensembl orthologs linking families Group_46_25 and Group_46_26: ENSORLP00000004767,ENSONIP00000006365
+No in-paralogs found. crybb1l1
+Found ensembl orthologs linking families Group_496_1 and Group_496_5: ENSPFOP00000026030,ENSONIP00000000572
+In paralogs found: AAU,CTO,NOR;CTO,PLP
+CTO : 011392 ebf4 (0.87073608617594 complete), 018693 (1 complete)  keep 018693
+Found ensembl orthologs linking families Group_504_1 and Group_504_6: ENSORLP00000018274,ENSONIP00000004476,ENSXMAP00000007770
+No in-paralogs found. ppp2r5c
+Found ensembl orthologs linking families Group_54_10 and Group_54_12: ENSLOCP00000010136,ENSGMOP00000019981,ENSTRUP00000034602,ENSTNIP00000017419
+No in-paralogs found. gabrb3
+Found ensembl orthologs linking families Group_54_13 and Group_54_14: ENSLOCP00000013134,ENSGMOP00000017556,ENSTRUP00000013234,ENSTNIP00000011788
+In paralogs found: AAU,CTO,NOR;AAU,CTO,PLP
+AAU : 021668 gabrb2 (0.98285714285714 complete), 000825 (0.89543726235741 complete)  keep 021668
+CTO : 014093 gabrb2 (0.83238095238095 complete), 008687 (0.95247148288973 complete)  keep 008687
+Found ensembl orthologs linking families Group_54_13 and Group_54_15: ENSLOCP00000013134,ENSAMXP00000019505
+In paralogs found: AAU,CTO,NOR;NOR,PLP
+NOR : 001454 gabrb2 (0.94857142857143 complete), 028123 (0.72243346007605 complete)  keep 001454
+Found ensembl orthologs linking families Group_54_14 and Group_54_15: ENSGMOP00000017556,ENSTRUP00000013234,ENSTNIP00000011788,ENSAMXP00000019505
+In paralogs found: AAU,CTO,PLP;NOR,PLP
+PLP : 016149 gabrb2 (1 complete), 000417 (0.71566731141199 complete)  keep 016149
+Found ensembl orthologs linking families Group_554_4 and Group_554_5: ENSORLP00000001447,ENSPFOP00000000285,ENSXMAP00000005952
+No in-paralogs found. hspa12a
+Found ensembl orthologs linking families Group_58_3 and Group_58_6: ENSAMXP00000016332,ENSGMOP00000003661,ENSTNIP00000014610,ENSDARP00000049374,ENSLOCP00000008180
+No in-paralogs found. ube2e2
+Found ensembl orthologs linking families Group_58_49 and Group_58_50: ENSORLP00000022743,ENSXMAP00000014602,ENSPFOP00000008099,ENSONIP00000000576
+No in-paralogs found. ube2d3
+Found ensembl orthologs linking families Group_600_4 and Group_600_5: ENSLOCP00000021733,ENSAMXP00000026838,ENSGMOP00000000662,ENSDARP00000088526
+In paralogs found: AAU,NOR,PLP;AAU,CTO,PLP
+AAU : 014900 jund (0.98901098901099 complete), 001538 (0.81907894736842 complete)  keep 014900
+PLP : 017063 jund (0.8983606557377 complete), 024009 (0.90064102564103 complete)  keep 024009
+Found ensembl orthologs linking families Group_64_4 and Group_64_5: ENSAMXP00000004919,ENSDARP00000092048,ENSTRUP00000037696,ENSTNIP00000019650
+In paralogs found: AAU,CTO,PLP;AAU,CTO,NOR
+AAU : 030622 zgc:153981 (0.75135135135135 complete), 029426 (1 complete)  keep 029426
+CTO : 012791 zgc:153981 (1 complete), 025976 (1 complete)  keep 025976
+Found ensembl orthologs linking families Group_7_57 and Group_7_69: ENSTNIP00000005199,ENSDARP00000101164
+No in-paralogs found. pcdh2ac
+Found ensembl orthologs linking families Group_75_19 and Group_75_20: ENSAMXP00000017244,ENSLOCP00000012202,ENSGMOP00000000104,ENSTRUP00000003294,ENSTNIP00000021475
+No in-paralogs found. spdef
+Found ensembl orthologs linking families Group_766_0 and Group_766_4: ENSGMOP00000018363,ENSTRUP00000025253,ENSTNIP00000021181,ENSLOCP00000014590
+No in-paralogs found. psip1
+Found ensembl orthologs linking families Group_7671_0 and Group_7671_1: ENSAMXP00000026740,ENSDARP00000101157,ENSAMXP00000026740,ENSDARP00000101157
+In paralogs found: AAU,CTO,NOR;CTO,PLP
+CTO : 028475 g0s2 (0.88793103448276 complete), 002495 (0.91549295774648 complete)  keep 002495
+Found ensembl orthologs linking families Group_7823_0 and Group_7823_1: ENSAMXP00000019804,ENSDARP00000141522,ENSLOCP00000013540
+In paralogs found: AAU,NOR,PLP;AAU,CTO,PLP
+AAU : 008997 si:ch73-42p12.2 (1 complete), 022994 (1 complete)  keep 022994
+PLP : 009262 si:ch73-42p12.2 (1 complete), 024529 (0.95145631067961 complete)  keep 009262
+Found ensembl orthologs linking families Group_8484_0 and Group_8484_1: ENSDARP00000142848,ENSDARP00000142848
+In paralogs found: AAU,NOR;AAU,CTO,PLP
+AAU : 016491 si:ch73-256g18.2 (1 complete), 018880 (1 complete)  keep 018880
+Found ensembl orthologs linking families Group_918_2 and Group_918_3: ENSAMXP00000005970,ENSGMOP00000000261,ENSTRUP00000020660,ENSTNIP00000000426
+No in-paralogs found. lcp2a
+Found ensembl orthologs linking families Group_98_0 and Group_98_25: ENSXMAP00000019859,ENSORLP00000011950
+In paralogs found: AAU,NOR,PLP;AAU,CTO,PLP
+AAU : 014941 b3gnt3 (0.92084432717678 complete), 006609 (0.98697916666667 complete)  keep 006609
+PLP : 024577 b3gnt3 (0.9155672823219 complete), 018314 (0.86458333333333 complete)  keep 024577
+In total 14708 groups found after merging
