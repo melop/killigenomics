@@ -1,17 +1,13 @@
 <?php
-//$sMainList = "list.txt";
+$sMainList = "list.txt";
 //$sMainList = "list2.txt";
-//$sMainList = "list3.txt";
-$sMainList = "list4.txt";
-//$sOutDIR = "out";
-//$sOutDIR = "out_APLaddedrun";
-$sOutDIR = "out_NOR_2_newNFZ_for_David";
-$BWA = "/beegfs/group_dv/software/bin/bwa.kit/bwa";
+$sOutDIR = "out";
+$BWA = "bwa";
 $SAMTOOLS = "samtools1.2";
 $BCFTOOLS = "bcftools1.2";
 $nPerJobThread = 40;
-$PICARDDIR="/beegfs/group_dv/software/source/picard-tools-1.119/";
-$GATKPATHNEW="/beegfs/group_dv/software/source/gatk3.4.46/";
+$PICARDDIR="/software/source/picard-tools-1.119/";
+$GATKPATHNEW="/software/source/gatk3.4.46/";
 $SCRATCHDIR=getcwd()."/tmp/";
 
 exec("mkdir -p $sOutDIR");
