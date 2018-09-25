@@ -1,0 +1,9 @@
+  # Sequence data for progressive alignment of 4 genomes
+  # Xmac, Fht, (outgroups), Alm, PLP, Nfur
+ (((Nfur:0.0124, PLP:0.0124):0.0019, Alm:0.0143):0.0049 , (Xmac:0.0143, Fht:0.0143));
+ *Xmac xma_washu_4.4.2-jhp_1.0.fa
+ Nfur notfur.fa
+ PLP pachypanchax/0plp.fa
+ Alm austrofundulus/auslim_simp.fa
+ Fht fundulus/0funhet_simp.fa
+
