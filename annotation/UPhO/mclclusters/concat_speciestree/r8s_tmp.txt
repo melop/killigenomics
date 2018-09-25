@@ -1,0 +1,401 @@
+Reading tree nj_tree
+Executing blformat command...
+Number of sites in sequences set to 601174
+Branch lengths assumed to be in units of numbers of substitutions per site
+All branch lengths multipled by the 601174 sites in the sequence
+Branch lengths rounded to nearest integer
+(This may not be a good idea when using CALIBRATE on ultrametric user supplied input trees. Use ROUND=NO then)
+0 zero-length branches collapsed
+Defining clade name: garish
+Defining clade name: ishdus
+Defining clade name: dusugu
+Defining clade name: ackpia
+Defining clade name: ackugu
+Defining clade name: piaaka
+Defining clade name: akamac
+Fixing age of garish at 361.200000
+ (The age of this node will no longer be estimated.)
+ (This command overides any previous age constraints for this node.)
+ (The total number of fixed ages is now 1)
+Fixing age of ishdus at 266.100000
+ (The age of this node will no longer be estimated.)
+ (This command overides any previous age constraints for this node.)
+ (The total number of fixed ages is now 2)
+Fixing age of dusugu at 139.700000
+ (The age of this node will no longer be estimated.)
+ (This command overides any previous age constraints for this node.)
+ (The total number of fixed ages is now 3)
+Fixing age of ackpia at 99.750000
+ (The age of this node will no longer be estimated.)
+ (This command overides any previous age constraints for this node.)
+ (The total number of fixed ages is now 4)
+Fixing age of ackugu at 89.400000
+ (The age of this node will no longer be estimated.)
+ (This command overides any previous age constraints for this node.)
+ (The total number of fixed ages is now 5)
+Fixing age of piaaka at 86.100000
+ (The age of this node will no longer be estimated.)
+ (This command overides any previous age constraints for this node.)
+ (The total number of fixed ages is now 6)
+Fixing age of akamac at 75.380000
+ (The age of this node will no longer be estimated.)
+ (This command overides any previous age constraints for this node.)
+ (The total number of fixed ages is now 7)
+Begin cross-validation analyses...
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
+
+.....................................................................
+
+CV Results for smoothing = 1.000000:
+Pruned taxon	Sq		ChiSq		Result
+    xmac	10252719.85	  944.69	Good
+poecilia	3757056.84	  330.53	Good
+     CTO	22240000.50	  586.85	Good
+     AAU	27815683.96	 1373.20	Good
+     NOR	3305787.43	  619.39	Good
+NFZgenba	32893870.37	13238.66	Good
+     PLP	4533464.52	   98.12	Good
+  medaka	1327792030.68	22588.37	Good
+ tilapia	363645437.64	 5229.19	Good
+stickleb	2089149.01	   29.79	Good
+tetraodo	701682403.90	26301.21	Good
+takifugu	34591435.60	 1050.18	Good
+   gadus	992425669.53	10588.33	Good
+zebrafis	493908104.40	 4118.16	Good
+astyanax	12190133.05	  107.83	Good
+spotted_	33181531156.61	122279.55	Good
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
+
+.....................................................................
+
+CV Results for smoothing = 3.162278:
+Pruned taxon	Sq		ChiSq		Result
+    xmac	17177767.67	 1733.31	Good
+poecilia	8595503.87	  828.63	Good
+     CTO	3303456.52	   94.39	Good
+     AAU	15653503.14	  826.55	Good
+     NOR	2413065.24	  475.72	Good
+NFZgenba	34224047.85	14441.33	Good
+     PLP	34133528.75	  803.36	Good
+  medaka	1684485883.96	31091.40	Good
+ tilapia	183676123.92	 2868.83	Good
+stickleb	46311545.95	  714.91	Good
+tetraodo	816737683.68	33215.06	Good
+takifugu	76494937.85	 2543.57	Good
+   gadus	1054094153.47	11363.16	Good
+zebrafis	670372444.65	 5423.66	Good
+astyanax	60312238.45	  514.07	Good
+spotted_	37203243347.28	131888.31	Good
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
+
+.....................................................................
+
+CV Results for smoothing = 10.000000:
+Pruned taxon	Sq		ChiSq		Result
+    xmac	21806317.13	 2323.46	Good
+poecilia	12140697.89	 1236.24	Good
+     CTO	12437.56	    0.37	Good
+     AAU	9883879.23	  545.29	Good
+     NOR	1917936.96	  391.10	Good
+NFZgenba	35091291.25	15282.27	Good
+     PLP	63073292.41	 1561.64	Good
+  medaka	1887676810.47	36460.22	Good
+ tilapia	121653085.34	 1978.05	Good
+stickleb	81475291.54	 1302.38	Good
+tetraodo	869451961.28	36714.35	Good
+takifugu	99683288.17	 3456.92	Good
+   gadus	1004308055.94	10736.65	Good
+zebrafis	927162064.34	 7234.45	Good
+astyanax	157948999.41	 1293.35	Good
+spotted_	39638764301.47	137493.83	Good
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
+
+.....................................................................
+
+CV Results for smoothing = 31.622777:
+Pruned taxon	Sq		ChiSq		Result
+    xmac	23771771.63	 2589.70	Good
+poecilia	13696730.17	 1426.14	Good
+     CTO	333193.33	   10.22	Good
+     AAU	7876829.30	  442.80	Good
+     NOR	1724777.58	  356.93	Good
+NFZgenba	35463585.44	15658.12	Good
+     PLP	76932948.12	 1944.72	Good
+  medaka	1966955855.62	38665.85	Good
+ tilapia	103115802.92	 1700.83	Good
+stickleb	94751091.28	 1531.93	Good
+tetraodo	887094601.30	37936.18	Good
+takifugu	108040629.65	 3800.80	Good
+   gadus	965148108.67	10249.63	Good
+zebrafis	1069068692.66	 8197.96	Good
+astyanax	222204906.66	 1785.32	Good
+spotted_	40623571583.76	139718.54	Good
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
+
+.....................................................................
+
+CV Results for smoothing = 100.000000:
+Pruned taxon	Sq		ChiSq		Result
+    xmac	24460241.85	 2685.20	Good
+poecilia	14247784.94	 1494.99	Good
+     CTO	663245.67	   20.49	Good
+     AAU	7231403.03	  409.22	Good
+     NOR	1659297.06	  345.17	Good
+NFZgenba	35594992.77	15793.00	Good
+     PLP	81980286.07	 2087.25	Good
+  medaka	1993843998.66	39428.56	Good
+ tilapia	97449921.60	 1614.92	Good
+stickleb	99057263.97	 1607.23	Good
+tetraodo	892649581.09	38326.34	Good
+takifugu	110744499.21	 3913.72	Good
+   gadus	949345378.73	10054.54	Good
+zebrafis	1123273725.58	 8559.89	Good
+astyanax	248254248.06	 1981.09	Good
+spotted_	40962085254.53	140477.92	Good
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
+
+.....................................................................
+
+CV Results for smoothing = 316.227766:
+Pruned taxon	Sq		ChiSq		Result
+    xmac	24685362.02	 2716.69	Good
+poecilia	14428607.74	 1517.76	Good
+     CTO	794822.74	   24.62	Good
+     AAU	7026690.48	  398.50	Good
+     NOR	1638125.39	  341.35	Good
+NFZgenba	35638090.49	15837.50	Good
+     PLP	83651361.34	 2134.79	Good
+  medaka	2002540816.31	39676.87	Good
+ tilapia	95680931.63	 1587.97	Good
+stickleb	100423019.97	 1631.20	Good
+tetraodo	894396988.24	38449.62	Good
+takifugu	111602940.16	 3949.74	Good
+   gadus	943963232.55	 9988.29	Good
+zebrafis	1141497695.38	 8680.85	Good
+astyanax	257180532.09	 2047.73	Good
+spotted_	41072066047.14	140724.05	Good
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
+
+.....................................................................
+
+CV Results for smoothing = 1000.000000:
+Pruned taxon	Sq		ChiSq		Result
+    xmac	24757326.28	 2726.78	Good
+poecilia	14486468.48	 1525.07	Good
+     CTO	839302.78	   26.01	Good
+     AAU	6961914.16	  395.10	Good
+     NOR	1631382.99	  340.14	Good
+NFZgenba	35651883.80	15851.76	Good
+     PLP	84187583.64	 2150.08	Good
+  medaka	2005310807.74	39756.12	Good
+ tilapia	95124290.69	 1579.48	Good
+stickleb	100855027.89	 1638.79	Good
+tetraodo	894948166.27	38488.56	Good
+takifugu	111874639.06	 3961.16	Good
+   gadus	942222638.05	 9966.88	Good
+zebrafis	1147370935.80	 8719.76	Good
+astyanax	260076266.51	 2069.31	Good
+spotted_	41107144364.42	140802.50	Good
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
+
+.....................................................................
+
+CV Results for smoothing = 3162.277660:
+Pruned taxon	Sq		ChiSq		Result
+    xmac	24780136.63	 2729.98	Good
+poecilia	14505015.71	 1527.41	Good
+     CTO	853680.40	   26.46	Good
+     AAU	6941420.42	  394.03	Good
+     NOR	1629246.19	  339.75	Good
+NFZgenba	35656254.30	15856.29	Good
+     PLP	84357872.09	 2154.94	Good
+  medaka	2006189256.91	39781.27	Good
+ tilapia	94948216.40	 1576.79	Good
+stickleb	100991514.20	 1641.19	Good
+tetraodo	895122505.70	38500.88	Good
+takifugu	111960615.05	 3964.77	Good
+   gadus	941666615.63	 9960.05	Good
+zebrafis	1149244059.41	 8732.16	Good
+astyanax	260999460.94	 2076.18	Good
+spotted_	41118267204.35	140827.37	Good
+********************************************************************************
+
+Results of cross validation analysis for tree nj_tree
+Method = Penalized Likelihood
+
+log10
+smooth	smooth		Sq Error	Chi Square Error
+--------------------------------------------------------------------------------
+  0.00	     1		37214654103.89	209484.06	(Good)
+  0.50	   3.2		41911229232.27	238826.26	(Good)
+  1.00	    10		44932049710.39	258010.58	(Good)
+  1.50	    32		46199751108.09	266015.67	(Good)
+  2.00	 1e+02		46642541122.81	268799.53	(Good)
+  2.50	3.2e+02		46787215263.69	269707.53	(Good)
+  3.00	 1e+03		46833442998.56	269997.49	(Good)
+  3.50	3.2e+03		46848113074.31	270089.52	(Good)
+********************************************************************************
+
+Optimum:   0.00	     1		37214654103.89	209484.06
+********************************************************************************
+
+[Printing tree 1]
+
+[CHRONOGRAM of tree nj_tree]
+                             +-xmac
+                         +---+8
+                         |   +-poecilia
+                         |
+                         |    +NOR
+                        ++7  ++16
+                        || +-+1NFZgenbank
+                        || | |
+                        ||++12-AAU
+                       ++akamac
+                       ||++11--CTO
+                       || |
+                      ++piaaka-PLP
+                      |||
+                      ||+------medaka
+                      ||
+                   +--+ackpia--tilapia
+                   |  |
+                   |  |    +---tetraodon
+                   |  |+---+24
+        +----------+dusuackugu-takifugu
+        |          |   |
+        |          |   +-------stickleback
++-------+ishdus    |
+|       |          +-----------gadus
+|       |
++garish |       +--------------zebrafish
+|       +-------+28
+|               +--------------astyanax
+|
++------------------------------spotted_gar
+
+[Printing tree 1]
+
+[TREE DESCRIPTION of tree nj_tree]
+
+tree nj_tree = ((((((((xmac:14.621276,poecilia:14.621276):52.754098,((((NOR:5.659400,NFZgenbank:5.659400):16.732343,AAU:22.391744):21.669600,CTO:44.061344):11.674051,PLP:55.735395):11.639979):8.004626,medaka:75.380000)akamac:10.720000,tilapia:86.100000)piaaka:13.650000,((tetraodon:42.699828,takifugu:42.699828):46.700172,stickleback:89.400000)ackugu:10.350000)ackpia:39.950000,gadus:139.700000)dusugu:126.400000,(zebrafish:163.544139,astyanax:163.544139):102.555861)ishdus:95.100000,spotted_gar:361.200000)garish;

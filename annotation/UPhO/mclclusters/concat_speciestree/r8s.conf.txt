@@ -1,0 +1,25 @@
+#NEXUS
+begin trees;
+tree nj_tree = [&R] ((((((((xmac:0.023379,poecilia:0.022132):0.093265,((CTO:0.055193,(AAU:0.024921,(NOR:0.005854,NFZgenbank:0.013673):0.035231):0.040604):0.0208,PLP:0.080395):0.021875):0.01843,medaka:0.158392):0.0182,tilapia:0.083955):0.016431,(stickleback:0.119075,(tetraodon:0.08844,takifugu:0.064574):0.104551):0.010534):0.058639,gadus:0.20831):0.104055,(zebrafish:0.162532,astyanax:0.182237):0.078305):0.1483765,spotted_gar:0.1483765);
+End;
+begin rates;
+blformat nsites=601174 lengths=persite ultrametric=no;
+collapse;
+mrca garish spotted_gar zebrafish;
+mrca ishdus zebrafish gadus;
+mrca dusugu gadus takifugu;
+mrca ackpia stickleback tilapia;
+mrca ackugu stickleback takifugu;
+mrca piaaka tilapia medaka;
+mrca akamac medaka xmac;
+fixage taxon=garish age=361.2;
+fixage taxon=ishdus age=266.1;
+fixage taxon=dusugu age=139.7;
+fixage taxon=ackpia age=99.75;
+fixage taxon=ackugu age=89.4;
+fixage taxon=piaaka age=86.1;
+fixage taxon=akamac age=75.38;
+divtime method=pl algorithm=tn cvStart=0 cvInc=0.5 cvNum=8 crossv=yes;
+describe plot=chronogram;
+describe plot=tree_description;
+end;
