@@ -1,0 +1,10 @@
+local lnL  = -2673106.010773
+global lnL = -2674105.461627
+
+
+/software/source/paml4.8/bin/chi2 --help
+
+d.f. & Chi^2 value (Ctrl-c to break)? 1 1998.9
+
+df =  1  prob = 0.000000000 = 0.000e+00
+

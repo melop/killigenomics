@@ -4,6 +4,7 @@
 4. Produce pseudogenomes for the whole-genome alignments in pseudogenome_2016-2-18
 5. Use the pipeline in ../pseudogenomes to produce pseudogenomes mapped to N. furzeri
 6. Proceed to extractaln/ to extract coding sequences
-7. Proceed to extractaln/coding/raxml_allcodons to build the tree
+7. Proceed to extractaln/coding/raxml_allcodons to build the tree (Fig. 1a)
+8. protein_coding_genes/ contains a repetition of phylogenetic reconstruction and molecular clock test on four-fold sites with protein-coding alignments for only Aplocheilidae and Nothobranchiidae.
 
 
