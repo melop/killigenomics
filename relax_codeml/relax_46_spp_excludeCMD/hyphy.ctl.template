@@ -1,0 +1,8 @@
+arrOpts = {};
+arrOpts["00"] = "Universal";
+arrOpts["01"] = "%NEXUS%";
+arrOpts["02"] = "Y";
+arrOpts["03"] = "T";
+arrOpts["04"] = "R";
+arrOpts["05"] = "Minimal";
+ExecuteAFile("%HYPHY_PATH%/res/TemplateBatchFiles/RELAX.bf", arrOpts);
