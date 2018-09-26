@@ -1,0 +1,3 @@
+DNA, gene1codon1 = 1-10077\3
+DNA, gene1codon2 = 2-10077\3
+DNA, gene1codon3 = 3-10077\3

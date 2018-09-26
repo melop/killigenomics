@@ -1,0 +1,10 @@
+local lnL  = -54547.511803
+global lnL  = -54549.757851
+
+
+/beegfs/group_dv/software/source/paml4.8/bin/chi2  --help
+
+d.f. & Chi^2 value (Ctrl-c to break)? 1 4.492096
+
+df =  1  prob = 0.034051904 = 3.405e-02
+

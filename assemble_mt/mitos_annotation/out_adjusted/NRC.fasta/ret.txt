@@ -1,0 +1,2 @@
+>mt
+trnF rrnS trnV rrnL trnL2 nad1 trnI -trnQ trnM nad2 trnW -trnA -trnN -trnC -trnY cox1 -trnS2 trnD cox2 trnK atp8 atp6 cox3 trnG nad3 trnR nad4l nad4 trnH trnS1 trnL1 nad5 cob trnT -rrnS 

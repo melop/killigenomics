@@ -1,0 +1,77 @@
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.9 released by Alexandros Stamatakis on July 20 2016.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1605 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.00%
+
+RAxML Model Optimization up to an accuracy of 0.100000 log likelihood units
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1605
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+/beegfs/group_dv/software/source/standard-RAxML-8.2.9/raxmlHPC-PTHREADS-SSE3 -s all.syn.aln.phy -f e -T 40 -m GTRGAMMA -n syn -t ../raxml/RAxML_bestTree.allcodons 
+
+
+
+Model parameters (binary file format) written to: /beegfs/group_dv/home/RCui/killifish_genomes/assemble_mt/mitos_annotation/alignments/aln_Callopanchax_nad2-0/raxml_syn/RAxML_binaryModelParameters.syn
+
+
+Overall Time for Tree Evaluation 1.432015
+Final GAMMA  likelihood: -54501.725720
+
+Number of free parameters for AIC-TEST(BR-LEN): 92
+Number of free parameters for AIC-TEST(NO-BR-LEN): 9
+
+
+Model Parameters of Partition 0, Name: No Name Provided, Type of Data: DNA
+alpha: 0.455584
+Tree-Length: 72.547974
+rate A <-> C: 3.082006
+rate A <-> G: 705.234061
+rate A <-> T: 10.899553
+rate C <-> G: 17.196478
+rate C <-> T: 264.353177
+rate G <-> T: 1.000000
+
+freq pi(A): 0.333076
+freq pi(C): 0.281444
+freq pi(G): 0.061315
+freq pi(T): 0.324165
+
+Final tree written to:                 /beegfs/group_dv/home/RCui/killifish_genomes/assemble_mt/mitos_annotation/alignments/aln_Callopanchax_nad2-0/raxml_syn/RAxML_result.syn
+Execution Log File written to:         /beegfs/group_dv/home/RCui/killifish_genomes/assemble_mt/mitos_annotation/alignments/aln_Callopanchax_nad2-0/raxml_syn/RAxML_log.syn

@@ -1,0 +1,8 @@
+"http://mitos.bioinf.uni-leipzig.de//download.py?type=bed&name=mt&hash=cUaZQYIp"
+"http://mitos.bioinf.uni-leipzig.de//download.py?type=gff&name=mt&hash=cUaZQYIp"
+"http://mitos.bioinf.uni-leipzig.de//download.py?type=tbl&name=mt&hash=cUaZQYIp"
+"http://mitos.bioinf.uni-leipzig.de//download.py?type=txt&name=mt&hash=cUaZQYIp"
+"http://mitos.bioinf.uni-leipzig.de//download.py?type=fas&name=mt&hash=cUaZQYIp"
+"http://mitos.bioinf.uni-leipzig.de//download.py?type=faa&name=mt&hash=cUaZQYIp"
+"http://mitos.bioinf.uni-leipzig.de//download.py?type=zip&name=mt&hash=cUaZQYIp"
+Finished. mt_pos_adjusted/NVS.fasta cUaZQYIp finished.

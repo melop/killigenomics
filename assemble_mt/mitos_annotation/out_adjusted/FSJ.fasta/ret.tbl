@@ -1,0 +1,147 @@
+>Feature mt
+477	544	gene
+			gene	trnF(ttc)
+477	544	tRNA
+			product	tRNA-PHE
+545	1485	gene
+545	1485	rRNA
+			product	s-rRNA
+1486	1556	gene
+			gene	trnV(gta)
+1486	1556	tRNA
+			product	tRNA-VAL
+1558	3226	gene
+1558	3226	rRNA
+			product	l-rRNA
+3231	3304	gene
+			gene	trnL2(tta)
+3231	3304	tRNA
+			product	tRNA-LEU2
+3317	4270	gene
+			gene	nad1
+3317	4270	CDS
+			product	NADH dehydrogenase subunit 1
+4281	4349	gene
+			gene	trnI(atc)
+4281	4349	tRNA
+			product	tRNA-ILE
+4419	4349	gene
+			gene	trnQ(caa)
+4419	4349	tRNA
+			product	tRNA-GLN
+4419	4487	gene
+			gene	trnM(atg)
+4419	4487	tRNA
+			product	tRNA-MET
+4488	5513	gene
+			gene	nad2
+4488	5513	CDS
+			product	NADH dehydrogenase subunit 2
+5519	5589	gene
+			gene	trnW(tga)
+5519	5589	tRNA
+			product	tRNA-TRP
+5658	5590	gene
+			gene	trnA(gca)
+5658	5590	tRNA
+			product	tRNA-ALA
+5732	5660	gene
+			gene	trnN(aac)
+5732	5660	tRNA
+			product	tRNA-ASN
+5834	5769	gene
+			gene	trnC(tgc)
+5834	5769	tRNA
+			product	tRNA-CYS
+5901	5835	gene
+			gene	trnY(tac)
+5901	5835	tRNA
+			product	tRNA-TYR
+5909	7441	gene
+			gene	cox1
+5909	7441	CDS
+			product	cytochrome c oxidase subunit 1
+7528	7458	gene
+			gene	trnS2(tca)
+7528	7458	tRNA
+			product	tRNA-SER2
+7531	7598	gene
+			gene	trnD(gac)
+7531	7598	tRNA
+			product	tRNA-ASP
+7600	8283	gene
+			gene	cox2
+7600	8283	CDS
+			product	cytochrome c oxidase subunit 2
+8291	8365	gene
+			gene	trnK(aaa)
+8291	8365	tRNA
+			product	tRNA-LYS
+8367	8531	gene
+			gene	atp8
+8367	8531	CDS
+			product	ATP synthase F0 subunit 8
+8525	9205	gene
+			gene	atp6
+8525	9205	CDS
+			product	ATP synthase F0 subunit 6
+9208	9990	gene
+			gene	cox3
+9208	9990	CDS
+			product	cytochrome c oxidase subunit 3
+9992	10063	gene
+			gene	trnG(gga)
+9992	10063	tRNA
+			product	tRNA-GLY
+10064	10411	gene
+			gene	nad3
+10064	10411	CDS
+			product	NADH dehydrogenase subunit 3
+10413	10481	gene
+			gene	trnR(cga)
+10413	10481	tRNA
+			product	tRNA-ARG
+10482	10775	gene
+			gene	nad4l
+10482	10775	CDS
+			product	NADH dehydrogenase subunit 4L
+10772	12145	gene
+			gene	nad4
+10772	12145	CDS
+			product	NADH dehydrogenase subunit 4
+12153	12221	gene
+			gene	trnH(cac)
+12153	12221	tRNA
+			product	tRNA-HIS
+12222	12290	gene
+			gene	trnS1(agc)
+12222	12290	tRNA
+			product	tRNA-SER1
+12295	12366	gene
+			gene	trnL1(cta)
+12295	12366	tRNA
+			product	tRNA-LEU1
+12385	14187	gene
+			gene	nad5
+12385	14187	CDS
+			product	NADH dehydrogenase subunit 5
+14712	14194	gene
+			gene	nad6
+14712	14194	CDS
+			product	NADH dehydrogenase subunit 6
+14780	14713	gene
+			gene	trnE(gaa)
+14780	14713	tRNA
+			product	tRNA-GLU
+14784	15917	gene
+			gene	cob
+14784	15917	CDS
+			product	cytochrome b
+15925	15997	gene
+			gene	trnT(aca)
+15925	15997	tRNA
+			product	tRNA-THR
+16066	15997	gene
+			gene	trnP(cca)
+16066	15997	tRNA
+			product	tRNA-PRO

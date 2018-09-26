@@ -1,0 +1,12 @@
+SlowTimer [9936ms] at curl: http://mitos.bioinf.uni-leipzig.de/result.py?hash=DcZYYZO3
+
+Warning: Failed to open http://mitos.bioinf.uni-leipzig.de/result.py?hash=DcZYYZO3 (Empty reply from server) in /beegfs/group_dv/home/RCui/killifish_genomes/assemble_mt/mitos_annotation/checkresults.php on line 54
+Server not responding, wait 1 min...
+"http://mitos.bioinf.uni-leipzig.de//download.py?type=bed&name=mt&hash=DcZYYZO3"
+"http://mitos.bioinf.uni-leipzig.de//download.py?type=gff&name=mt&hash=DcZYYZO3"
+"http://mitos.bioinf.uni-leipzig.de//download.py?type=tbl&name=mt&hash=DcZYYZO3"
+"http://mitos.bioinf.uni-leipzig.de//download.py?type=txt&name=mt&hash=DcZYYZO3"
+"http://mitos.bioinf.uni-leipzig.de//download.py?type=fas&name=mt&hash=DcZYYZO3"
+"http://mitos.bioinf.uni-leipzig.de//download.py?type=faa&name=mt&hash=DcZYYZO3"
+"http://mitos.bioinf.uni-leipzig.de//download.py?type=zip&name=mt&hash=DcZYYZO3"
+Finished. mt_pos_adjusted/FSJ.fasta DcZYYZO3 finished.
