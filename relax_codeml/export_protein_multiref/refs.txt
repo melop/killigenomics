@@ -1,0 +1,5 @@
+RefName	Path	GFF
+AAU	../pseudogenomes/refs/AAU.fa	../annotation/maker/AAU_final_1/run_blastmerge_cov_exonerateOn/corrections/maker.finalannot.improved.gff
+CTO	../pseudogenomes/refs/CTO.fa	../annotation/maker/CTO_final_1/run_pilon_exonerateOn/corrections/maker.finalannot.improved.gff
+NOR	../pseudogenomes/refs/NOR.fa	../annotation/maker/NOR_final_1/run_pilon_exonerateOn/corrections/maker.finalannot.improved.gff
+PLP	../pseudogenomes/refs/PLP.fa	../annotation/maker/PLP_final_1/run_pilon_exonerateOn/corrections/maker.finalannot.improved.gff
