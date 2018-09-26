@@ -6,3 +6,4 @@ Scripts for African killifish genomics. Some data files are too large to be depo
 * trinity/ scripts for performing de novo RNAseq assembly
 * pseudogenomes/ scripts for generating pseudogenomes by switching a SNP based on mapped reads. 
 * phylo/ build phylogenetic trees
+* assemble_mt/ contains scripts for mitochondrial genome assembly, annotation and analyses
