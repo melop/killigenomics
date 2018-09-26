@@ -1,0 +1,8 @@
+"http://mitos.bioinf.uni-leipzig.de//download.py?type=bed&name=mt&hash=NYz6EN2i"
+"http://mitos.bioinf.uni-leipzig.de//download.py?type=gff&name=mt&hash=NYz6EN2i"
+"http://mitos.bioinf.uni-leipzig.de//download.py?type=tbl&name=mt&hash=NYz6EN2i"
+"http://mitos.bioinf.uni-leipzig.de//download.py?type=txt&name=mt&hash=NYz6EN2i"
+"http://mitos.bioinf.uni-leipzig.de//download.py?type=fas&name=mt&hash=NYz6EN2i"
+"http://mitos.bioinf.uni-leipzig.de//download.py?type=faa&name=mt&hash=NYz6EN2i"
+"http://mitos.bioinf.uni-leipzig.de//download.py?type=zip&name=mt&hash=NYz6EN2i"
+Finished. mt_pos_adjusted/PSY.fasta NYz6EN2i finished.

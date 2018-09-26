@@ -1,0 +1,164 @@
+MlRYzYDk
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<title>MITOS Web Server Upload</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="icon-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="icon-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="icon-114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="icon-144.png" />
+
+
+<link rel="stylesheet" href="mito/main.css" type="text/css">
+<script src="mito/jquery-1.10.0.min.js" type="text/javascript"></script>
+<script src="mito/main.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="container">
+<div id="header">
+    <div id="headerleft">
+        <img src="mito/header_left.gif" alt="head left">
+    </div>
+    <div id="headerright">
+        <img src="mito/header_right.gif" alt="head right">
+    </div>
+    <div id="headermain"><div onmouseover='this.style.cursor="pointer"' onclick ='window.location = "http://mitos.bioinf.uni-leipzig.de/";' style="display: inline-block;"><b>MITOS</b> WebServer</div></div>
+</div>
+<div id="column2">
+    <div id="contentmain">
+        <div style="float:right;">
+            <a href="http://mitos.bioinf.uni-leipzig.de/">new job</a> |
+            <a href="http://pacosy.informatik.uni-leipzig.de/crex">CREx</a> |  
+            <a href="http://trnadb.bioinf.uni-leipzig.de">tRNAdb</a> | 
+            <a href="http://www.bioinf.uni-leipzig.de">Bioinformatik</a>
+        </div><br>
+<div id="Begin" style="display:none">
+	Uploading... <br>
+</div>
+
+<div id="Finish" style="display:none">
+	Upload finished!<br>
+	You will be redirected in 5 seconds.<br>
+</div>
+
+<div id="alpha" style="display:none">
+	Error! <br>
+	The provided sequence seems to be no nucleotide sequence.<br><br>
+	<a href="#" onClick="history.go(-1);return true;">Back to MITOS start page.</a>
+</div>
+
+<div id="multi" style="display:none">
+	Error!<br>
+	Per default MITOS does not annotate multiple sequences in a single FASTA file.<br>
+	You may change this in the advanced options. Please make sure that you read the
+	<a href="http://mitos.bioinf.uni-leipzig.de//help.py#advanced">documentation</a> first.</a><br><br>
+	Alternatively provide each sequence in a separate file.<br><br>
+	<a href="#" onClick="history.go(-1);return true;">Back to MITOS start page.</a>
+</div>
+
+<div id="nofasta" style="display:none">
+	Error!<br> 
+	Please provide a file in FASTA format.<br><br>
+	<a href="#" onClick="history.go(-1);return true;">Back to MITOS start page.</a>
+</div>
+
+<div id="empty" style="display:none">
+	Error!<br> 
+	The provided sequence is empty.<br><br>
+	<a href="#" onClick="history.go(-1);return true;">Back to MITOS start page.</a>
+</div>
+
+<div id="maxsize" style="display:none">
+<br>
+	Sequence to large!<br><br>
+	The sequence you have uploaded would probably block the MITOS webserver for a long time. <br>
+	We would like to offer you to run the MITOS analysis on dedicated hardware that is independent of the webserver. <br>   
+	Please contact us at <a href="mailto:mitos@bioinf.uni-leipzig.de">mitos@bioinf.uni-leipzig.de</a>.<br><br>
+	<a href="#" onClick="history.go(-1);return true;">Back to MITOS start page.</a>
+</div>
+
+<div id="minsize" style="display:none">
+<br>
+	Sequence to short!<br><br>
+	<br>
+	We would like to offer you to run the MITOS analysis on hardware that is independent of the webserver. <br>
+	Please contact us at <a href="mailto:mitos@bioinf.uni-leipzig.de">mitos@bioinf.uni-leipzig.de</a>.<br><br>
+	<a href="#" onClick="history.go(-1);return true;">Back to MITOS start page.</a>
+</div>
+
+<div id="largefasta" style="display:none">
+<br>
+	To many sequences are contained in the uploaded fasta file!<br><br>
+	The sequence you have uploaded would probably block the MITOS webserver for a long time. <br>
+	We would like to offer you to run the MITOS analysis on dedicated hardware that is independent of the webserver. <br>
+	Please contact us at <a href="mailto:mitos@bioinf.uni-leipzig.de">mitos@bioinf.uni-leipzig.de</a>.<br><br>
+	<a href="#" onClick="history.go(-1);return true;">Back to MITOS start page.</a>
+</div>
+
+<div id="invalidform" style="display:none">
+	Invalid form data received. <br>
+	Please contact us at <a href="mailto:mitos@bioinf.uni-leipzig.de">mitos@bioinf.uni-leipzig.de</a>.<br><br>
+	<a href="#" onClick="history.go(-1);return true;">Back to MITOS start page.</a>
+</div>
+
+<div id="internal" style="display:none">
+	Internal error!<br>
+	Please report to the MITOS developers.<br>
+</div>
+
+    </div>
+    <div id="newsmain">
+
+    </div>
+</div>
+<div id="footer" style="clear:both;">
+    <div id="footerleft"></div>
+    <div id="footerright"></div>
+    <div id="footermain">
+        <div style="float:left;">Contact:&nbsp;<script type='text/javascript'>
+var pref = '&#109;a' + 'i&#108;' + '&#116;o';
+var attribut = 'hr' + 'ef' + '=';
+var first = '%6d%69%74%6f%73';
+var at = '%40';
+var last = '&#x62;&#x69;&#x6f;&#x69;&#x6e;&#x66;&#x2e;&#x75;&#x6e;&#x69;&#x2d;&#x6c;&#x65;&#x69;&#x70;&#x7a;&#x69;&#x67;&#x2e;&#x64;&#x65;';
+var first2 = '&#x6d;&#x69;&#x74;&#x6f;&#x73;';
+var at2 = '&#x40;';
+var last2 = '&#98;&#105;&#111;&#105;&#110;&#102;&#46;&#117;&#110;&#105;&#45;&#108;&#101;&#105;&#112;&#122;&#105;&#103;&#46;&#100;&#101;';
+document.write( '<a ' + attribut + '\'' + pref + ':' + first + at + last + '\'>' );
+document.write( first2 + at2 + last2 ); 
+document.write( '<\/a>' );
+</script>
+<noscript><div style='display:none; '>are-</div><div style='display:inline; '>&#x6d;&#x69;&#x74;&#x6f;&#x73;</div> <div style='display:none; '>-xya34</div><div style='display:inline; '>[at]</div> <div style='display:none; '>ddks-</div> <div style='display:inline; '>&#98;&#105;&#111;&#105;&#110;&#102;&#46;&#117;&#110;&#105;&#45;&#108;&#101;&#105;&#112;&#122;&#105;&#103;&#46;&#100;&#101;</div></noscript>
+
+        </div>
+        <div style="float:right;">
+            <a href="help.py" style="text-decoration:none;"><img src="mito/help-icon.gif" alt="help"></a>
+        </div>
+        <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="history.py">history</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="stats.py">Status & Statistics</a>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Piwik --> 
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://piwikmitos.bioinf.uni-leipzig.de/" : "http://piwikmitos.bioinf.uni-leipzig.de/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://piwikmitos.bioinf.uni-leipzig.de/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+
+</body>
+</html><script type="text/javascript">document.getElementById("Begin").style.display = "block";</script>
+<script type="text/javascript">document.getElementById("Finish").style.display = "block";</script>
+<script type="text/javascript">window.setTimeout("location.replace(\"result.py?hash=MlRYzYDk\")", 5000);</script>
+<script type="text/javascript">document.getElementById("Begin").style.display = "none";</script>
+

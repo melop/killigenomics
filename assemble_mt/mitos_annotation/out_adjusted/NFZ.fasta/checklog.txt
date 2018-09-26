@@ -1,0 +1,18 @@
+
+Warning: Failed to open http://mitos.bioinf.uni-leipzig.de/result.py?hash=l5NQMMyM (Failed connect to mitos.bioinf.uni-leipzig.de:80; Connection refused) in /beegfs/group_dv/home/RCui/killifish_genomes/assemble_mt/mitos_annotation/checkresults.php on line 54
+Server not responding, wait 1 min...
+SlowTimer [10192ms] at curl: http://mitos.bioinf.uni-leipzig.de/result.py?hash=l5NQMMyM
+
+Warning: Failed to open http://mitos.bioinf.uni-leipzig.de/result.py?hash=l5NQMMyM (Empty reply from server) in /beegfs/group_dv/home/RCui/killifish_genomes/assemble_mt/mitos_annotation/checkresults.php on line 54
+Server not responding, wait 1 min...
+
+Warning: Failed to open http://mitos.bioinf.uni-leipzig.de/result.py?hash=l5NQMMyM (Failed connect to mitos.bioinf.uni-leipzig.de:80; Connection refused) in /beegfs/group_dv/home/RCui/killifish_genomes/assemble_mt/mitos_annotation/checkresults.php on line 54
+Server not responding, wait 1 min...
+"http://mitos.bioinf.uni-leipzig.de//download.py?type=bed&name=mt&hash=l5NQMMyM"
+"http://mitos.bioinf.uni-leipzig.de//download.py?type=gff&name=mt&hash=l5NQMMyM"
+"http://mitos.bioinf.uni-leipzig.de//download.py?type=tbl&name=mt&hash=l5NQMMyM"
+"http://mitos.bioinf.uni-leipzig.de//download.py?type=txt&name=mt&hash=l5NQMMyM"
+"http://mitos.bioinf.uni-leipzig.de//download.py?type=fas&name=mt&hash=l5NQMMyM"
+"http://mitos.bioinf.uni-leipzig.de//download.py?type=faa&name=mt&hash=l5NQMMyM"
+"http://mitos.bioinf.uni-leipzig.de//download.py?type=zip&name=mt&hash=l5NQMMyM"
+Finished. mt_pos_adjusted/NFZ.fasta l5NQMMyM finished.
