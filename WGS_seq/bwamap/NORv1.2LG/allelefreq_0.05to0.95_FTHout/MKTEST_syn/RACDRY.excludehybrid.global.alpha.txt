@@ -1,0 +1,20 @@
+dN	dS	pN	pS
+388511 	 489885 	 33311 	 33485 
+alpha global =  -0.2543773
+	Fisher's Exact Test for Count Data
+
+data:  oConTable
+p-value < 2.2e-16
+alternative hypothesis: true odds ratio is not equal to 1
+95 percent confidence interval:
+ 0.7847354 0.8098574
+sample estimates:
+odds ratio 
+ 0.7972134 
+
+        model         a         b        c alpha_asymptotic      CI_low
+1 exponential 0.0394184 -1.362956 5.424312       0.03341035 -0.02718637
+     CI_high alpha_original
+1 0.08202936     -0.2712624
+alpha_10%	alpha_original	alpha_asymptotic	alphaDiff
+-0.7645576 	 -0.2712624 	 0.03341035 	 0.797968 
