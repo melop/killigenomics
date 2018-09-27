@@ -1,0 +1,14 @@
+Epiplatys	EDG,EGH,EGN,ELM,EMF,ESP,ETO
+Archiaphyosemion	AMS,APT,ARG
+Scriptaphyosemion	SBT,SCV,SGG,SSC
+Callopanchax	CHW,CMR,CSB,CTO
+AKN	AKN1,AKN2
+Aphyosemion	AAU,ACG,ACL,ACM,ACY,AGM,AKM,APC
+Fundulopanchax	FAM,FDL,FFL,FSC,FSJ,FGR
+Fundulosoma	FTH
+Pronothobranchius	PSY
+Nothobranchius	NFS,NKF,NOC,NOR,NRC,NVG,NVS,NFZ
+Aplocheilidae	PLP,APL
+CalNothos	*Nothobranchius,*Callopanchax
+NonAnnual	*Aplocheilidae,*Epiplatys,*Archiaphyosemion,*Scriptaphyosemion,*Aphyosemion,*Fundulopanchax,*Fundulosoma
+root	*NonAnnual,*Pronothobranchius,*AKN,*CalNothos
