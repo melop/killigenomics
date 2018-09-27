@@ -3,4 +3,6 @@
 * relax_46_spp_excludeCMD/ RELAX test, excluding CMDs
 * codeml_46_spp/ CodeML test, without excluding CMDs
 * codeml_46_spp_excludeCMD/ CodeML test, excluding CMDs
+* simulations/ scripts for performing simulations
+
 

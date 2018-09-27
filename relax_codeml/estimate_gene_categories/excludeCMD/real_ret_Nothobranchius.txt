@@ -1,0 +1,2 @@
+relaxsig	relaxexl	relaxtotal	intensesig	intenseexl	codemlsig	codemltotal	overlapposrelax	overlapposintense	overlapall
+2992	0	13708	389	0	448	13491	168	23	13491
