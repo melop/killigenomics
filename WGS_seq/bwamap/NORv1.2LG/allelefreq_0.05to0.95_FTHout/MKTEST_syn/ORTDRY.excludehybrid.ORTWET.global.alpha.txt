@@ -1,0 +1,123 @@
+Loading gene coordinates...
+Loading synonymous sites...
+Loading non-synonymous sites...
+Loading polymorphic sites...
+Loading divergent sites...
+Computing...
+chr1 
+chr10 
+chr11 
+chr12 
+chr13 
+chr14 
+chr15 
+chr16 
+chr17 
+chr18 
+chr19 
+chr2 
+chr3 
+chr4 
+chr5 
+chr6 
+chr7 
+chr8 
+chr9 
+dN	dS	pN	pS
+447966 	 560594 	 74285 	 92466 
+alpha global =  -0.005361961alpha_10%	alpha_original	alpha_asymptotic	alphaDiff
+-0.2766374 	 -0.009832262 	 0.1353717 	 0.4120091 
+Loading synonymous sites...
+Loading non-synonymous sites...
+Loading polymorphic sites...
+Loading divergent sites...
+Computing...
+chr1 
+chr10 
+chr11 
+chr12 
+chr13 
+chr14 
+chr15 
+chr16 
+chr17 
+chr18 
+chr19 
+chr2 
+chr3 
+chr4 
+chr5 
+chr6 
+chr7 
+chr8 
+chr9 
+dN	dS	pN	pS
+430482 	 524950 	 132036 	 190046 
+alpha global =  0.1527793alpha_10%	alpha_original	alpha_asymptotic	alphaDiff
+0.06238265 	 0.1471166 	 0.2190629 	 0.1566802 
+
+Asymptotic McDonald-Kreitman Evaluator: Results
+
+   from: http://benhaller.com/messerlab/asymptoticMK.html
+
+Analysis dataset:
+
+   d0 = 560594 
+   d = 447966 
+   x interval = [0.080, 0.900] 
+   f = (0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40, 0.45, 0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.80, 0.85, 0.90)
+   p0 = (12506,  9205,  8103,  6829,  5851,  5251,  4776,  4424,  4164,  3322,  3980,  3874,  3728,  3615,  3544,  3344,  2999)
+   p = (12758,  8604,  7173,  5616,  4561,  4039,  3453,  3225,  2993,  2423,  2812,  2546,  2558,  2532,  2373,  2391,  2177)
+
+Fitted model: exponential, alpha(x) = a + b * exp(−cx)
+
+a	0.13691 
+b	-0.78368 
+c	6.23402 
+alpha_asymptotic	0.13537 
+95% CI(lower)	0.11429 
+95% CI(upper)	0.15439 
+alpha_original	-0.0098323 
+
+If you use this service, please cite our paper:
+
+   B.C. Haller, P.W. Messer. (2017). asymptoticMK: A web-based tool
+      for the asymptotic McDonald-Kreitman test. G3: Genes, Genomes,
+      Genetics 7(5), 1569-1575. doi:10.1534/g3.117.039693
+
+Please let us know of any issues with this service at philipp {dot} messer <at> gmail [dot] com.  Thanks!
+
+
+Asymptotic McDonald-Kreitman Evaluator: Results
+
+   from: http://benhaller.com/messerlab/asymptoticMK.html
+
+Analysis dataset:
+
+   d0 = 524950 
+   d = 430482 
+   x interval = [0.080, 0.900] 
+   f = (0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40, 0.45, 0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.80, 0.85, 0.90)
+   p0 = (64726, 25752, 15699, 10456,  7931,  6481,  5322,  4740,  4144,  4022,  3829,  3751,  3791,  3944,  4373,  5101,  6458)
+   p = (49767, 17888, 10669,  6936,  5177,  4127,  3509,  3023,  2613,  2538,  2575,  2362,  2419,  2519,  2857,  3259,  4018)
+
+Fitted model: exponential, alpha(x) = a + b * exp(−cx)
+
+a	0.21906 
+b	-0.56145 
+c	13.03206 
+alpha_asymptotic	0.21906 
+95% CI(lower)	0.20965 
+95% CI(upper)	0.22889 
+alpha_original	0.14712 
+
+If you use this service, please cite our paper:
+
+   B.C. Haller, P.W. Messer. (2017). asymptoticMK: A web-based tool
+      for the asymptotic McDonald-Kreitman test. G3: Genes, Genomes,
+      Genetics 7(5), 1569-1575. doi:10.1534/g3.117.039693
+
+Please let us know of any issues with this service at philipp {dot} messer <at> gmail [dot] com.  Thanks!
+
+null device 
+          1 
