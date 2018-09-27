@@ -1,0 +1,6 @@
+full AIC= -1387097.931742248 
+sametheta_ AIC= -1386937.55259238 
+sametheta_nopolerr_ AIC= -1386903.002906048 
+full vs. sametheta_ chistat= 162.3791498679202 LRT= 0 d.f.= 1 
+full vs. sametheta_nopolerr_ chistat= 204.9288361999206 LRT= 0 d.f.= 5 
+sametheta_ vs. sametheta_nopolerr_ chistat= 42.54968633200042 LRT= 1.283121153772271e-08 d.f.= 4 

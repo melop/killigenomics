@@ -1,0 +1,36 @@
+[algorithm_commands]
+#search_algorithm: NLOPT_LD_LBFGS
+search_algorithm: NLOPT_LN_NELDERMEAD
+maxeval: 1000000
+maxtime: 6000
+num_searches: 10
+nnoimp: 5
+maximp: 50
+optional: true
+size: 10000
+key: 3
+epsabs: 1e-20
+epsrel: 1e-9
+rftol: 1e-9
+init: random
+
+
+[model_commands]
+
+model: neutralSNP_vs_selectedSNP
+n:  50 
+folded: false
+r_range: 0.02, 50
+neu_m:  4981473 
+neu_sfs: 14876, 6043, 15426, 10138, 11725, 5826, 4694, 5796, 3293, 4108, 2088, 2086, 2633, 1571, 2182, 1334, 1168, 1734, 1073, 1484, 927, 887, 1241, 852, 1179, 805, 723, 1053, 747, 1149, 668, 643, 1075, 717, 1010, 682, 694, 1086, 715, 1159, 774, 833, 1267, 1077, 1500, 1134, 1259, 1885, 1766
+neu_theta_range: 1e-5, 0.1
+neu_e_range: 0, 0.5
+sel_m:  20955569 
+sel_sfs: 45997, 8603, 18288, 11438, 12030, 5927, 4750, 5752, 2930, 3921, 2133, 1890, 2387, 1434, 1905, 1166, 1083, 1629, 972, 1386, 799, 756, 1111, 825, 990, 674, 618, 1007, 709, 1011, 589, 635, 989, 582, 970, 605, 634, 984, 690, 1026, 706, 705, 1176, 916, 1347, 995, 1188, 1750, 1623
+dfe: discrete
+c: 3
+theta_range: 1e-6, 0.1
+gamma_range: -1000, 500
+e_range: 0, 0.5
+constraint: none
+

@@ -1,0 +1,8 @@
+dfe: discrete
+c: 3
+theta_range: 1e-6, 0.1
+gamma_range: -1000, 500
+e_range: 0, 0.5
+constraint: equal_mutation_rate_AND_no_pol_error
+
+
