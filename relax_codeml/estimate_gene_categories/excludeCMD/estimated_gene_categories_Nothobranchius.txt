@@ -1,0 +1,2 @@
+Pos	Relaxed	Intensified_purify	NoChange	Pos_and_Relaxed	Pos_and_Intense	Pos_all	Relax_all	Intense_all
+0	0.312296201410462	0	0.636086335555407	0.0516174630341312	0	0.0516174630341312	0.363913664444593	0
