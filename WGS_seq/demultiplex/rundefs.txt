@@ -1,0 +1,7 @@
+#LibraryName	Read1	Read2	IndexingRead
+RUN0	pool_Lib0906_Lib0920_Lib0926_Lib0927_R1.fastq.gz	pool_Lib0906_Lib0920_Lib0926_Lib0927_R2.fastq.gz	pool_Lib0906_Lib0920_Lib0926_Lib0927_R3.fastq.gz
+RUN1	1.pool_Lib0906_Lib0920_Lib0926_Lib0927_R1.fastq.gz	1.pool_Lib0906_Lib0920_Lib0926_Lib0927_R2.fastq.gz	Index_3891_1.fastq.gz
+RUN2	2.pool_Lib0906_Lib0920_Lib0926_Lib0927_R1.fastq.gz	2.pool_Lib0906_Lib0920_Lib0926_Lib0927_R2.fastq.gz	Index_3891_2.fastq.gz
+RUN3	3.pool_Lib0906_Lib0920_Lib0926_Lib0927_R1.fastq.gz	3.pool_Lib0906_Lib0920_Lib0926_Lib0927_R2.fastq.gz	Index_3891_3.fastq.gz
+RUN4	4.pool_Lib0906_Lib0920_Lib0926_Lib0927_R1.fastq.gz	4.pool_Lib0906_Lib0920_Lib0926_Lib0927_R2.fastq.gz	Index_3891_4.fastq.gz
+RUN5	5.pool_Lib0906_Lib0920_Lib0926_Lib0927_R1.fastq.gz	5.pool_Lib0906_Lib0920_Lib0926_Lib0927_R2.fastq.gz	Index_3891_5.fastq.gz

@@ -1,0 +1,3 @@
+#LibraryName	Read1	Read2	IndexingRead
+AMBI	demultiplexed/ambiguous_R1.fq	demultiplexed/ambiguous_R2.fq	demultiplexed/ambiguous_R3.fq
+
