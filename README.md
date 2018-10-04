@@ -11,6 +11,7 @@ The main programming language used was PHP >5. They can be most efficiently run 
 * relax_codeml/ contains scripts for alignment generation, gene tree estimation, RELAX and CODEML analyses, amino acid convergence analysis
 * WGS_seq/ contains scripts for processing population resequencing data
 * cpp/ contains c++ code that needs compilation
+* longitudinalrnaseq/ contains scripts to download and reanalyze a previously published longitudinal RNAseq dataset. 
 
 Third-party software packages include: 
 
