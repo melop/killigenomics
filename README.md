@@ -32,7 +32,7 @@ Third-party software packages include:
 * BWA-MEM 0.7.12-r1039
 * SMALT 0.5.3
 * STAR 2.4.2a
-* BUSCO78 v2beta4
+* BUSCO v2beta4
 * Metassembler  1.3
 * PILON 1.22
 * AllMaps 0.6.9
