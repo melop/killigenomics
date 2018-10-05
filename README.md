@@ -13,6 +13,7 @@ The main programming language used was PHP >5. They can be most efficiently run 
 * cpp/ contains c++ code that needs compilation
 * longitudinalrnaseq/ contains scripts to download and reanalyze a previously published longitudinal RNAseq dataset. 
 * climate/ PGLS correlations between bioclim, genome size and k
+* codonbias/ compute codon adaptation index and perform simulations
 
 Third-party software packages include: 
 
