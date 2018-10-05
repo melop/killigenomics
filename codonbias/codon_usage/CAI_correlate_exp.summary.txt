@@ -1,0 +1,1037 @@
+doing  AAU_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.15639 -0.02602 -0.00004  0.02507  0.17988 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.6952813  0.0020819 333.970  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0016746  0.0005271   3.177  0.00151 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.04157 on 1771 degrees of freedom
+  (82 observations deleted due to missingness)
+Multiple R-squared:  0.005668,	Adjusted R-squared:  0.005106 
+F-statistic: 10.09 on 1 and 1771 DF,  p-value: 0.001513
+
+doing  ACG_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.137853 -0.026263  0.000534  0.024937  0.199608 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.6929452  0.0020991 330.119  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0016733  0.0005364   3.119  0.00184 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.0409 on 1680 degrees of freedom
+  (173 observations deleted due to missingness)
+Multiple R-squared:  0.005759,	Adjusted R-squared:  0.005167 
+F-statistic: 9.731 on 1 and 1680 DF,  p-value: 0.001842
+
+doing  ACL_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.164746 -0.024035 -0.000041  0.023773  0.172826 
+
+Coefficients:
+                               Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.704706   0.001980 355.939  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.001587   0.000508   3.123  0.00182 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03846 on 1664 degrees of freedom
+  (189 observations deleted due to missingness)
+Multiple R-squared:  0.005828,	Adjusted R-squared:  0.005231 
+F-statistic: 9.755 on 1 and 1664 DF,  p-value: 0.001819
+
+doing  ACM_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.144334 -0.025276 -0.000048  0.024369  0.162783 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.6995091  0.0020151 347.134  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0015164  0.0005125   2.959  0.00313 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03958 on 1710 degrees of freedom
+  (143 observations deleted due to missingness)
+Multiple R-squared:  0.005093,	Adjusted R-squared:  0.004511 
+F-statistic: 8.753 on 1 and 1710 DF,  p-value: 0.003133
+
+doing  ACY_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.106055 -0.023966 -0.000319  0.022624  0.160408 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7012514  0.0019418 361.129  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0018378  0.0004958   3.706 0.000217 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.038 on 1690 degrees of freedom
+  (163 observations deleted due to missingness)
+Multiple R-squared:  0.008063,	Adjusted R-squared:  0.007476 
+F-statistic: 13.74 on 1 and 1690 DF,  p-value: 0.0002169
+
+doing  AGM_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.123172 -0.024966  0.000541  0.023786  0.180407 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7011608  0.0019665 356.550  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0014384  0.0004997   2.878  0.00405 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03872 on 1723 degrees of freedom
+  (130 observations deleted due to missingness)
+Multiple R-squared:  0.004785,	Adjusted R-squared:  0.004208 
+F-statistic: 8.285 on 1 and 1723 DF,  p-value: 0.004047
+
+doing  AKM_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.121356 -0.024469 -0.000446  0.024420  0.178587 
+
+Coefficients:
+                               Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.697930   0.001978 352.899  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.002045   0.000504   4.057  5.2e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03895 on 1711 degrees of freedom
+  (142 observations deleted due to missingness)
+Multiple R-squared:  0.009527,	Adjusted R-squared:  0.008948 
+F-statistic: 16.46 on 1 and 1711 DF,  p-value: 5.199e-05
+
+doing  AKN1_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.151889 -0.024942 -0.000626  0.025971  0.190271 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.6955317  0.0021186 328.297   <2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0012048  0.0005388   2.236   0.0255 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.04154 on 1710 degrees of freedom
+  (143 observations deleted due to missingness)
+Multiple R-squared:  0.002915,	Adjusted R-squared:  0.002332 
+F-statistic:     5 on 1 and 1710 DF,  p-value: 0.02548
+
+doing  AKN2_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.129084 -0.025942 -0.000225  0.025511  0.181192 
+
+Coefficients:
+                               Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.700744   0.002114 331.460   <2e-16 ***
+log(datFilter[, sWhichTissue]) 0.001124   0.000535   2.101   0.0358 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.04104 on 1683 degrees of freedom
+  (170 observations deleted due to missingness)
+Multiple R-squared:  0.002615,	Adjusted R-squared:  0.002023 
+F-statistic: 4.413 on 1 and 1683 DF,  p-value: 0.03581
+
+doing  APC_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.127105 -0.025704  0.000069  0.024893  0.171076 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7012581  0.0020710 338.616  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0019150  0.0005283   3.625 0.000298 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.04013 on 1680 degrees of freedom
+  (173 observations deleted due to missingness)
+Multiple R-squared:  0.007759,	Adjusted R-squared:  0.007168 
+F-statistic: 13.14 on 1 and 1680 DF,  p-value: 0.0002981
+
+doing  AMS_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.154810 -0.024746 -0.000283  0.024063  0.164913 
+
+Coefficients:
+                               Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.711284   0.002009 353.981  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.001726   0.000509   3.391 0.000713 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03939 on 1704 degrees of freedom
+  (149 observations deleted due to missingness)
+Multiple R-squared:  0.006702,	Adjusted R-squared:  0.006119 
+F-statistic:  11.5 on 1 and 1704 DF,  p-value: 0.0007128
+
+doing  APT_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.148615 -0.025060 -0.000481  0.024732  0.156142 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7075707  0.0020158 351.014  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0016301  0.0005122   3.183  0.00149 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03932 on 1694 degrees of freedom
+  (159 observations deleted due to missingness)
+Multiple R-squared:  0.005944,	Adjusted R-squared:  0.005358 
+F-statistic: 10.13 on 1 and 1694 DF,  p-value: 0.001485
+
+doing  ARG_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.154381 -0.025133 -0.000222  0.024589  0.161617 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7081536  0.0020193 350.699  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0018505  0.0005122   3.613 0.000311 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03955 on 1700 degrees of freedom
+  (153 observations deleted due to missingness)
+Multiple R-squared:  0.007621,	Adjusted R-squared:  0.007037 
+F-statistic: 13.05 on 1 and 1700 DF,  p-value: 0.0003113
+
+doing  CHW_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.138168 -0.024677 -0.000255  0.024252  0.156558 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7196561  0.0022784 315.862   <2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0016642  0.0005672   2.934   0.0034 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03799 on 1330 degrees of freedom
+  (523 observations deleted due to missingness)
+Multiple R-squared:  0.006431,	Adjusted R-squared:  0.005684 
+F-statistic: 8.608 on 1 and 1330 DF,  p-value: 0.003404
+
+doing  CMR_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.151884 -0.025460 -0.000745  0.024013  0.165932 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7152645  0.0019946 358.602  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0015775  0.0005084   3.103  0.00195 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03926 on 1715 degrees of freedom
+  (138 observations deleted due to missingness)
+Multiple R-squared:  0.005582,	Adjusted R-squared:  0.005002 
+F-statistic: 9.627 on 1 and 1715 DF,  p-value: 0.001948
+
+doing  CSB_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.149277 -0.026139 -0.000217  0.024256  0.172040 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7136637  0.0020064 355.699  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0016425  0.0005084   3.231  0.00126 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03988 on 1751 degrees of freedom
+  (102 observations deleted due to missingness)
+Multiple R-squared:  0.005926,	Adjusted R-squared:  0.005358 
+F-statistic: 10.44 on 1 and 1751 DF,  p-value: 0.001257
+
+doing  CTO_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.26398 -0.02583  0.00028  0.02450  0.16889 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7127955  0.0020251 351.985  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0014699  0.0005129   2.866  0.00421 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.04041 on 1766 degrees of freedom
+  (87 observations deleted due to missingness)
+Multiple R-squared:  0.004629,	Adjusted R-squared:  0.004066 
+F-statistic: 8.214 on 1 and 1766 DF,  p-value: 0.004207
+
+doing  EDG_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.145865 -0.025398 -0.000063  0.025495  0.182431 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7052176  0.0020170 349.629  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0018520  0.0005092   3.637 0.000284 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03983 on 1730 degrees of freedom
+  (123 observations deleted due to missingness)
+Multiple R-squared:  0.007588,	Adjusted R-squared:  0.007014 
+F-statistic: 13.23 on 1 and 1730 DF,  p-value: 0.0002839
+
+doing  EGH_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.150068 -0.026184 -0.000985  0.024670  0.164151 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7037087  0.0020736 339.367  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0021663  0.0005285   4.099 4.34e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.04046 on 1693 degrees of freedom
+  (160 observations deleted due to missingness)
+Multiple R-squared:  0.009828,	Adjusted R-squared:  0.009243 
+F-statistic:  16.8 on 1 and 1693 DF,  p-value: 4.343e-05
+
+doing  EGN_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.151109 -0.026828 -0.000391  0.026056  0.163395 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7001830  0.0021680  322.96  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0023467  0.0005496    4.27 2.07e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.04142 on 1635 degrees of freedom
+  (218 observations deleted due to missingness)
+Multiple R-squared:  0.01103,	Adjusted R-squared:  0.01042 
+F-statistic: 18.23 on 1 and 1635 DF,  p-value: 2.067e-05
+
+doing  ELM_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.145508 -0.025232 -0.000929  0.024500  0.161793 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7032240  0.0020551 342.184  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0016511  0.0005227   3.159  0.00161 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.04032 on 1712 degrees of freedom
+  (141 observations deleted due to missingness)
+Multiple R-squared:  0.005795,	Adjusted R-squared:  0.005214 
+F-statistic: 9.979 on 1 and 1712 DF,  p-value: 0.001611
+
+doing  EMF_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.140148 -0.024787 -0.000391  0.024366  0.148675 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7064364  0.0020127 350.987  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0017467  0.0005113   3.416 0.000651 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03956 on 1718 degrees of freedom
+  (135 observations deleted due to missingness)
+Multiple R-squared:  0.006746,	Adjusted R-squared:  0.006168 
+F-statistic: 11.67 on 1 and 1718 DF,  p-value: 0.0006506
+
+doing  ESP_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.140577 -0.025009 -0.001035  0.023807  0.147411 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7038731  0.0020378 345.401  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0020900  0.0005158   4.052 5.32e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03931 on 1669 degrees of freedom
+  (184 observations deleted due to missingness)
+Multiple R-squared:  0.00974,	Adjusted R-squared:  0.009146 
+F-statistic: 16.42 on 1 and 1669 DF,  p-value: 5.321e-05
+
+doing  ETO_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.14359 -0.02530 -0.00058  0.02371  0.16380 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7073536  0.0019789 357.444  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0022274  0.0004992   4.462 8.65e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03904 on 1727 degrees of freedom
+  (126 observations deleted due to missingness)
+Multiple R-squared:  0.0114,	Adjusted R-squared:  0.01082 
+F-statistic: 19.91 on 1 and 1727 DF,  p-value: 8.651e-06
+
+doing  SBT_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.155105 -0.026330  0.000252  0.023747  0.175952 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7106409  0.0020098 353.587  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0017321  0.0005082   3.408 0.000669 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03965 on 1716 degrees of freedom
+  (137 observations deleted due to missingness)
+Multiple R-squared:  0.006724,	Adjusted R-squared:  0.006145 
+F-statistic: 11.62 on 1 and 1716 DF,  p-value: 0.0006689
+
+doing  SCV_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.150405 -0.024534 -0.000391  0.023871  0.174488 
+
+Coefficients:
+                               Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.712704   0.001962 363.207  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.001725   0.000499   3.457 0.000559 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03884 on 1725 degrees of freedom
+  (128 observations deleted due to missingness)
+Multiple R-squared:  0.006881,	Adjusted R-squared:  0.006306 
+F-statistic: 11.95 on 1 and 1725 DF,  p-value: 0.000559
+
+doing  SGG_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.151498 -0.024956 -0.000472  0.024085  0.178167 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7138874  0.0019744 361.565  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0017660  0.0004993   3.537 0.000416 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.0388 on 1713 degrees of freedom
+  (140 observations deleted due to missingness)
+Multiple R-squared:  0.00725,	Adjusted R-squared:  0.006671 
+F-statistic: 12.51 on 1 and 1713 DF,  p-value: 0.0004155
+
+doing  SSC_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.15397 -0.02449 -0.00017  0.02358  0.17466 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7096834  0.0019575 362.538  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0018341  0.0004973   3.688 0.000233 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03872 on 1728 degrees of freedom
+  (125 observations deleted due to missingness)
+Multiple R-squared:  0.007809,	Adjusted R-squared:  0.007235 
+F-statistic:  13.6 on 1 and 1728 DF,  p-value: 0.0002331
+
+doing  FAM_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.143628 -0.025158  0.000129  0.023747  0.176200 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.6993268  0.0020455 341.891  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0018848  0.0005172   3.644 0.000276 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.04024 on 1733 degrees of freedom
+  (120 observations deleted due to missingness)
+Multiple R-squared:  0.007605,	Adjusted R-squared:  0.007032 
+F-statistic: 13.28 on 1 and 1733 DF,  p-value: 0.0002762
+
+doing  FDL_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.129663 -0.026161 -0.000231  0.024463  0.176884 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7009367  0.0021428 327.116  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0015364  0.0005476   2.806  0.00508 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.04096 on 1649 degrees of freedom
+  (204 observations deleted due to missingness)
+Multiple R-squared:  0.004752,	Adjusted R-squared:  0.004148 
+F-statistic: 7.873 on 1 and 1649 DF,  p-value: 0.005077
+
+doing  FFL_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.147658 -0.026742 -0.000294  0.025008  0.172793 
+
+Coefficients:
+                               Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.697843   0.002124  328.56  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.001442   0.000540    2.67  0.00765 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.04133 on 1691 degrees of freedom
+  (162 observations deleted due to missingness)
+Multiple R-squared:  0.004199,	Adjusted R-squared:  0.00361 
+F-statistic: 7.131 on 1 and 1691 DF,  p-value: 0.007651
+
+doing  FSC_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.146768 -0.026399  0.000459  0.025960  0.186040 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7068814  0.0021900 322.771  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0018367  0.0005529   3.322 0.000913 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.0412 on 1601 degrees of freedom
+  (252 observations deleted due to missingness)
+Multiple R-squared:  0.006847,	Adjusted R-squared:  0.006226 
+F-statistic: 11.04 on 1 and 1601 DF,  p-value: 0.0009133
+
+doing  FSJ_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.15022 -0.02668  0.00013  0.02387  0.17012 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7027540  0.0020707 339.385  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0015393  0.0005245   2.935  0.00338 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.04045 on 1705 degrees of freedom
+  (148 observations deleted due to missingness)
+Multiple R-squared:  0.005026,	Adjusted R-squared:  0.004442 
+F-statistic: 8.612 on 1 and 1705 DF,  p-value: 0.003384
+
+doing  FGR_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.146717 -0.025276  0.000152  0.024250  0.178251 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7071047  0.0020434 346.044  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0016538  0.0005207   3.176  0.00152 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03982 on 1684 degrees of freedom
+  (169 observations deleted due to missingness)
+Multiple R-squared:  0.005954,	Adjusted R-squared:  0.005364 
+F-statistic: 10.09 on 1 and 1684 DF,  p-value: 0.00152
+
+doing  FTH_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.14744 -0.02500  0.00058  0.02448  0.16011 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7046640  0.0019893 354.229  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0015058  0.0005046   2.984  0.00288 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03893 on 1719 degrees of freedom
+  (134 observations deleted due to missingness)
+Multiple R-squared:  0.005155,	Adjusted R-squared:  0.004576 
+F-statistic: 8.907 on 1 and 1719 DF,  p-value: 0.002881
+
+doing  NFS_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.151482 -0.025431  0.000228  0.025596  0.171047 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7005183  0.0020665 338.983  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0013765  0.0005242   2.626  0.00871 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.04071 on 1727 degrees of freedom
+  (126 observations deleted due to missingness)
+Multiple R-squared:  0.003977,	Adjusted R-squared:  0.003401 
+F-statistic: 6.896 on 1 and 1727 DF,  p-value: 0.008714
+
+doing  NKF_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.140192 -0.025599  0.000326  0.024512  0.157531 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7023441  0.0020122 349.051  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0018109  0.0005089   3.558 0.000384 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03879 on 1671 degrees of freedom
+  (182 observations deleted due to missingness)
+Multiple R-squared:  0.00752,	Adjusted R-squared:  0.006926 
+F-statistic: 12.66 on 1 and 1671 DF,  p-value: 0.0003839
+
+doing  NOC_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.146787 -0.025014  0.000565  0.023423  0.159607 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7034079  0.0019697 357.110  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0018309  0.0004977   3.679 0.000241 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.0386 on 1703 degrees of freedom
+  (150 observations deleted due to missingness)
+Multiple R-squared:  0.007885,	Adjusted R-squared:  0.007302 
+F-statistic: 13.53 on 1 and 1703 DF,  p-value: 0.0002415
+
+doing  NOR_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.144254 -0.025033  0.000107  0.024764  0.168199 
+
+Coefficients:
+                               Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.703476   0.001993 353.040  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.001543   0.000504   3.062  0.00223 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03979 on 1772 degrees of freedom
+  (81 observations deleted due to missingness)
+Multiple R-squared:  0.005264,	Adjusted R-squared:  0.004702 
+F-statistic: 9.377 on 1 and 1772 DF,  p-value: 0.002231
+
+doing  NRC_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.144926 -0.023581  0.000483  0.023967  0.172124 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7072205  0.0019621 360.438  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0014384  0.0004971   2.893  0.00386 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.0387 on 1727 degrees of freedom
+  (126 observations deleted due to missingness)
+Multiple R-squared:  0.004824,	Adjusted R-squared:  0.004248 
+F-statistic: 8.372 on 1 and 1727 DF,  p-value: 0.003859
+
+doing  NVG_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.138698 -0.024572  0.000636  0.024443  0.163761 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7014627  0.0020050   349.9  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0016718  0.0005066     3.3 0.000988 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03952 on 1731 degrees of freedom
+  (122 observations deleted due to missingness)
+Multiple R-squared:  0.006251,	Adjusted R-squared:  0.005676 
+F-statistic: 10.89 on 1 and 1731 DF,  p-value: 0.0009877
+
+doing  NVS_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.144919 -0.025140  0.000358  0.024469  0.163226 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.6988370  0.0020285 344.507  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0016263  0.0005139   3.165  0.00158 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.04009 on 1736 degrees of freedom
+  (117 observations deleted due to missingness)
+Multiple R-squared:  0.005736,	Adjusted R-squared:  0.005164 
+F-statistic: 10.02 on 1 and 1736 DF,  p-value: 0.001579
+
+doing  NFZ_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.146393 -0.024008  0.000223  0.023773  0.165695 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7027407  0.0019833 354.323  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0016555  0.0005034   3.288  0.00103 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03928 on 1739 degrees of freedom
+  (114 observations deleted due to missingness)
+Multiple R-squared:  0.00618,	Adjusted R-squared:  0.005608 
+F-statistic: 10.81 on 1 and 1739 DF,  p-value: 0.001028
+
+doing  PSY_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.139470 -0.026666  0.000412  0.026522  0.169482 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.6924632  0.0021550 321.326   <2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0012163  0.0005487   2.217   0.0268 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.04252 on 1722 degrees of freedom
+  (131 observations deleted due to missingness)
+Multiple R-squared:  0.002846,	Adjusted R-squared:  0.002267 
+F-statistic: 4.914 on 1 and 1722 DF,  p-value: 0.02677
+
+doing  APL_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.160830 -0.027903 -0.000193  0.026144  0.178632 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7043007  0.0022128 318.289   <2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0011435  0.0005675   2.015   0.0441 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.04237 on 1619 degrees of freedom
+  (234 observations deleted due to missingness)
+Multiple R-squared:  0.002502,	Adjusted R-squared:  0.001885 
+F-statistic:  4.06 on 1 and 1619 DF,  p-value: 0.04407
+
+doing  PLP_CAI 
+
+Call:
+lm(formula = datFilter[, sSp] ~ log(datFilter[, sWhichTissue]))
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.12918 -0.02263 -0.00049  0.02143  0.15377 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                    0.7121712  0.0018004 395.562  < 2e-16 ***
+log(datFilter[, sWhichTissue]) 0.0025039  0.0004566   5.484 4.76e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03584 on 1754 degrees of freedom
+  (99 observations deleted due to missingness)
+Multiple R-squared:  0.01686,	Adjusted R-squared:  0.0163 
+F-statistic: 30.08 on 1 and 1754 DF,  p-value: 4.756e-08
+
+null device 
+          1 
+Linear mixed model fit by maximum likelihood t-tests use Satterthwaite
+  approximations to degrees of freedom [lmerMod]
+Formula: CAI ~ log(Expression) + Species + (1 | CodonLen)
+   Data: datAnalysis
+
+      AIC       BIC    logLik  deviance  df.resid 
+-286520.6 -286066.5  143309.3 -286618.6     78174 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-6.5448 -0.6264 -0.0042  0.6181  4.5113 
+
+Random effects:
+ Groups   Name        Variance  Std.Dev.
+ CodonLen (Intercept) 0.0001001 0.01000 
+ Residual             0.0014627 0.03825 
+Number of obs: 78223, groups:  CodonLen, 2877
+
+Fixed effects:
+                  Estimate Std. Error         df t value Pr(>|t|)    
+(Intercept)      6.937e-01  9.848e-04  6.378e+04 704.369  < 2e-16 ***
+log(Expression)  1.704e-03  8.941e-05  5.160e+04  19.061  < 2e-16 ***
+SpeciesACG_CAI  -2.118e-03  1.311e-03  7.760e+04  -1.616 0.106155    
+SpeciesACL_CAI   9.176e-03  1.314e-03  7.758e+04   6.982 2.93e-12 ***
+SpeciesACM_CAI   3.764e-03  1.304e-03  7.752e+04   2.887 0.003896 ** 
+SpeciesACY_CAI   6.685e-03  1.308e-03  7.757e+04   5.109 3.24e-07 ***
+SpeciesAGM_CAI   5.157e-03  1.301e-03  7.751e+04   3.964 7.37e-05 ***
+SpeciesAKM_CAI   4.144e-03  1.303e-03  7.753e+04   3.179 0.001476 ** 
+SpeciesAKN1_CAI -1.296e-03  1.303e-03  7.747e+04  -0.995 0.319817    
+SpeciesAKN2_CAI  3.479e-03  1.309e-03  7.752e+04   2.657 0.007882 ** 
+SpeciesAPC_CAI   7.331e-03  1.311e-03  7.756e+04   5.593 2.24e-08 ***
+SpeciesAMS_CAI   1.627e-02  1.306e-03  7.758e+04  12.462  < 2e-16 ***
+SpeciesAPT_CAI   1.247e-02  1.308e-03  7.762e+04   9.533  < 2e-16 ***
+SpeciesARG_CAI   1.327e-02  1.307e-03  7.756e+04  10.157  < 2e-16 ***
+SpeciesCHW_CAI   2.449e-02  1.396e-03  7.743e+04  17.538  < 2e-16 ***
+SpeciesCMR_CAI   1.974e-02  1.303e-03  7.753e+04  15.154  < 2e-16 ***
+SpeciesCSB_CAI   1.866e-02  1.296e-03  7.752e+04  14.395  < 2e-16 ***
+SpeciesCTO_CAI   1.703e-02  1.293e-03  7.746e+04  13.172  < 2e-16 ***
+SpeciesEDG_CAI   1.064e-02  1.301e-03  7.756e+04   8.184 4.44e-16 ***
+SpeciesEGH_CAI   1.015e-02  1.308e-03  7.759e+04   7.760 8.44e-15 ***
+SpeciesEGN_CAI   7.508e-03  1.320e-03  7.757e+04   5.688 1.29e-08 ***
+SpeciesELM_CAI   8.016e-03  1.304e-03  7.759e+04   6.146 7.99e-10 ***
+SpeciesEMF_CAI   1.138e-02  1.303e-03  7.758e+04   8.733  < 2e-16 ***
+SpeciesESP_CAI   1.063e-02  1.313e-03  7.759e+04   8.097 4.44e-16 ***
+SpeciesETO_CAI   1.421e-02  1.301e-03  7.752e+04  10.925  < 2e-16 ***
+SpeciesSBT_CAI   1.582e-02  1.303e-03  7.752e+04  12.145  < 2e-16 ***
+SpeciesSCV_CAI   1.780e-02  1.301e-03  7.747e+04  13.682  < 2e-16 ***
+SpeciesSGG_CAI   1.893e-02  1.304e-03  7.753e+04  14.517  < 2e-16 ***
+SpeciesSSC_CAI   1.490e-02  1.301e-03  7.752e+04  11.459  < 2e-16 ***
+SpeciesFAM_CAI   4.892e-03  1.299e-03  7.744e+04   3.767 0.000165 ***
+SpeciesFDL_CAI   5.404e-03  1.317e-03  7.756e+04   4.104 4.07e-05 ***
+SpeciesFFL_CAI   1.940e-03  1.307e-03  7.747e+04   1.485 0.137676    
+SpeciesFSC_CAI   1.182e-02  1.327e-03  7.751e+04   8.908  < 2e-16 ***
+SpeciesFSJ_CAI   7.156e-03  1.304e-03  7.750e+04   5.486 4.13e-08 ***
+SpeciesFGR_CAI   1.174e-02  1.309e-03  7.753e+04   8.970  < 2e-16 ***
+SpeciesFTH_CAI   9.093e-03  1.302e-03  7.752e+04   6.984 2.89e-12 ***
+SpeciesNFS_CAI   4.423e-03  1.300e-03  7.744e+04   3.404 0.000665 ***
+SpeciesNKF_CAI   8.111e-03  1.312e-03  7.754e+04   6.183 6.32e-10 ***
+SpeciesNOC_CAI   9.107e-03  1.305e-03  7.754e+04   6.976 3.06e-12 ***
+SpeciesNOR_CAI   7.622e-03  1.291e-03  7.736e+04   5.905 3.54e-09 ***
+SpeciesNRC_CAI   1.107e-02  1.300e-03  7.750e+04   8.514  < 2e-16 ***
+SpeciesNVG_CAI   6.300e-03  1.300e-03  7.749e+04   4.847 1.25e-06 ***
+SpeciesNVS_CAI   3.448e-03  1.298e-03  7.744e+04   2.657 0.007891 ** 
+SpeciesNFZ_CAI   7.464e-03  1.297e-03  7.743e+04   5.753 8.81e-09 ***
+SpeciesPSY_CAI  -3.955e-03  1.302e-03  7.754e+04  -3.038 0.002383 ** 
+SpeciesAPL_CAI   7.776e-03  1.324e-03  7.758e+04   5.874 4.26e-09 ***
+SpeciesPLP_CAI   1.993e-02  1.295e-03  7.748e+04  15.386  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
