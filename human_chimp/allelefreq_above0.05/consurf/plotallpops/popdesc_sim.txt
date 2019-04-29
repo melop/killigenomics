@@ -1,0 +1,9 @@
+pop	genus	dir
+bonobo	pan	../../../../chimp/vcfs/hg19/allelefreq_above0.05/consurf/
+ptv	pan	../../../../chimp/vcfs/hg19/allelefreq_above0.05/consurf/
+pte	pan	../../../../chimp/vcfs/hg19/allelefreq_above0.05/consurf/
+pts	pan	../../../../chimp/vcfs/hg19/allelefreq_above0.05/consurf/
+ptt	pan	../../../../chimp/vcfs/hg19/allelefreq_above0.05/consurf/
+CEU	homo	..
+CHB	homo	..
+YRI	homo	..
