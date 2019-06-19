@@ -1,5 +1,10 @@
 # killigenomics
-Scripts for African killifish genomics. The raw data can be found on NCBI SRA xxxxx.
+Scripts for African killifish genomics. The raw data can be found on NCBI BioProject# PRJNA531796.
+Data files can be found on Mendeley data https://data.mendeley.com/datasets/f9phgbv4rs/1.
+
+Citation:
+Relaxed selection limits lifespan by increasing mutation load. R Cui, T Medeiros, D Willemsen, L Iasi, G Collier, M Graef, M Reichard, D R Valenzano (2019) Cell:178. 
+
 The main programming language used was PHP >5. They can be most efficiently run with HHVM or PHP 7. 
 
 * genome_assembly/ scripts for performing genome assembly and improvements
