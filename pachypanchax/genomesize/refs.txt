@@ -1,0 +1,3 @@
+#Refname	Refseq	BuscoBed
+PLP	/beegfs/group_dv/home/RCui/killifish_genomes/denovo/discovardenovo/PLP_run7/corrections/RUN1_redundans0.8/BEEST_RNA_FINAL_DECONTAM/scaffold/pass1/Scaffolds-pass1.fa	/beegfs/group_dv/home/RCui/killifish_genomes/denovo/discovardenovo/PLP_run7/genomesize_mapping/singlecopy_coord.bed
+

@@ -1,0 +1,2 @@
+#SpeciesCode	Sample	Ref	read1	read2
+PLP	PML	PLP	/beegfs/group_dv/home/RCui/killifish_genomes/WGS_seq/bwamap/PLPv1.2LG/PML_fq/PML_R1.fq.gz	/beegfs/group_dv/home/RCui/killifish_genomes/WGS_seq/bwamap/PLPv1.2LG/PML_fq/PML_R2.fq.gz

@@ -1,0 +1,5 @@
+RefName	Path	GFF
+AAU	/beegfs/group_dv/home/RCui/killifish_genomes/pseudogenomes/refs/AAU.fa	/beegfs_old/group_dv/home/RCui/killifish_genomes/annotation/maker/AAU_final_1/run_blastmerge_cov_exonerateOn/corrections/maker.finalannot.improved.gff
+CTO	/beegfs/group_dv/home/RCui/killifish_genomes/pseudogenomes/refs/CTO.fa	/beegfs_old/group_dv/home/RCui/killifish_genomes/annotation/maker/CTO_final_1/run_pilon_exonerateOn/corrections/maker.finalannot.improved.gff
+NOR	/beegfs/group_dv/home/RCui/killifish_genomes/pseudogenomes/refs/NOR.fa	/beegfs_old/group_dv/home/RCui/killifish_genomes/annotation/maker/NOR_final_1/run_pilon_exonerateOn/corrections/maker.finalannot.improved.gff
+PLP	/beegfs/group_dv/home/RCui/killifish_genomes/denovo/discovardenovo/PLP_run7/LG/v1.2/Both_Crosses.fasta	/beegfs_old/group_dv/home/RCui/killifish_genomes/denovo/discovardenovo/PLP_run7/LG/v1.2/PLPv1.2.LG.gff

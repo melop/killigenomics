@@ -1,0 +1,2 @@
+species	cov	readbase	genomesize
+PLP	15.7626462839716	11149306080	707324511.325062
