@@ -1,0 +1,3 @@
+p-value	q-value	pathway	source	external_id	members_input_overlap	members_input_overlap_geneids	size	effective_size
+0.00659018105737	0.53827213401	Trafficking of myristoylated proteins to the cilium	Reactome	R-HSA-5624138	ENSG00000113971; ENSG00000175970	84747; 27031	5	2
+0.0070608636091	0.53827213401	Amine ligand-binding receptors	Reactome	R-HSA-375280	ENSG00000171873; ENSG00000157219; ENSG00000113749; ENSG00000169676; ENSG00000170214	3361; 3274; 1816; 147; 146	43	16

@@ -1,0 +1,3 @@
+p-value	q-value	pathway	source	external_id	members_input_overlap	members_input_overlap_geneids	size	effective_size
+0.00353347468978	0.554618893941	Transcriptional regulation by RUNX3	Reactome	R-HSA-8878159	TCF7; KAT2A; SMAD3; FOXO3; LEF1; JAG1; KRAS	2648; 182; 3845; 4088; 2309; 6932; 51176	52	10
+0.00426828220447	0.554618893941	Deactivation of the beta-catenin transactivating complex	Reactome	R-HSA-3769402	TCF7; TLE1; CTNNBIP1; SOX3; LEF1; SOX7	6932; 6658; 7088; 83595; 56998; 51176	30	8

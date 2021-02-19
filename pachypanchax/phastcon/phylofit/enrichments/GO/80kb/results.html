@@ -1,0 +1,780 @@
+<html>
+<head>
+<title>Results</title><link rel="stylesheet" type="text/css" href="css/sheet.css">
+<script type="text/javascript" src="javascript/common.js"></script>
+<script type="text/javascript" src="javascript/tooltip.js"></script>
+<script type="text/javascript" src="javascript/browserDetect.js"></script>
+<style type="text/css">
+a:link,a:visited { color:#005500; text-decoration:none; }
+a:focus,a:hover,a:active { color:#00ad00; text-decoration:none; cursor: pointer; }
+.smallestTag {font-size: xx-small;}
+.smallTag {font-size: small;}
+.mediumTag {font-size: medium;}
+.largeTag {font-size: large;}
+</style>
+</head>
+<body style="font-size:12pt; font-family:Arial,sans-serif; background-color:#f8ffff;">
+<div style="left: 994px; top: 49px; visibility: hidden;" id="dhtmltooltip" class="dhtmltooltip">TT</div>
+<table border="0" style="width:100%"><colgroup><col width="95%"><col width="5%"></colgroup>
+<tr><td>
+<font style="color:#004400; font-weight:bold; font-size:18pt; font-family:Arial,sans-serif; text-decoration:underline;">Functional annotation of a gene list</font>
+<br>
+<font style="font-size:10pt; color:#CCCCCC;">Provide accession numbers &nbsp;&nbsp;&gt;&nbsp;&nbsp; Select functional sets &nbsp;&nbsp;&gt;</font><font style="font-size:10pt; color:#004400;">&nbsp;&nbsp; Enriched sets </font>
+</td>
+<td valign="top"><img src="images/info.png" title="Help" onclick="openW('tutorial#pathwaya.hypergeometric','Help','resizable=1,scrollbars=2,width=1024,height=800,toolbar=0');">
+</td></tr>
+</table>
+<br><br><br>
+<div id="resultsStatistics" style="">
+ <table border="0" padding="5">
+  <tr colspan="2">
+   <th>Results summary</th>
+  </tr>
+  <tr>
+   <td>uploaded list:</td>
+   <td>2453</td>
+  </tr>  <tr>
+   <td><a href="showTranslation" target="_blank">mapped entities:</a></td>
+   <td><a href="showTranslation" target="_blank">2431</a></td>
+  </tr>
+  <tr>
+   <td><a href="#pests">enriched pathway-based sets:</a></td>
+   <td><a href="#pests">1</a></td>
+  </tr>
+  <tr>
+   <td><a href="#gosets">enriched gene ontology-based sets:</a></td>
+   <td><a href="#gosets">58</a></td>
+  </tr>
+</table>
+</div>
+<br style="clear:both;"><br><br>
+<form action="visualizeSets" target="_parent">
+<input type="submit" value="Visualize selected sets" class="cpdbutton" onclick="if (browser.isIE) {alert('This visualization tool uses state-of-the-art web technology which is not supported by the MS Internet Explorer browser. Please use another browser (e.g. Firefox, Safari, Chrome or Opera) to work with ConsensusPathDB.');}">
+<br>
+<table border="0" cellpadding="4" style="font-size:10pt; width:100%;">
+<tr>
+<td colspan="8" style="font-size:14pt;"><br><br>Enriched pathway-based sets <a id="pests" href="downloadEnrSets?typ=p" target="_blank" style="font-size:10pt;" onmouseover="ddrivetip('download in tab-delimited format','#cbe6cb')" onmouseout="hideddrivetip()">(download)</a> <span style='cursor: pointer; color: #005500; font-size:10pt;' onclick='var st=document.getElementById("tagCloudDivP").style; st.visibility="visible"; st.display="block";'>(show word cloud)</span></td>
+</tr>
+<tr id='tagCloud'>
+<td colspan='8'>
+<div id='tagCloudDivP' style='border:1px solid black; background-color:white; visibility:hidden; display:none;'>
+<h4 style='font-size: large;text-decoration:underline;'>Word cloud</h4>
+<a style="font-size:12;font-weight:800; color:#005500;" onclick="highlightCell('Integrin cell surface interactions')">cell</a>&nbsp; 
+<a style="font-size:12;font-weight:800; color:#005500;" onclick="highlightCell('Integrin cell surface interactions')">integrin</a>&nbsp; 
+<a style="font-size:12;font-weight:800; color:#005500;" onclick="highlightCell('Integrin cell surface interactions')">interactions</a>&nbsp; 
+<a style="font-size:12;font-weight:800; color:#005500;" onclick="highlightCell('Integrin cell surface interactions')">surface</a>&nbsp; 
+<input type='hidden' id='clicked' value='' />
+</div></td></tr>
+<tr style="font-size:8pt;"><td colspan="8">
+<a href="showTranslation?highlight=Pg" target="_blank"><b>1647</b> genes (67.7%)</a> from the input list are present in at least one pathway.<br>
+The total number of genes from the background list present in at least one pathway is <b>2729</b>.<br>
+</td></tr>
+<tr>
+<td style="background-color:#E1E1E1;font-weight:bold;">select<br><span class="pseudolink" onclick="selectEsets('p', true);">all</span> <span class="pseudolink" onclick="selectEsets('p', false);">none</span></td>
+<td colspan="2" style="background-color:#E1E1E1;font-weight:bold;">pathway name</td>
+<td style="background-color:#E1E1E1;font-weight:bold;">set size</td>
+<td style="background-color:#E1E1E1;font-weight:bold;">candidates<br>contained</td>
+<td style="background-color:#E1E1E1;font-weight:bold;">p-value</td>
+<td style="background-color:#E1E1E1;font-weight:bold;">q-value</td>
+<td style="background-color:#E1E1E1;font-weight:bold;">pathway source</td>
+</tr>
+<tr>
+<td style="background-color:#E1FFE1;"><input type="checkbox" name="objs:list" value="p0"></td>
+<td id="Integrin cell surface interactions" colspan="2" style="background-color:#E1FFE1;">Integrin cell surface interactions</td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=p&st=0" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">67(<span style="color:red;">14</span>)</a></td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=p&st=0" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">13 (92.9%)</span></a></td>
+<td style="background-color:#E1FFE1;">0.00854</td>
+<td style="background-color:#E1FFE1;">0.988</td>
+<td style="background-color:#F9F9F9;"><span style="color:#0000aa;font-weight:bold;">Reactome</span></td>
+</tr>
+<tr>
+<td colspan="8" style="font-size:14pt;"><br><br>Enriched gene ontology-based sets <a id="gosets" href="downloadEnrSets?typ=g" target="_blank" style="font-size:10pt;" onmouseover="ddrivetip('download in tab-delimited format','#cbe6cb')" onmouseout="hideddrivetip()">(download)</a> <span style='cursor: pointer; color: #005500; font-size:10pt;' onclick='var st=document.getElementById("tagCloudDivG").style; st.visibility="visible"; st.display="block";'>(show word cloud)</span></td>
+</tr>
+<tr id='tagCloud'>
+<td colspan='8'>
+<div id='tagCloudDivG' style='border:1px solid black; background-color:white; visibility:hidden; display:none;'>
+<h4 style='font-size: large;text-decoration:underline;'>Word cloud</h4>
+<a style="font-size:13;font-weight:500; color:#005500;" onclick="highlightCell('DNA-binding transcription factor activity;;regulation of synapse structure or activity;;regulation of neurotransmitter receptor activity')">activity</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('DNA-binding transcription factor activity, RNA polymerase II-specific')">activity,</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('cell adhesion')">adhesion</a>&nbsp; 
+<a style="font-size:13;font-weight:500; color:#005500;" onclick="highlightCell('anatomical structure development;;anatomical structure formation involved in morphogenesis;;anatomical structure morphogenesis')">anatomical</a>&nbsp; 
+<a style="font-size:12;font-weight:500; color:#005500;" onclick="highlightCell('positive regulation of synapse assembly;;regulation of synapse assembly')">assembly</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('calcium ion binding')">binding</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('regulation of cellular component biogenesis')">biogenesis</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('blood vessel morphogenesis')">blood</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('calcium ion binding')">calcium</a>&nbsp; 
+<a style="font-size:20.5;font-weight:600; color:#005500;" onclick="highlightCell('cell differentiation;;smooth muscle cell differentiation;;mesenchymal cell differentiation;;cell adhesion;;regulation of cell differentiation;;cell development;;negative regulation of cell differentiation')">cell</a>&nbsp; 
+<a style="font-size:12;font-weight:500; color:#005500;" onclick="highlightCell('cellular developmental process;;regulation of cellular component biogenesis')">cellular</a>&nbsp; 
+<a style="font-size:12;font-weight:500; color:#005500;" onclick="highlightCell('establishment of chromosome localization;;chromosome localization')">chromosome</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('coenzyme metabolic process')">coenzyme</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('regulation of cellular component biogenesis')">component</a>&nbsp; 
+<a style="font-size:12;font-weight:500; color:#005500;" onclick="highlightCell('tumor necrosis factor superfamily cytokine production;;regulation of tumor necrosis factor superfamily cytokine production')">cytokine</a>&nbsp; 
+<a style="font-size:34;font-weight:800; color:#005500;" onclick="highlightCell('multicellular organism development;;embryonic placenta development;;placenta development;;nervous system development;;anatomical structure development;;labyrinthine layer development;;cell development;;mesenchyme development;;system development;;embryo development;;embryonic skeletal system development;;embryonic organ development')">development</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('cellular developmental process')">developmental</a>&nbsp; 
+<a style="font-size:23.5;font-weight:600; color:#005500;" onclick="highlightCell('cell differentiation;;smooth muscle cell differentiation;;mesenchymal cell differentiation;;osteoblast differentiation;;regulation of cell differentiation;;megakaryocyte differentiation;;neuron differentiation;;regulation of osteoblast differentiation;;negative regulation of cell differentiation')">differentiation</a>&nbsp; 
+<a style="font-size:12;font-weight:500; color:#005500;" onclick="highlightCell('DNA-binding transcription factor activity, RNA polymerase II-specific;;DNA-binding transcription factor activity')">dna-binding</a>&nbsp; 
+<a style="font-size:12;font-weight:500; color:#005500;" onclick="highlightCell('embryo implantation;;embryo development')">embryo</a>&nbsp; 
+<a style="font-size:14;font-weight:500; color:#005500;" onclick="highlightCell('embryonic placenta development;;embryonic skeletal system development;;embryonic organ development;;embryonic morphogenesis')">embryonic</a>&nbsp; 
+<a style="font-size:12;font-weight:500; color:#005500;" onclick="highlightCell('regulation of epithelial to mesenchymal transition;;epithelial to mesenchymal transition')">epithelial</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('establishment of chromosome localization')">establishment</a>&nbsp; 
+<a style="font-size:15;font-weight:500; color:#005500;" onclick="highlightCell('DNA-binding transcription factor activity, RNA polymerase II-specific;;DNA-binding transcription factor activity;;tumor necrosis factor superfamily cytokine production;;tumor necrosis factor production;;regulation of tumor necrosis factor superfamily cytokine production')">factor</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('female pregnancy')">female</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('anatomical structure formation involved in morphogenesis')">formation</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('generation of neurons')">generation</a>&nbsp; 
+<a style="font-size:12;font-weight:500; color:#005500;" onclick="highlightCell('glutamate receptor signaling pathway;;regulation of glutamate receptor signaling pathway')">glutamate</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('DNA-binding transcription factor activity, RNA polymerase II-specific')">ii-specific</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('embryo implantation')">implantation</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('anatomical structure formation involved in morphogenesis')">involved</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('calcium ion binding')">ion</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('labyrinthine layer development')">labyrinthine</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('labyrinthine layer development')">layer</a>&nbsp; 
+<a style="font-size:12;font-weight:500; color:#005500;" onclick="highlightCell('establishment of chromosome localization;;chromosome localization')">localization</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('megakaryocyte differentiation')">megakaryocyte</a>&nbsp; 
+<a style="font-size:13;font-weight:500; color:#005500;" onclick="highlightCell('postsynaptic membrane;;plasma membrane region;;synaptic membrane')">membrane</a>&nbsp; 
+<a style="font-size:13;font-weight:500; color:#005500;" onclick="highlightCell('mesenchymal cell differentiation;;regulation of epithelial to mesenchymal transition;;epithelial to mesenchymal transition')">mesenchymal</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('mesenchyme development')">mesenchyme</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('coenzyme metabolic process')">metabolic</a>&nbsp; 
+<a style="font-size:14;font-weight:500; color:#005500;" onclick="highlightCell('anatomical structure formation involved in morphogenesis;;blood vessel morphogenesis;;anatomical structure morphogenesis;;embryonic morphogenesis')">morphogenesis</a>&nbsp; 
+<a style="font-size:12;font-weight:500; color:#005500;" onclick="highlightCell('multicellular organism development;;regulation of multicellular organismal process')">multicellular</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('smooth muscle cell differentiation')">muscle</a>&nbsp; 
+<a style="font-size:13;font-weight:500; color:#005500;" onclick="highlightCell('tumor necrosis factor superfamily cytokine production;;tumor necrosis factor production;;regulation of tumor necrosis factor superfamily cytokine production')">necrosis</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('negative regulation of cell differentiation')">negative</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('nervous system development')">nervous</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('neurogenesis')">neurogenesis</a>&nbsp; 
+<a style="font-size:12;font-weight:500; color:#005500;" onclick="highlightCell('neuron differentiation;;neuron recognition')">neuron</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('generation of neurons')">neurons</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('regulation of neurotransmitter receptor activity')">neurotransmitter</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('embryonic organ development')">organ</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('multicellular organism development')">organism</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('regulation of multicellular organismal process')">organismal</a>&nbsp; 
+<a style="font-size:12;font-weight:500; color:#005500;" onclick="highlightCell('regulation of synapse organization;;synapse organization')">organization</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('ossification')">ossification</a>&nbsp; 
+<a style="font-size:12;font-weight:500; color:#005500;" onclick="highlightCell('osteoblast differentiation;;regulation of osteoblast differentiation')">osteoblast</a>&nbsp; 
+<a style="font-size:12;font-weight:500; color:#005500;" onclick="highlightCell('embryonic placenta development;;placenta development')">placenta</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('plasma membrane region')">plasma</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('DNA-binding transcription factor activity, RNA polymerase II-specific')">polymerase</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('positive regulation of synapse assembly')">positive</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('postsynapse')">postsynapse</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('postsynaptic membrane')">postsynaptic</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('female pregnancy')">pregnancy</a>&nbsp; 
+<a style="font-size:13;font-weight:500; color:#005500;" onclick="highlightCell('cellular developmental process;;regulation of multicellular organismal process;;coenzyme metabolic process')">process</a>&nbsp; 
+<a style="font-size:13;font-weight:500; color:#005500;" onclick="highlightCell('tumor necrosis factor superfamily cytokine production;;tumor necrosis factor production;;regulation of tumor necrosis factor superfamily cytokine production')">production</a>&nbsp; 
+<a style="font-size:13;font-weight:500; color:#005500;" onclick="highlightCell('glutamate receptor signaling pathway;;regulation of neurotransmitter receptor activity;;regulation of glutamate receptor signaling pathway')">receptor</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('neuron recognition')">recognition</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('plasma membrane region')">region</a>&nbsp; 
+<a style="font-size:36;font-weight:800; color:#005500;" onclick="highlightCell('positive regulation of synapse assembly;;regulation of synapse assembly;;regulation of synapse organization;;regulation of epithelial to mesenchymal transition;;regulation of multicellular organismal process;;regulation of cell differentiation;;regulation of synapse structure or activity;;regulation of cellular component biogenesis;;regulation of osteoblast differentiation;;regulation of tumor necrosis factor superfamily cytokine production;;negative regulation of cell differentiation;;regulation of neurotransmitter receptor activity;;regulation of glutamate receptor signaling pathway')">regulation</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('DNA-binding transcription factor activity, RNA polymerase II-specific')">rna</a>&nbsp; 
+<a style="font-size:12;font-weight:500; color:#005500;" onclick="highlightCell('glutamate receptor signaling pathway;;regulation of glutamate receptor signaling pathway')">signaling</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('embryonic skeletal system development')">skeletal</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('smooth muscle cell differentiation')">smooth</a>&nbsp; 
+<a style="font-size:14;font-weight:500; color:#005500;" onclick="highlightCell('anatomical structure development;;anatomical structure formation involved in morphogenesis;;regulation of synapse structure or activity;;anatomical structure morphogenesis')">structure</a>&nbsp; 
+<a style="font-size:12;font-weight:500; color:#005500;" onclick="highlightCell('tumor necrosis factor superfamily cytokine production;;regulation of tumor necrosis factor superfamily cytokine production')">superfamily</a>&nbsp; 
+<a style="font-size:15;font-weight:500; color:#005500;" onclick="highlightCell('positive regulation of synapse assembly;;regulation of synapse assembly;;regulation of synapse organization;;synapse organization;;regulation of synapse structure or activity')">synapse</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('synaptic membrane')">synaptic</a>&nbsp; 
+<a style="font-size:13;font-weight:500; color:#005500;" onclick="highlightCell('nervous system development;;system development;;embryonic skeletal system development')">system</a>&nbsp; 
+<a style="font-size:12;font-weight:500; color:#005500;" onclick="highlightCell('DNA-binding transcription factor activity, RNA polymerase II-specific;;DNA-binding transcription factor activity')">transcription</a>&nbsp; 
+<a style="font-size:12;font-weight:500; color:#005500;" onclick="highlightCell('regulation of epithelial to mesenchymal transition;;epithelial to mesenchymal transition')">transition</a>&nbsp; 
+<a style="font-size:13;font-weight:500; color:#005500;" onclick="highlightCell('tumor necrosis factor superfamily cytokine production;;tumor necrosis factor production;;regulation of tumor necrosis factor superfamily cytokine production')">tumor</a>&nbsp; 
+<a style="font-size:11;font-weight:500; color:#005500;" onclick="highlightCell('blood vessel morphogenesis')">vessel</a>&nbsp; 
+<input type='hidden' id='clicked' value='' />
+</div></td></tr>
+<tr style="font-size:8pt;"><td colspan="8">
+<a href="showTranslation?highlight=G" target="_blank"><b>2375</b> genes (97.7%)</a> from the input list are present in at least one GO category.<br>
+The total number of genes from the background list present in at least one GO category is <b>3916</b>.<br>
+</td></tr>
+<tr>
+<td style="background-color:#E1E1E1;font-weight:bold;">select<br><span class="pseudolink" onclick="selectEsets('g', true);">all</span> <span class="pseudolink" onclick="selectEsets('g', false);">none</span></td>
+<td style="background-color:#E1E1E1;font-weight:bold;">gene ontology term</td>
+<td style="background-color:#E1E1E1;font-weight:bold;">category,<br>level</td>
+<td style="background-color:#E1E1E1;font-weight:bold;">set size</td>
+<td style="background-color:#E1E1E1;font-weight:bold;">candidates<br>contained</td>
+<td style="background-color:#E1E1E1;font-weight:bold;">p-value</td>
+<td style="background-color:#E1E1E1;font-weight:bold;">q-value</td>
+<td style="background-color:#E1E1E1;font-weight:bold;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1FFE1;"><input type="checkbox" name="objs:list" value="g0"></td>
+<td id="positive regulation of synapse assembly" style="background-color:#E1FFE1;">GO:0051965&nbsp;&nbsp; positive regulation of synapse assembly</td>
+<td style="background-color:#E1FFE1;">BP 5</td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=0" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">67(<span style="color:red;">22</span>)</a></td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=0" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">21 (95.5%)</span></a></td>
+<td style="background-color:#E1FFE1;">0.000247</td>
+<td style="background-color:#E1FFE1;">0.358</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1E1FF;"><input type="checkbox" name="objs:list" value="g1"></td>
+<td id="postsynaptic membrane" style="background-color:#E1E1FF;">GO:0045211&nbsp;&nbsp; postsynaptic membrane</td>
+<td style="background-color:#E1E1FF;">CC 3</td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=1" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">323(<span style="color:red;">90</span>)</a></td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=1" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">70 (77.8%)</span></a></td>
+<td style="background-color:#E1E1FF;">0.000381</td>
+<td style="background-color:#E1E1FF;">0.0906</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1FFE1;"><input type="checkbox" name="objs:list" value="g2"></td>
+<td id="multicellular organism development" style="background-color:#E1FFE1;">GO:0007275&nbsp;&nbsp; multicellular organism development</td>
+<td style="background-color:#E1FFE1;">BP 2</td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=2" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">5289(<span style="color:red;">1310</span>)</a></td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=2" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">843 (64.4%)</span></a></td>
+<td style="background-color:#E1FFE1;">0.000423</td>
+<td style="background-color:#E1FFE1;">0.0896</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1E1FF;"><input type="checkbox" name="objs:list" value="g3"></td>
+<td id="cell differentiation" style="background-color:#E1E1FF;">GO:0030154&nbsp;&nbsp; cell differentiation</td>
+<td style="background-color:#E1E1FF;">BP 3</td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=3" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">4089(<span style="color:red;">971</span>)</a></td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=3" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">633 (65.2%)</span></a></td>
+<td style="background-color:#E1E1FF;">0.000453</td>
+<td style="background-color:#E1E1FF;">0.208</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1FFE1;"><input type="checkbox" name="objs:list" value="g4"></td>
+<td id="embryonic placenta development" style="background-color:#E1FFE1;">GO:0001892&nbsp;&nbsp; embryonic placenta development</td>
+<td style="background-color:#E1FFE1;">BP 3</td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=4" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">89(<span style="color:red;">29</span>)</a></td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=4" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">26 (89.7%)</span></a></td>
+<td style="background-color:#E1FFE1;">0.000577</td>
+<td style="background-color:#E1FFE1;">0.208</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1E1FF;"><input type="checkbox" name="objs:list" value="g5"></td>
+<td id="glutamate receptor signaling pathway" style="background-color:#E1E1FF;">GO:0007215&nbsp;&nbsp; glutamate receptor signaling pathway</td>
+<td style="background-color:#E1E1FF;">BP 4</td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=5" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">92(<span style="color:red;">32</span>)</a></td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=5" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">28 (87.5%)</span></a></td>
+<td style="background-color:#E1E1FF;">0.000859</td>
+<td style="background-color:#E1E1FF;">0.42</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1FFE1;"><input type="checkbox" name="objs:list" value="g6"></td>
+<td id="smooth muscle cell differentiation" style="background-color:#E1FFE1;">GO:0051145&nbsp;&nbsp; smooth muscle cell differentiation</td>
+<td style="background-color:#E1FFE1;">BP 5</td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=6" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">57(<span style="color:red;">19</span>)</a></td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=6" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">18 (94.7%)</span></a></td>
+<td style="background-color:#E1FFE1;">0.000975</td>
+<td style="background-color:#E1FFE1;">0.551</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1E1FF;"><input type="checkbox" name="objs:list" value="g7"></td>
+<td id="regulation of synapse assembly" style="background-color:#E1E1FF;">GO:0051963&nbsp;&nbsp; regulation of synapse assembly</td>
+<td style="background-color:#E1E1FF;">BP 4</td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=7" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">105(<span style="color:red;">35</span>)</a></td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=7" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">30 (85.7%)</span></a></td>
+<td style="background-color:#E1E1FF;">0.00117</td>
+<td style="background-color:#E1E1FF;">0.42</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1FFE1;"><input type="checkbox" name="objs:list" value="g8"></td>
+<td id="placenta development" style="background-color:#E1FFE1;">GO:0001890&nbsp;&nbsp; placenta development</td>
+<td style="background-color:#E1FFE1;">BP 4</td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=8" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">149(<span style="color:red;">42</span>)</a></td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=8" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">35 (83.3%)</span></a></td>
+<td style="background-color:#E1FFE1;">0.00131</td>
+<td style="background-color:#E1FFE1;">0.42</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1E1FF;"><input type="checkbox" name="objs:list" value="g9"></td>
+<td id="cellular developmental process" style="background-color:#E1E1FF;">GO:0048869&nbsp;&nbsp; cellular developmental process</td>
+<td style="background-color:#E1E1FF;">BP 2</td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=9" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">4275(<span style="color:red;">1010</span>)</a></td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=9" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">653 (64.7%)</span></a></td>
+<td style="background-color:#E1E1FF;">0.00136</td>
+<td style="background-color:#E1E1FF;">0.111</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1FFE1;"><input type="checkbox" name="objs:list" value="g10"></td>
+<td id="regulation of synapse organization" style="background-color:#E1FFE1;">GO:0050807&nbsp;&nbsp; regulation of synapse organization</td>
+<td style="background-color:#E1FFE1;">BP 5</td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=10" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">216(<span style="color:red;">59</span>)</a></td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=10" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">47 (79.7%)</span></a></td>
+<td style="background-color:#E1FFE1;">0.00141</td>
+<td style="background-color:#E1FFE1;">0.551</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1E1FF;"><input type="checkbox" name="objs:list" value="g11"></td>
+<td id="generation of neurons" style="background-color:#E1E1FF;">GO:0048699&nbsp;&nbsp; generation of neurons</td>
+<td style="background-color:#E1E1FF;">BP 5</td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=11" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">1483(<span style="color:red;">406</span>)</a></td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=11" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">274 (67.5%)</span></a></td>
+<td style="background-color:#E1E1FF;">0.00157</td>
+<td style="background-color:#E1E1FF;">0.551</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1FFE1;"><input type="checkbox" name="objs:list" value="g12"></td>
+<td id="neurogenesis" style="background-color:#E1FFE1;">GO:0022008&nbsp;&nbsp; neurogenesis</td>
+<td style="background-color:#E1FFE1;">BP 4</td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=12" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">1580(<span style="color:red;">433</span>)</a></td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=12" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">291 (67.2%)</span></a></td>
+<td style="background-color:#E1FFE1;">0.00167</td>
+<td style="background-color:#E1FFE1;">0.42</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1E1FF;"><input type="checkbox" name="objs:list" value="g13"></td>
+<td id="nervous system development" style="background-color:#E1E1FF;">GO:0007399&nbsp;&nbsp; nervous system development</td>
+<td style="background-color:#E1E1FF;">BP 4</td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=13" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">2335(<span style="color:red;">628</span>)</a></td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=13" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">414 (65.9%)</span></a></td>
+<td style="background-color:#E1E1FF;">0.00171</td>
+<td style="background-color:#E1E1FF;">0.42</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1FFE1;"><input type="checkbox" name="objs:list" value="g14"></td>
+<td id="mesenchymal cell differentiation" style="background-color:#E1FFE1;">GO:0048762&nbsp;&nbsp; mesenchymal cell differentiation</td>
+<td style="background-color:#E1FFE1;">BP 4</td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=14" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">208(<span style="color:red;">68</span>)</a></td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=14" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">53 (77.9%)</span></a></td>
+<td style="background-color:#E1FFE1;">0.00179</td>
+<td style="background-color:#E1FFE1;">0.42</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1E1FF;"><input type="checkbox" name="objs:list" value="g15"></td>
+<td id="anatomical structure development" style="background-color:#E1E1FF;">GO:0048856&nbsp;&nbsp; anatomical structure development</td>
+<td style="background-color:#E1E1FF;">BP 2</td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=15" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">5790(<span style="color:red;">1395</span>)</a></td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=15" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">889 (63.7%)</span></a></td>
+<td style="background-color:#E1E1FF;">0.00183</td>
+<td style="background-color:#E1E1FF;">0.111</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1FFE1;"><input type="checkbox" name="objs:list" value="g16"></td>
+<td id="regulation of epithelial to mesenchymal transition" style="background-color:#E1FFE1;">GO:0010717&nbsp;&nbsp; regulation of epithelial to mesenchymal transition</td>
+<td style="background-color:#E1FFE1;">BP 5</td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=16" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">82(<span style="color:red;">26</span>)</a></td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=16" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">23 (88.5%)</span></a></td>
+<td style="background-color:#E1FFE1;">0.0019</td>
+<td style="background-color:#E1FFE1;">0.551</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1E1FF;"><input type="checkbox" name="objs:list" value="g17"></td>
+<td id="regulation of multicellular organismal process" style="background-color:#E1E1FF;">GO:0051239&nbsp;&nbsp; regulation of multicellular organismal process</td>
+<td style="background-color:#E1E1FF;">BP 3</td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=17" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">2989(<span style="color:red;">755</span>)</a></td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=17" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">493 (65.3%)</span></a></td>
+<td style="background-color:#E1E1FF;">0.00196</td>
+<td style="background-color:#E1E1FF;">0.375</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1FFE1;"><input type="checkbox" name="objs:list" value="g18"></td>
+<td id="osteoblast differentiation" style="background-color:#E1FFE1;">GO:0001649&nbsp;&nbsp; osteoblast differentiation</td>
+<td style="background-color:#E1FFE1;">BP 4</td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=18" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">203(<span style="color:red;">61</span>)</a></td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=18" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">48 (78.7%)</span></a></td>
+<td style="background-color:#E1FFE1;">0.00204</td>
+<td style="background-color:#E1FFE1;">0.42</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1E1FF;"><input type="checkbox" name="objs:list" value="g19"></td>
+<td id="labyrinthine layer development" style="background-color:#E1E1FF;">GO:0060711&nbsp;&nbsp; labyrinthine layer development</td>
+<td style="background-color:#E1E1FF;">BP 4</td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=19" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">47(<span style="color:red;">17</span>)</a></td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=19" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">16 (94.1%)</span></a></td>
+<td style="background-color:#E1E1FF;">0.0024</td>
+<td style="background-color:#E1E1FF;">0.432</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1FFE1;"><input type="checkbox" name="objs:list" value="g20"></td>
+<td id="plasma membrane region" style="background-color:#E1FFE1;">GO:0098590&nbsp;&nbsp; plasma membrane region</td>
+<td style="background-color:#E1FFE1;">CC 2</td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=20" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">1185(<span style="color:red;">303</span>)</a></td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=20" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">207 (68.3%)</span></a></td>
+<td style="background-color:#E1FFE1;">0.00245</td>
+<td style="background-color:#E1FFE1;">0.239</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1E1FF;"><input type="checkbox" name="objs:list" value="g21"></td>
+<td id="synapse organization" style="background-color:#E1E1FF;">GO:0050808&nbsp;&nbsp; synapse organization</td>
+<td style="background-color:#E1E1FF;">BP 3</td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=21" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">391(<span style="color:red;">98</span>)</a></td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=21" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">73 (74.5%)</span></a></td>
+<td style="background-color:#E1E1FF;">0.00255</td>
+<td style="background-color:#E1E1FF;">0.375</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1FFE1;"><input type="checkbox" name="objs:list" value="g22"></td>
+<td id="cell adhesion" style="background-color:#E1FFE1;">GO:0007155&nbsp;&nbsp; cell adhesion</td>
+<td style="background-color:#E1FFE1;">BP 2</td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=22" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">1389(<span style="color:red;">297</span>)</a></td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=22" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">203 (68.4%)</span></a></td>
+<td style="background-color:#E1FFE1;">0.0026</td>
+<td style="background-color:#E1FFE1;">0.111</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1E1FF;"><input type="checkbox" name="objs:list" value="g23"></td>
+<td id="ossification" style="background-color:#E1E1FF;">GO:0001503&nbsp;&nbsp; ossification</td>
+<td style="background-color:#E1E1FF;">BP 2</td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=23" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">373(<span style="color:red;">107</span>)</a></td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=23" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">79 (73.8%)</span></a></td>
+<td style="background-color:#E1E1FF;">0.00263</td>
+<td style="background-color:#E1E1FF;">0.111</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1FFE1;"><input type="checkbox" name="objs:list" value="g24"></td>
+<td id="synaptic membrane" style="background-color:#E1FFE1;">GO:0097060&nbsp;&nbsp; synaptic membrane</td>
+<td style="background-color:#E1FFE1;">CC 2</td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=24" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">430(<span style="color:red;">125</span>)</a></td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=24" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">91 (72.8%)</span></a></td>
+<td style="background-color:#E1FFE1;">0.00265</td>
+<td style="background-color:#E1FFE1;">0.239</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1E1FF;"><input type="checkbox" name="objs:list" value="g25"></td>
+<td id="DNA-binding transcription factor activity, RNA polymerase II-specific" style="background-color:#E1E1FF;">GO:0000981&nbsp;&nbsp; DNA-binding transcription factor activity, RNA polymerase II-specific</td>
+<td style="background-color:#E1E1FF;">MF 3</td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=25" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">1646(<span style="color:red;">330</span>)</a></td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=25" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">224 (67.9%)</span></a></td>
+<td style="background-color:#E1E1FF;">0.00273</td>
+<td style="background-color:#E1E1FF;">0.702</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1FFE1;"><input type="checkbox" name="objs:list" value="g26"></td>
+<td id="regulation of cell differentiation" style="background-color:#E1FFE1;">GO:0045595&nbsp;&nbsp; regulation of cell differentiation</td>
+<td style="background-color:#E1FFE1;">BP 4</td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=26" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">1753(<span style="color:red;">475</span>)</a></td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=26" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">316 (66.5%)</span></a></td>
+<td style="background-color:#E1FFE1;">0.00282</td>
+<td style="background-color:#E1FFE1;">0.451</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1E1FF;"><input type="checkbox" name="objs:list" value="g27"></td>
+<td id="anatomical structure formation involved in morphogenesis" style="background-color:#E1E1FF;">GO:0048646&nbsp;&nbsp; anatomical structure formation involved in morphogenesis</td>
+<td style="background-color:#E1E1FF;">BP 2</td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=27" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">1078(<span style="color:red;">304</span>)</a></td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=27" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">207 (68.1%)</span></a></td>
+<td style="background-color:#E1E1FF;">0.00314</td>
+<td style="background-color:#E1E1FF;">0.111</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1FFE1;"><input type="checkbox" name="objs:list" value="g28"></td>
+<td id="DNA-binding transcription factor activity" style="background-color:#E1FFE1;">GO:0003700&nbsp;&nbsp; DNA-binding transcription factor activity</td>
+<td style="background-color:#E1FFE1;">MF 2</td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=28" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">1750(<span style="color:red;">351</span>)</a></td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=28" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">237 (67.5%)</span></a></td>
+<td style="background-color:#E1FFE1;">0.00316</td>
+<td style="background-color:#E1FFE1;">0.215</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1E1FF;"><input type="checkbox" name="objs:list" value="g29"></td>
+<td id="calcium ion binding" style="background-color:#E1E1FF;">GO:0005509&nbsp;&nbsp; calcium ion binding</td>
+<td style="background-color:#E1E1FF;">MF 5</td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=29" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">706(<span style="color:red;">144</span>)</a></td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=29" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">103 (71.5%)</span></a></td>
+<td style="background-color:#E1E1FF;">0.00367</td>
+<td style="background-color:#E1E1FF;">0.956</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1FFE1;"><input type="checkbox" name="objs:list" value="g30"></td>
+<td id="cell development" style="background-color:#E1FFE1;">GO:0048468&nbsp;&nbsp; cell development</td>
+<td style="background-color:#E1FFE1;">BP 3</td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=30" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">2110(<span style="color:red;">556</span>)</a></td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=30" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">366 (65.8%)</span></a></td>
+<td style="background-color:#E1FFE1;">0.00381</td>
+<td style="background-color:#E1FFE1;">0.375</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1E1FF;"><input type="checkbox" name="objs:list" value="g31"></td>
+<td id="mesenchyme development" style="background-color:#E1E1FF;">GO:0060485&nbsp;&nbsp; mesenchyme development</td>
+<td style="background-color:#E1E1FF;">BP 4</td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=31" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">266(<span style="color:red;">93</span>)</a></td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=31" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">69 (74.2%)</span></a></td>
+<td style="background-color:#E1E1FF;">0.00393</td>
+<td style="background-color:#E1E1FF;">0.455</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1FFE1;"><input type="checkbox" name="objs:list" value="g32"></td>
+<td id="epithelial to mesenchymal transition" style="background-color:#E1FFE1;">GO:0001837&nbsp;&nbsp; epithelial to mesenchymal transition</td>
+<td style="background-color:#E1FFE1;">BP 5</td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=32" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">131(<span style="color:red;">42</span>)</a></td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=32" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">34 (81.0%)</span></a></td>
+<td style="background-color:#E1FFE1;">0.00402</td>
+<td style="background-color:#E1FFE1;">0.867</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1E1FF;"><input type="checkbox" name="objs:list" value="g33"></td>
+<td id="embryo implantation" style="background-color:#E1E1FF;">GO:0007566&nbsp;&nbsp; embryo implantation</td>
+<td style="background-color:#E1E1FF;">BP 2</td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=33" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">48(<span style="color:red;">11</span>)</a></td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=33" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">11 (100.0%)</span></a></td>
+<td style="background-color:#E1E1FF;">0.00405</td>
+<td style="background-color:#E1E1FF;">0.123</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1FFE1;"><input type="checkbox" name="objs:list" value="g34"></td>
+<td id="tumor necrosis factor superfamily cytokine production" style="background-color:#E1FFE1;">GO:0071706&nbsp;&nbsp; tumor necrosis factor superfamily cytokine production</td>
+<td style="background-color:#E1FFE1;">BP 3</td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=34" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">141(<span style="color:red;">24</span>)</a></td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=34" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">21 (87.5%)</span></a></td>
+<td style="background-color:#E1FFE1;">0.00412</td>
+<td style="background-color:#E1FFE1;">0.375</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1E1FF;"><input type="checkbox" name="objs:list" value="g35"></td>
+<td id="tumor necrosis factor production" style="background-color:#E1E1FF;">GO:0032640&nbsp;&nbsp; tumor necrosis factor production</td>
+<td style="background-color:#E1E1FF;">BP 4</td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=35" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">135(<span style="color:red;">24</span>)</a></td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=35" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">21 (87.5%)</span></a></td>
+<td style="background-color:#E1E1FF;">0.00412</td>
+<td style="background-color:#E1E1FF;">0.455</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1FFE1;"><input type="checkbox" name="objs:list" value="g36"></td>
+<td id="establishment of chromosome localization" style="background-color:#E1FFE1;">GO:0051303&nbsp;&nbsp; establishment of chromosome localization</td>
+<td style="background-color:#E1FFE1;">BP 4</td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=36" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">78(<span style="color:red;">24</span>)</a></td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=36" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">21 (87.5%)</span></a></td>
+<td style="background-color:#E1FFE1;">0.00412</td>
+<td style="background-color:#E1FFE1;">0.455</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1E1FF;"><input type="checkbox" name="objs:list" value="g37"></td>
+<td id="chromosome localization" style="background-color:#E1E1FF;">GO:0050000&nbsp;&nbsp; chromosome localization</td>
+<td style="background-color:#E1E1FF;">BP 4</td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=37" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">79(<span style="color:red;">24</span>)</a></td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=37" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">21 (87.5%)</span></a></td>
+<td style="background-color:#E1E1FF;">0.00412</td>
+<td style="background-color:#E1E1FF;">0.455</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1FFE1;"><input type="checkbox" name="objs:list" value="g38"></td>
+<td id="megakaryocyte differentiation" style="background-color:#E1FFE1;">GO:0030219&nbsp;&nbsp; megakaryocyte differentiation</td>
+<td style="background-color:#E1FFE1;">BP 5</td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=38" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">94(<span style="color:red;">20</span>)</a></td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=38" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">18 (90.0%)</span></a></td>
+<td style="background-color:#E1FFE1;">0.00418</td>
+<td style="background-color:#E1FFE1;">0.867</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1E1FF;"><input type="checkbox" name="objs:list" value="g39"></td>
+<td id="system development" style="background-color:#E1E1FF;">GO:0048731&nbsp;&nbsp; system development</td>
+<td style="background-color:#E1E1FF;">BP 3</td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=39" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">4713(<span style="color:red;">1195</span>)</a></td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=39" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">762 (63.8%)</span></a></td>
+<td style="background-color:#E1E1FF;">0.00444</td>
+<td style="background-color:#E1E1FF;">0.375</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1FFE1;"><input type="checkbox" name="objs:list" value="g40"></td>
+<td id="neuron differentiation" style="background-color:#E1FFE1;">GO:0030182&nbsp;&nbsp; neuron differentiation</td>
+<td style="background-color:#E1FFE1;">BP 4</td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=40" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">1338(<span style="color:red;">362</span>)</a></td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=40" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">243 (67.1%)</span></a></td>
+<td style="background-color:#E1FFE1;">0.00447</td>
+<td style="background-color:#E1FFE1;">0.459</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1E1FF;"><input type="checkbox" name="objs:list" value="g41"></td>
+<td id="regulation of synapse structure or activity" style="background-color:#E1E1FF;">GO:0050803&nbsp;&nbsp; regulation of synapse structure or activity</td>
+<td style="background-color:#E1E1FF;">BP 3</td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=41" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">225(<span style="color:red;">61</span>)</a></td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=41" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">47 (77.0%)</span></a></td>
+<td style="background-color:#E1E1FF;">0.00489</td>
+<td style="background-color:#E1E1FF;">0.375</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1FFE1;"><input type="checkbox" name="objs:list" value="g42"></td>
+<td id="postsynapse" style="background-color:#E1FFE1;">GO:0098794&nbsp;&nbsp; postsynapse</td>
+<td style="background-color:#E1FFE1;">CC 2</td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=42" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">613(<span style="color:red;">154</span>)</a></td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=42" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">109 (70.8%)</span></a></td>
+<td style="background-color:#E1FFE1;">0.00493</td>
+<td style="background-color:#E1FFE1;">0.296</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1E1FF;"><input type="checkbox" name="objs:list" value="g43"></td>
+<td id="embryo development" style="background-color:#E1E1FF;">GO:0009790&nbsp;&nbsp; embryo development</td>
+<td style="background-color:#E1E1FF;">BP 3</td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=43" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">984(<span style="color:red;">295</span>)</a></td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=43" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">200 (67.8%)</span></a></td>
+<td style="background-color:#E1E1FF;">0.00499</td>
+<td style="background-color:#E1E1FF;">0.375</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1FFE1;"><input type="checkbox" name="objs:list" value="g44"></td>
+<td id="regulation of cellular component biogenesis" style="background-color:#E1FFE1;">GO:0044087&nbsp;&nbsp; regulation of cellular component biogenesis</td>
+<td style="background-color:#E1FFE1;">BP 3</td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=44" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">959(<span style="color:red;">239</span>)</a></td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=44" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">164 (68.6%)</span></a></td>
+<td style="background-color:#E1FFE1;">0.00519</td>
+<td style="background-color:#E1FFE1;">0.375</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1E1FF;"><input type="checkbox" name="objs:list" value="g45"></td>
+<td id="female pregnancy" style="background-color:#E1E1FF;">GO:0007565&nbsp;&nbsp; female pregnancy</td>
+<td style="background-color:#E1E1FF;">BP 3</td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=45" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">191(<span style="color:red;">54</span>)</a></td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=45" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">42 (77.8%)</span></a></td>
+<td style="background-color:#E1E1FF;">0.00571</td>
+<td style="background-color:#E1E1FF;">0.376</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1FFE1;"><input type="checkbox" name="objs:list" value="g46"></td>
+<td id="regulation of osteoblast differentiation" style="background-color:#E1FFE1;">GO:0045667&nbsp;&nbsp; regulation of osteoblast differentiation</td>
+<td style="background-color:#E1FFE1;">BP 5</td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=46" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">111(<span style="color:red;">34</span>)</a></td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=46" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">28 (82.4%)</span></a></td>
+<td style="background-color:#E1FFE1;">0.00571</td>
+<td style="background-color:#E1FFE1;">0.953</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1E1FF;"><input type="checkbox" name="objs:list" value="g47"></td>
+<td id="regulation of tumor necrosis factor superfamily cytokine production" style="background-color:#E1E1FF;">GO:1903555&nbsp;&nbsp; regulation of tumor necrosis factor superfamily cytokine production</td>
+<td style="background-color:#E1E1FF;">BP 5</td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=47" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">138(<span style="color:red;">23</span>)</a></td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=47" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">20 (87.0%)</span></a></td>
+<td style="background-color:#E1E1FF;">0.00601</td>
+<td style="background-color:#E1E1FF;">0.953</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1FFE1;"><input type="checkbox" name="objs:list" value="g48"></td>
+<td id="blood vessel morphogenesis" style="background-color:#E1FFE1;">GO:0048514&nbsp;&nbsp; blood vessel morphogenesis</td>
+<td style="background-color:#E1FFE1;">BP 4</td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=48" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">576(<span style="color:red;">164</span>)</a></td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=48" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">115 (70.1%)</span></a></td>
+<td style="background-color:#E1FFE1;">0.0064</td>
+<td style="background-color:#E1FFE1;">0.613</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1E1FF;"><input type="checkbox" name="objs:list" value="g49"></td>
+<td id="embryonic skeletal system development" style="background-color:#E1E1FF;">GO:0048706&nbsp;&nbsp; embryonic skeletal system development</td>
+<td style="background-color:#E1E1FF;">BP 5</td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=49" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">126(<span style="color:red;">37</span>)</a></td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=49" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">30 (81.1%)</span></a></td>
+<td style="background-color:#E1E1FF;">0.00658</td>
+<td style="background-color:#E1E1FF;">0.953</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1FFE1;"><input type="checkbox" name="objs:list" value="g50"></td>
+<td id="neuron recognition" style="background-color:#E1FFE1;">GO:0008038&nbsp;&nbsp; neuron recognition</td>
+<td style="background-color:#E1FFE1;">BP 3</td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=50" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">47(<span style="color:red;">10</span>)</a></td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=50" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">10 (100.0%)</span></a></td>
+<td style="background-color:#E1FFE1;">0.00668</td>
+<td style="background-color:#E1FFE1;">0.403</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1E1FF;"><input type="checkbox" name="objs:list" value="g51"></td>
+<td id="embryonic organ development" style="background-color:#E1E1FF;">GO:0048568&nbsp;&nbsp; embryonic organ development</td>
+<td style="background-color:#E1E1FF;">BP 4</td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=51" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">424(<span style="color:red;">120</span>)</a></td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=51" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">86 (71.7%)</span></a></td>
+<td style="background-color:#E1E1FF;">0.00704</td>
+<td style="background-color:#E1E1FF;">0.633</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1FFE1;"><input type="checkbox" name="objs:list" value="g52"></td>
+<td id="negative regulation of cell differentiation" style="background-color:#E1FFE1;">GO:0045596&nbsp;&nbsp; negative regulation of cell differentiation</td>
+<td style="background-color:#E1FFE1;">BP 5</td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=52" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">706(<span style="color:red;">197</span>)</a></td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=52" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">136 (69.0%)</span></a></td>
+<td style="background-color:#E1FFE1;">0.00763</td>
+<td style="background-color:#E1FFE1;">0.963</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1E1FF;"><input type="checkbox" name="objs:list" value="g53"></td>
+<td id="anatomical structure morphogenesis" style="background-color:#E1E1FF;">GO:0009653&nbsp;&nbsp; anatomical structure morphogenesis</td>
+<td style="background-color:#E1E1FF;">BP 2</td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=53" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">2560(<span style="color:red;">670</span>)</a></td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=53" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">434 (64.8%)</span></a></td>
+<td style="background-color:#E1E1FF;">0.00892</td>
+<td style="background-color:#E1E1FF;">0.236</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1FFE1;"><input type="checkbox" name="objs:list" value="g54"></td>
+<td id="coenzyme metabolic process" style="background-color:#E1FFE1;">GO:0006732&nbsp;&nbsp; coenzyme metabolic process</td>
+<td style="background-color:#E1FFE1;">BP 4</td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=54" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">362(<span style="color:red;">101</span>)</a></td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=54" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">73 (72.3%)</span></a></td>
+<td style="background-color:#E1FFE1;">0.0091</td>
+<td style="background-color:#E1FFE1;">0.749</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1E1FF;"><input type="checkbox" name="objs:list" value="g55"></td>
+<td id="regulation of neurotransmitter receptor activity" style="background-color:#E1E1FF;">GO:0099601&nbsp;&nbsp; regulation of neurotransmitter receptor activity</td>
+<td style="background-color:#E1E1FF;">BP 4</td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=55" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">58(<span style="color:red;">18</span>)</a></td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=55" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">16 (88.9%)</span></a></td>
+<td style="background-color:#E1E1FF;">0.00938</td>
+<td style="background-color:#E1E1FF;">0.749</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1FFE1;"><input type="checkbox" name="objs:list" value="g56"></td>
+<td id="regulation of glutamate receptor signaling pathway" style="background-color:#E1FFE1;">GO:1900449&nbsp;&nbsp; regulation of glutamate receptor signaling pathway</td>
+<td style="background-color:#E1FFE1;">BP 5</td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=56" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">48(<span style="color:red;">18</span>)</a></td>
+<td style="background-color:#E1FFE1;font-weight:bold;"><a href="showSetDetails?sp=g&st=56" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">16 (88.9%)</span></a></td>
+<td style="background-color:#E1FFE1;">0.00938</td>
+<td style="background-color:#E1FFE1;">0.963</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+<tr>
+<td style="background-color:#E1E1FF;"><input type="checkbox" name="objs:list" value="g57"></td>
+<td id="embryonic morphogenesis" style="background-color:#E1E1FF;">GO:0048598&nbsp;&nbsp; embryonic morphogenesis</td>
+<td style="background-color:#E1E1FF;">BP 3</td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=57" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()">573(<span style="color:red;">184</span>)</a></td>
+<td style="background-color:#E1E1FF;font-weight:bold;"><a href="showSetDetails?sp=g&st=57" target="_blank" onmouseover="ddrivetip('click to view set details','#cbe6cb')" onmouseout="hideddrivetip()"><span style="color:red;">127 (69.0%)</span></a></td>
+<td style="background-color:#E1E1FF;">0.00988</td>
+<td style="background-color:#E1E1FF;">0.443</td>
+<td style="background-color:#f9f9f9;"></td>
+</tr>
+</table>
+<br><br>
+<input type="submit" value="Visualize selected sets" class="cpdbutton" onclick="if (browser.isIE) {alert('This visualization tool uses state-of-the-art web technology which is not supported by the MS Internet Explorer browser. Please use another browser (e.g. Firefox, Safari, Chrome or Opera) to work with ConsensusPathDB.');}">
+</form>
+</body>
+</html>

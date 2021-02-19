@@ -1,0 +1,2 @@
+p-value	q-value	complex_name	source	members_input_overlap	members_input_overlap_geneids	size	effective_size
+0.00146310386649	0.751879053197	Wnt:Frizzled:Arrow/LRP5/6	INOH	WNT2B; WNT3A; FZD2; FZD3; FZD4; FZD6; FZD8; FZD9; WNT10B; FZD10; WNT5A; WNT7A; WNT1; WNT11; WNT7B	2535; 7471; 7474; 7476; 7477; 7480; 7481; 7482; 7976; 8322; 8323; 8325; 8326; 11211; 89780	31	15

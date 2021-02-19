@@ -1,0 +1,3 @@
+p-value	q-value	pathway	source	external_id	members_input_overlap	members_input_overlap_geneids	size	effective_size
+0.00663730491919	0.366265029802	Zinc transporters	Reactome	R-HSA-435354	SLC39A4; SLC30A1	7779; 55630	17	2
+0.00663730491919	0.366265029802	Metal ion SLC transporters	Reactome	R-HSA-425410	SLC39A4; SLC30A1	7779; 55630	26	2

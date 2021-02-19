@@ -1,0 +1,157 @@
+DEBUG:toil.lib.bioio:Root logger is at level 'DEBUG', 'toil' logger at level 'DEBUG'.
+DEBUG:toil.lib.bioio:Root logger is at level 'DEBUG', 'toil' logger at level 'DEBUG'.
+DEBUG:rdflib:RDFLib Version: 4.2.2
+DEBUG:toil.jobStores.fileJobStore:Path to job store directory is '/beegfs/group_dv/home/RCui/killifish_genomes/phastcon/cactus/jobStore'.
+DEBUG:toil.jobStores.abstractJobStore:The workflow ID is: '40185ad2-a64d-4731-8e07-bcdc6c53cdf1'
+INFO:cactus.progressive.projectWrapper:Using config from path /beegfs/group_dv/software/source/cactus_env/lib/python2.7/site-packages/cactus/cactus_progressive_config.xml.
+INFO:toil.lib.bioio:xmlRoot = <multi_cactus inputSequences="xmac5.0male/softmasked.fa Fhet3.0.2/softmasked.fa austrofundulus/softmasked.fa kryptolebias/softmasked.fa PLP/softmasked.fa CTO/softmasked.fa AAU/softmasked.fa NOR/softmasked.fa NFZ2.0/softmasked.fa">
+	<tree>((xmac:0.0625331663221,fundulus:0.0954429018242)Anc1:0.0566378970463,((austrofundulus:0.0921512825152,kryptolebias:0.0432473353156)Anc3:0.031784508135,(PLP:0.0814685639747,(CTO:0.0515395448469,(AAU:0.0214712458876,(NOR:0.00285257005796,NFZ:0.00364845497804)Anc7:0.0317491268704)Anc6:0.0429334624999)Anc5:0.0203573633192)Anc4:0.0106479654213)Anc2:0.0179815215491)Anc0;</tree>
+	<cactus experiment_path="/beegfs/group_dv/home/RCui/tmp/tmpJzc1R8/progressiveAlignment/Anc0/Anc0_experiment.xml" name="Anc0" />
+	<cactus experiment_path="/beegfs/group_dv/home/RCui/tmp/tmpJzc1R8/progressiveAlignment/Anc1/Anc1_experiment.xml" name="Anc1" />
+	<cactus experiment_path="/beegfs/group_dv/home/RCui/tmp/tmpJzc1R8/progressiveAlignment/Anc2/Anc2_experiment.xml" name="Anc2" />
+	<cactus experiment_path="/beegfs/group_dv/home/RCui/tmp/tmpJzc1R8/progressiveAlignment/Anc3/Anc3_experiment.xml" name="Anc3" />
+	<cactus experiment_path="/beegfs/group_dv/home/RCui/tmp/tmpJzc1R8/progressiveAlignment/Anc4/Anc4_experiment.xml" name="Anc4" />
+	<cactus experiment_path="/beegfs/group_dv/home/RCui/tmp/tmpJzc1R8/progressiveAlignment/Anc5/Anc5_experiment.xml" name="Anc5" />
+	<cactus experiment_path="/beegfs/group_dv/home/RCui/tmp/tmpJzc1R8/progressiveAlignment/Anc6/Anc6_experiment.xml" name="Anc6" />
+	<cactus experiment_path="/beegfs/group_dv/home/RCui/tmp/tmpJzc1R8/progressiveAlignment/Anc7/Anc7_experiment.xml" name="Anc7" />
+</multi_cactus>
+DEBUG:toil.resource:Module dir is /beegfs/group_dv/software/source/cactus_env/lib/python2.7/site-packages
+DEBUG:toil.common:Using the single machine batch system
+DEBUG:toil.common:Obtained node ID 18d0ea3b-6df0-4c07-8604-7d68350a3948 from file /proc/sys/kernel/random/boot_id
+DEBUG:toil.common:Created the workflow directory at /beegfs/group_dv/home/RCui/tmp/toil-40185ad2-a64d-4731-8e07-bcdc6c53cdf1-18d0ea3b-6df0-4c07-8604-7d68350a3948
+DEBUG:toil.batchSystems.singleMachine:Setting up the thread pool with 400 workers, given a minimum CPU fraction of 0.100000 and a maximum CPU value of 40.
+DEBUG:toil.common:No user script to auto-deploy.
+DEBUG:toil.common:Written the environment for the jobs to the environment file
+DEBUG:toil.common:Caching all jobs in job store
+DEBUG:toil.common:0 jobs downloaded.
+INFO:toil:Running Toil version 3.19.0-0feb1d4d1b4fc66062fc4dbc5d8f7fb046df39e6.
+DEBUG:toil:Configuration: {'maxLocalJobs': 40, 'rescueJobsFrequency': 3600, 'logLevel': 'DEBUG', 'minNodes': None, 'targetTime': 1800, 'jobStore': u'file:/beegfs/group_dv/home/RCui/killifish_genomes/phastcon/cactus/jobStore', 'linkImports': False, 'manualMemArgs': False, 'forceDockerAppliance': False, 'nodeOptions': None, 'nodeTypes': [], 'servicePollingInterval': 60, 'workDir': None, 'stats': False, 'disableCaching': True, 'maxPreemptableServiceJobs': 9223372036854775807, 'environment': {}, 'parasolMaxBatches': 10000, 'cleanWorkDir': 'onSuccess', 'disableChaining': True, 'maxCores': 40, 'sseKey': None, 'maxMemory': 263066746880, 'maxDisk': 5368709120000, 'cwl': False, 'scaleInterval': 60, 'deadlockWait': 3600, 'defaultPreemptable': False, 'clusterStats': None, 'defaultCores': 1, 'cseKey': None, 'betaInertia': 0.1, 'metrics': False, 'maxNodes': [10], 'scale': 1, 'writeLogs': 'logs/', 'runCwlInternalJobsOnWorkers': False, 'disableAutoDeployment': False, 'badWorker': 0.0, 'defaultDisk': 2147483648, 'mesosMasterAddress': '134.107.226.168:5050', 'restart': False, 'useAsync': True, 'preemptableCompensation': 0.0, 'parasolCommand': 'parasol', 'workflowID': '40185ad2-a64d-4731-8e07-bcdc6c53cdf1', 'maxServiceJobs': 9223372036854775807, 'readGlobalFileMutableByDefault': False, 'badWorkerFailInterval': 0.01, 'statePollingWait': 1, 'debugWorker': False, 'maxLogFileSize': 64000, 'defaultMemory': 2147483648, 'workflowAttemptNumber': 0, 'maxJobDuration': 9223372036854775807, 'clean': 'onSuccess', 'provisioner': None, 'batchSystem': 'singleMachine', 'retryCount': 5, 'writeLogsGzip': None, 'nodeStorage': 50}
+DEBUG:toil.realtimeLogger:Real-time logging disabled
+DEBUG:toil.toilState:Found job to run: U/M/jobvnwiwT, with command: True, with checkpoint: False, with  services: False, with stack: False
+DEBUG:toil.leader:Found 1 jobs to start and 0 jobs with successors to run
+DEBUG:toil.leader:Checked batch system has no running jobs and no updated jobs
+DEBUG:toil.serviceManager:Initializing service manager
+DEBUG:toil.leader:Built the jobs list, currently have 1 jobs to update and 0 jobs issued
+DEBUG:toil.leader:Updating status of job 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT with ID U/M/jobvnwiwT: with result status: 0
+DEBUG:toil.batchSystems.singleMachine:Issuing the command: _toil_worker RunCactusPreprocessorThenProgressiveDown file:/beegfs/group_dv/home/RCui/killifish_genomes/phastcon/cactus/jobStore U/M/jobvnwiwT with memory: 3565158400, cores: 1, disk: 2147483648
+INFO:toil.leader:Issued job 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT with job batch system ID: 0 and cores: 1, disk: 2.0 G, and memory: 3.3 G
+DEBUG:toil.batchSystems.singleMachine:Acquiring 3565158400 bytes of memory from a pool of 263066746880.
+DEBUG:toil.batchSystems.singleMachine:Acquiring 10 fractional cores from a pool of 400 to satisfy a request of 1.000000 cores
+DEBUG:toil.jobStores.fileJobStore:Path to job store directory is '/beegfs/group_dv/home/RCui/killifish_genomes/phastcon/cactus/jobStore'.
+DEBUG:toil.common:Obtained node ID 18d0ea3b-6df0-4c07-8604-7d68350a3948 from file /proc/sys/kernel/random/boot_id
+ERROR:toil.batchSystems.singleMachine:Got exit code 1 (indicating failure) from job _toil_worker RunCactusPreprocessorThenProgressiveDown file:/beegfs/group_dv/home/RCui/killifish_genomes/phastcon/cactus/jobStore U/M/jobvnwiwT.
+DEBUG:toil.batchSystems.singleMachine:Finished job. self.coreFractions ~ 400 and self.memory ~ 263066746880
+DEBUG:toil.batchSystems.singleMachine:Ran jobID: 0 with exit value: 1
+WARNING:toil.leader:Job failed with exit value 1: 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT
+DEBUG:toil.leader:Job 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT continues to exist (i.e. has more to do)
+WARNING:toil.leader:No log file is present, despite job failing: 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT
+WARNING:toil.jobGraph:Due to failure we are reducing the remaining retry count of job 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT with ID U/M/jobvnwiwT to 5
+DEBUG:toil.leader:Added job: 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT to active jobs
+DEBUG:toil.leader:Built the jobs list, currently have 1 jobs to update and 0 jobs issued
+DEBUG:toil.leader:Updating status of job 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT with ID U/M/jobvnwiwT: with result status: 1
+DEBUG:toil.batchSystems.singleMachine:Issuing the command: _toil_worker RunCactusPreprocessorThenProgressiveDown file:/beegfs/group_dv/home/RCui/killifish_genomes/phastcon/cactus/jobStore U/M/jobvnwiwT with memory: 3565158400, cores: 1, disk: 2147483648
+DEBUG:toil.batchSystems.singleMachine:Acquiring 3565158400 bytes of memory from a pool of 263066746880.
+INFO:toil.leader:Issued job 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT with job batch system ID: 1 and cores: 1, disk: 2.0 G, and memory: 3.3 G
+DEBUG:toil.batchSystems.singleMachine:Acquiring 10 fractional cores from a pool of 400 to satisfy a request of 1.000000 cores
+DEBUG:toil.jobStores.fileJobStore:Path to job store directory is '/beegfs/group_dv/home/RCui/killifish_genomes/phastcon/cactus/jobStore'.
+DEBUG:toil.common:Obtained node ID 18d0ea3b-6df0-4c07-8604-7d68350a3948 from file /proc/sys/kernel/random/boot_id
+ERROR:toil.batchSystems.singleMachine:Got exit code 1 (indicating failure) from job _toil_worker RunCactusPreprocessorThenProgressiveDown file:/beegfs/group_dv/home/RCui/killifish_genomes/phastcon/cactus/jobStore U/M/jobvnwiwT.
+DEBUG:toil.batchSystems.singleMachine:Finished job. self.coreFractions ~ 400 and self.memory ~ 263066746880
+DEBUG:toil.batchSystems.singleMachine:Ran jobID: 1 with exit value: 1
+WARNING:toil.leader:Job failed with exit value 1: 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT
+DEBUG:toil.leader:Job 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT continues to exist (i.e. has more to do)
+WARNING:toil.leader:No log file is present, despite job failing: 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT
+WARNING:toil.jobGraph:Due to failure we are reducing the remaining retry count of job 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT with ID U/M/jobvnwiwT to 4
+DEBUG:toil.leader:Added job: 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT to active jobs
+DEBUG:toil.leader:Built the jobs list, currently have 1 jobs to update and 0 jobs issued
+DEBUG:toil.leader:Updating status of job 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT with ID U/M/jobvnwiwT: with result status: 1
+DEBUG:toil.batchSystems.singleMachine:Issuing the command: _toil_worker RunCactusPreprocessorThenProgressiveDown file:/beegfs/group_dv/home/RCui/killifish_genomes/phastcon/cactus/jobStore U/M/jobvnwiwT with memory: 3565158400, cores: 1, disk: 2147483648
+INFO:toil.leader:Issued job 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT with job batch system ID: 2 and cores: 1, disk: 2.0 G, and memory: 3.3 G
+DEBUG:toil.batchSystems.singleMachine:Acquiring 3565158400 bytes of memory from a pool of 263066746880.
+DEBUG:toil.batchSystems.singleMachine:Acquiring 10 fractional cores from a pool of 400 to satisfy a request of 1.000000 cores
+DEBUG:toil.jobStores.fileJobStore:Path to job store directory is '/beegfs/group_dv/home/RCui/killifish_genomes/phastcon/cactus/jobStore'.
+DEBUG:toil.common:Obtained node ID 18d0ea3b-6df0-4c07-8604-7d68350a3948 from file /proc/sys/kernel/random/boot_id
+ERROR:toil.batchSystems.singleMachine:Got exit code 1 (indicating failure) from job _toil_worker RunCactusPreprocessorThenProgressiveDown file:/beegfs/group_dv/home/RCui/killifish_genomes/phastcon/cactus/jobStore U/M/jobvnwiwT.
+DEBUG:toil.batchSystems.singleMachine:Finished job. self.coreFractions ~ 400 and self.memory ~ 263066746880
+DEBUG:toil.batchSystems.singleMachine:Ran jobID: 2 with exit value: 1
+WARNING:toil.leader:Job failed with exit value 1: 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT
+DEBUG:toil.leader:Job 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT continues to exist (i.e. has more to do)
+WARNING:toil.leader:No log file is present, despite job failing: 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT
+WARNING:toil.jobGraph:Due to failure we are reducing the remaining retry count of job 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT with ID U/M/jobvnwiwT to 3
+DEBUG:toil.leader:Added job: 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT to active jobs
+DEBUG:toil.leader:Built the jobs list, currently have 1 jobs to update and 0 jobs issued
+DEBUG:toil.leader:Updating status of job 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT with ID U/M/jobvnwiwT: with result status: 1
+DEBUG:toil.batchSystems.singleMachine:Issuing the command: _toil_worker RunCactusPreprocessorThenProgressiveDown file:/beegfs/group_dv/home/RCui/killifish_genomes/phastcon/cactus/jobStore U/M/jobvnwiwT with memory: 3565158400, cores: 1, disk: 2147483648
+INFO:toil.leader:Issued job 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT with job batch system ID: 3 and cores: 1, disk: 2.0 G, and memory: 3.3 G
+DEBUG:toil.batchSystems.singleMachine:Acquiring 3565158400 bytes of memory from a pool of 263066746880.
+DEBUG:toil.batchSystems.singleMachine:Acquiring 10 fractional cores from a pool of 400 to satisfy a request of 1.000000 cores
+DEBUG:toil.jobStores.fileJobStore:Path to job store directory is '/beegfs/group_dv/home/RCui/killifish_genomes/phastcon/cactus/jobStore'.
+DEBUG:toil.common:Obtained node ID 18d0ea3b-6df0-4c07-8604-7d68350a3948 from file /proc/sys/kernel/random/boot_id
+ERROR:toil.batchSystems.singleMachine:Got exit code 1 (indicating failure) from job _toil_worker RunCactusPreprocessorThenProgressiveDown file:/beegfs/group_dv/home/RCui/killifish_genomes/phastcon/cactus/jobStore U/M/jobvnwiwT.
+DEBUG:toil.batchSystems.singleMachine:Finished job. self.coreFractions ~ 400 and self.memory ~ 263066746880
+DEBUG:toil.batchSystems.singleMachine:Ran jobID: 3 with exit value: 1
+WARNING:toil.leader:Job failed with exit value 1: 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT
+DEBUG:toil.leader:Job 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT continues to exist (i.e. has more to do)
+WARNING:toil.leader:No log file is present, despite job failing: 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT
+WARNING:toil.jobGraph:Due to failure we are reducing the remaining retry count of job 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT with ID U/M/jobvnwiwT to 2
+DEBUG:toil.leader:Added job: 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT to active jobs
+DEBUG:toil.leader:Built the jobs list, currently have 1 jobs to update and 0 jobs issued
+DEBUG:toil.leader:Updating status of job 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT with ID U/M/jobvnwiwT: with result status: 1
+DEBUG:toil.batchSystems.singleMachine:Issuing the command: _toil_worker RunCactusPreprocessorThenProgressiveDown file:/beegfs/group_dv/home/RCui/killifish_genomes/phastcon/cactus/jobStore U/M/jobvnwiwT with memory: 3565158400, cores: 1, disk: 2147483648
+INFO:toil.leader:Issued job 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT with job batch system ID: 4 and cores: 1, disk: 2.0 G, and memory: 3.3 G
+DEBUG:toil.batchSystems.singleMachine:Acquiring 3565158400 bytes of memory from a pool of 263066746880.
+DEBUG:toil.batchSystems.singleMachine:Acquiring 10 fractional cores from a pool of 400 to satisfy a request of 1.000000 cores
+DEBUG:toil.jobStores.fileJobStore:Path to job store directory is '/beegfs/group_dv/home/RCui/killifish_genomes/phastcon/cactus/jobStore'.
+DEBUG:toil.common:Obtained node ID 18d0ea3b-6df0-4c07-8604-7d68350a3948 from file /proc/sys/kernel/random/boot_id
+ERROR:toil.batchSystems.singleMachine:Got exit code 1 (indicating failure) from job _toil_worker RunCactusPreprocessorThenProgressiveDown file:/beegfs/group_dv/home/RCui/killifish_genomes/phastcon/cactus/jobStore U/M/jobvnwiwT.
+DEBUG:toil.batchSystems.singleMachine:Finished job. self.coreFractions ~ 400 and self.memory ~ 263066746880
+DEBUG:toil.batchSystems.singleMachine:Ran jobID: 4 with exit value: 1
+WARNING:toil.leader:Job failed with exit value 1: 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT
+DEBUG:toil.leader:Job 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT continues to exist (i.e. has more to do)
+WARNING:toil.leader:No log file is present, despite job failing: 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT
+WARNING:toil.jobGraph:Due to failure we are reducing the remaining retry count of job 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT with ID U/M/jobvnwiwT to 1
+DEBUG:toil.leader:Added job: 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT to active jobs
+DEBUG:toil.leader:Built the jobs list, currently have 1 jobs to update and 0 jobs issued
+DEBUG:toil.leader:Updating status of job 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT with ID U/M/jobvnwiwT: with result status: 1
+DEBUG:toil.batchSystems.singleMachine:Issuing the command: _toil_worker RunCactusPreprocessorThenProgressiveDown file:/beegfs/group_dv/home/RCui/killifish_genomes/phastcon/cactus/jobStore U/M/jobvnwiwT with memory: 3565158400, cores: 1, disk: 2147483648
+INFO:toil.leader:Issued job 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT with job batch system ID: 5 and cores: 1, disk: 2.0 G, and memory: 3.3 G
+DEBUG:toil.batchSystems.singleMachine:Acquiring 3565158400 bytes of memory from a pool of 263066746880.
+DEBUG:toil.batchSystems.singleMachine:Acquiring 10 fractional cores from a pool of 400 to satisfy a request of 1.000000 cores
+DEBUG:toil.jobStores.fileJobStore:Path to job store directory is '/beegfs/group_dv/home/RCui/killifish_genomes/phastcon/cactus/jobStore'.
+DEBUG:toil.common:Obtained node ID 18d0ea3b-6df0-4c07-8604-7d68350a3948 from file /proc/sys/kernel/random/boot_id
+ERROR:toil.batchSystems.singleMachine:Got exit code 1 (indicating failure) from job _toil_worker RunCactusPreprocessorThenProgressiveDown file:/beegfs/group_dv/home/RCui/killifish_genomes/phastcon/cactus/jobStore U/M/jobvnwiwT.
+DEBUG:toil.batchSystems.singleMachine:Finished job. self.coreFractions ~ 400 and self.memory ~ 263066746880
+DEBUG:toil.batchSystems.singleMachine:Ran jobID: 5 with exit value: 1
+WARNING:toil.leader:Job failed with exit value 1: 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT
+DEBUG:toil.leader:Job 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT continues to exist (i.e. has more to do)
+WARNING:toil.leader:No log file is present, despite job failing: 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT
+WARNING:toil.jobGraph:Due to failure we are reducing the remaining retry count of job 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT with ID U/M/jobvnwiwT to 0
+DEBUG:toil.leader:Added job: 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT to active jobs
+DEBUG:toil.leader:Built the jobs list, currently have 1 jobs to update and 0 jobs issued
+DEBUG:toil.leader:Updating status of job 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT with ID U/M/jobvnwiwT: with result status: 1
+DEBUG:toil.leader:Found new failed successors:  of job: 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT
+WARNING:toil.leader:Job 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT with ID U/M/jobvnwiwT is completely failed
+DEBUG:toil.leader:Finished the main loop: no jobs left to run.
+DEBUG:toil.serviceManager:Waiting for service manager thread to finish ...
+DEBUG:toil.serviceManager:Received signal to quit starting services.
+DEBUG:toil.serviceManager:... finished shutting down the service manager. Took 1.8104031086 seconds
+DEBUG:toil.statsAndLogging:Waiting for stats and logging collator thread to finish ...
+DEBUG:toil.statsAndLogging:... finished collating stats and logs. Took 0.255208015442 seconds
+INFO:toil.leader:Finished toil run with 1 failed jobs.
+INFO:toil.leader:Failed jobs at end of the run: 'RunCactusPreprocessorThenProgressiveDown' U/M/jobvnwiwT
+DEBUG:toil.common:Shutting down batch system ...
+DEBUG:toil.common:Obtained node ID 18d0ea3b-6df0-4c07-8604-7d68350a3948 from file /proc/sys/kernel/random/boot_id
+DEBUG:toil.common:... finished shutting down the batch system in 0.0486710071564 seconds.
+Importing 9 sequences
+Traceback (most recent call last):
+  File "/beegfs/group_dv/software/source/cactus_env/bin/cactus", line 10, in <module>
+    sys.exit(main())
+  File "/beegfs/group_dv/software/source/cactus_env/lib/python2.7/site-packages/cactus/progressive/cactus_progressive.py", line 520, in main
+    halID = toil.start(RunCactusPreprocessorThenProgressiveDown(options, project, memory=configWrapper.getDefaultMemory()))
+  File "/beegfs/group_dv/software/source/cactus_env/lib/python2.7/site-packages/toil/common.py", line 771, in start
+    return self._runMainLoop(rootJobGraph)
+  File "/beegfs/group_dv/software/source/cactus_env/lib/python2.7/site-packages/toil/common.py", line 1044, in _runMainLoop
+    jobCache=self._jobCache).run()
+  File "/beegfs/group_dv/software/source/cactus_env/lib/python2.7/site-packages/toil/leader.py", line 245, in run
+    raise FailedJobsException(self.config.jobStore, self.toilState.totalFailedJobs, self.jobStore)
+toil.leader.FailedJobsException

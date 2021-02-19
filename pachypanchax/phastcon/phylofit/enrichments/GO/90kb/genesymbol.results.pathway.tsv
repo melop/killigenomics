@@ -1,0 +1,2 @@
+p-value	q-value	pathway	source	external_id	members_input_overlap	members_input_overlap_geneids	size	effective_size
+0.00517839176033	0.991557975841	COPII-mediated vesicle transport	Reactome	R-HSA-204005	SEC22A; CTSC; TMED2; SEC13; TFG; TRAPPC2; TRAPPC4; CNIH2; STX17; GOSR2; TRAPPC3; ANKRD28	10959; 6399; 27095; 9570; 1075; 10342; 6396; 55014; 51399; 23243; 26984; 254263	69	12

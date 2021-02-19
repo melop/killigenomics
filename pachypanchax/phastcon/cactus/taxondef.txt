@@ -1,0 +1,13 @@
+  # Sequence data for progressive alignment of 9 genomes
+  # Xmac, Fht, (outgroups), Alm, PLP, Nfur
+((xmac:0.06253316632207905,fundulus:0.0954429018242494):0.05663789704625294,((austrofundulus:0.09215128251518404,kryptolebias:0.04324733531555083):0.03178450813500114,(PLP:0.08146856397467603,(CTO:0.05153954484694684,(AAU:0.02147124588755681,(NOR:0.0028525700579618745,NFZ:0.00364845497803522):0.03174912687039739):0.042933462499873155):0.02035736331916091):0.010647965421278948):0.017981521549146465);
+*xmac xmac5.0male/softmasked.fa
+*fundulus Fhet3.0.2/softmasked.fa
+*austrofundulus austrofundulus/softmasked.fa
+*kryptolebias kryptolebias/softmasked.fa
+*PLP PLP/softmasked.fa
+*CTO CTO/softmasked.fa
+*AAU AAU/softmasked.fa
+*NOR NOR/softmasked.fa
+*NFZ NFZ2.0/softmasked.fa
+

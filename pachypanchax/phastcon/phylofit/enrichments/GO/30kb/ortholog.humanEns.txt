@@ -1,0 +1,1 @@
+/beegfs/group_dv/home/RCui/killifish_genomes/annotation/UPhO_fundulus_alm/assigngenesymbol/map2humanensemblID/killi_orthologs_table.ensemblinformed.humanEns.txt

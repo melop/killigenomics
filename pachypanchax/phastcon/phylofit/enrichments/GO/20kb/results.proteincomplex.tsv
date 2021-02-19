@@ -1,0 +1,2 @@
+p-value	q-value	complex_name	source	members_input_overlap	members_input_overlap_geneids	size	effective_size
+0.00432371117178	0.123973185336	CF IIAm complex (Cleavage factor IIAm complex)	CORUM	ENSG00000160201; ENSG00000167005; ENSG00000020922; ENSG00000011304	4361; 5725; 7307; 11051	16	5

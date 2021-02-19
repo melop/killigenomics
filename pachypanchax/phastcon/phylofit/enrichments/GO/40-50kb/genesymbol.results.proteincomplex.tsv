@@ -1,0 +1,2 @@
+p-value	q-value	complex_name	source	members_input_overlap	members_input_overlap_geneids	size	effective_size
+0.00483804117108	0.0634533389787	FKBP1A (FKBP12) forms a complex with SMURF1, SMAD7 and ACVR1B (ALK4)	InnateDB	SMAD7; ACVR1B	91; 4092	4	2

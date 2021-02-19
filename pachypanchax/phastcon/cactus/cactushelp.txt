@@ -1,0 +1,425 @@
+usage: cactus [-h] [--logOff] [--logCritical] [--logError] [--logWarning]
+              [--logInfo] [--logDebug] [--logLevel LOGLEVEL]
+              [--logFile LOGFILE] [--rotatingLogging] [--workDir WORKDIR]
+              [--stats] [--clean {always,onError,never,onSuccess}]
+              [--cleanWorkDir {always,never,onSuccess,onError}]
+              [--clusterStats [CLUSTERSTATS]] [--restart]
+              [--batchSystem BATCHSYSTEM] [--disableHotDeployment]
+              [--disableAutoDeployment] [--maxLocalJobs MAXLOCALJOBS]
+              [--manualMemArgs] [--runCwlInternalJobsOnWorkers]
+              [--parasolCommand PARASOLCOMMAND]
+              [--parasolMaxBatches PARASOLMAXBATCHES] [--scale SCALE]
+              [--linkImports] [--mesosMaster MESOSMASTERADDRESS]
+              [--provisioner {aws,azure,gce}] [--nodeTypes NODETYPES]
+              [--nodeOptions NODEOPTIONS] [--minNodes MINNODES]
+              [--maxNodes MAXNODES] [--targetTime TARGETTIME]
+              [--betaInertia BETAINERTIA] [--scaleInterval SCALEINTERVAL]
+              [--preemptableCompensation PREEMPTABLECOMPENSATION]
+              [--nodeStorage NODESTORAGE] [--metrics]
+              [--maxServiceJobs MAXSERVICEJOBS]
+              [--maxPreemptableServiceJobs MAXPREEMPTABLESERVICEJOBS]
+              [--deadlockWait DEADLOCKWAIT]
+              [--statePollingWait STATEPOLLINGWAIT] [--defaultMemory INT]
+              [--defaultCores FLOAT] [--defaultDisk INT]
+              [--defaultPreemptable] [--maxCores INT] [--maxMemory INT]
+              [--maxDisk INT] [--retryCount RETRYCOUNT]
+              [--maxJobDuration MAXJOBDURATION]
+              [--rescueJobsFrequency RESCUEJOBSFREQUENCY] [--disableCaching]
+              [--disableChaining] [--maxLogFileSize MAXLOGFILESIZE]
+              [--writeLogs [WRITELOGS]] [--writeLogsGzip [WRITELOGSGZIP]]
+              [--realTimeLogging] [--sseKey SSEKEY] [--cseKey CSEKEY]
+              [--setEnv NAME=VALUE or NAME]
+              [--servicePollingInterval SERVICEPOLLINGINTERVAL]
+              [--forceDockerAppliance] [--debugWorker] [--badWorker BADWORKER]
+              [--badWorkerFailInterval BADWORKERFAILINTERVAL]
+              [--experiment EXPERIMENTFILE] [--buildAvgs] [--buildReference]
+              [--buildHal] [--buildFasta]
+              [--intermediateResultsUrl INTERMEDIATERESULTSURL]
+              [--database DATABASE] [--configFile CONFIGFILE] [--root ROOT]
+              [--latest] [--containerImage CONTAINERIMAGE]
+              [--binariesMode {docker,local,singularity}]
+              jobStore seqFile outputHal
+
+positional arguments:
+  seqFile               Seq file
+  outputHal             Output HAL file
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --experiment EXPERIMENTFILE
+                        The file containing a link to the experiment
+                        parameters
+  --buildAvgs           Build trees
+  --buildReference      Creates a reference ordering for the flowers
+  --buildHal            Build a hal file
+  --buildFasta          Build a fasta file of the input sequences (and
+                        reference sequence, used with hal output)
+  --intermediateResultsUrl INTERMEDIATERESULTSURL
+                        URL prefix to save intermediate results like DB dumps
+                        to (e.g. prefix-dump-caf, prefix-dump-avg, etc.)
+  --database DATABASE   Database type: tokyo_cabinet or kyoto_tycoon [default:
+                        kyoto_tycoon]
+  --configFile CONFIGFILE
+                        Specify cactus configuration file
+  --root ROOT           Name of ancestral node (which must appear in NEWICK
+                        tree in <seqfile>) to use as a root for the alignment.
+                        Any genomes not below this node in the tree may be
+                        used as outgroups but will never appear in the output.
+                        If no root is specifed then the root of the tree is
+                        used.
+  --latest              Use the latest version of the docker container rather
+                        than pulling one matching this version of cactus
+  --containerImage CONTAINERIMAGE
+                        Use the the specified pre-built containter image
+                        rather than pulling one from quay.io
+  --binariesMode {docker,local,singularity}
+                        The way to run the Cactus binaries
+
+Logging Options:
+  Options that control logging
+
+  --logOff              Same as --logCritical
+  --logCritical         Turn on logging at level CRITICAL and above. (default
+                        is INFO)
+  --logError            Turn on logging at level ERROR and above. (default is
+                        INFO)
+  --logWarning          Turn on logging at level WARNING and above. (default
+                        is INFO)
+  --logInfo             Turn on logging at level INFO and above. (default is
+                        INFO)
+  --logDebug            Turn on logging at level DEBUG and above. (default is
+                        INFO)
+  --logLevel LOGLEVEL   Log at given level (may be either OFF (or CRITICAL),
+                        ERROR, WARN (or WARNING), INFO or DEBUG). (default is
+                        INFO)
+  --logFile LOGFILE     File to log in
+  --rotatingLogging     Turn on rotating logging, which prevents log files
+                        getting too big.
+
+toil core options:
+  Options to specify the location of the Toil workflow and turn on stats
+  collation about the performance of jobs.
+
+  jobStore              The location of the job store for the workflow. A job
+                        store holds persistent information about the jobs and
+                        files in a workflow. If the workflow is run with a
+                        distributed batch system, the job store must be
+                        accessible by all worker nodes. Depending on the
+                        desired job store implementation, the location should
+                        be formatted according to one of the following
+                        schemes: file:<path> where <path> points to a
+                        directory on the file systen aws:<region>:<prefix>
+                        where <region> is the name of an AWS region like us-
+                        west-2 and <prefix> will be prepended to the names of
+                        any top-level AWS resources in use by job store, e.g.
+                        S3 buckets. azure:<account>:<prefix>
+                        google:<project_id>:<prefix> TODO: explain For
+                        backwards compatibility, you may also specify ./foo
+                        (equivalent to file:./foo or just file:foo) or /bar
+                        (equivalent to file:/bar).
+  --workDir WORKDIR     Absolute path to directory where temporary files
+                        generated during the Toil run should be placed. Temp
+                        files and folders will be placed in a directory
+                        toil-<workflowID> within workDir (The workflowID is
+                        generated by Toil and will be reported in the workflow
+                        logs. Default is determined by the variables (TMPDIR,
+                        TEMP, TMP) via mkdtemp. This directory needs to exist
+                        on all machines running jobs.
+  --stats               Records statistics about the toil workflow to be used
+                        by 'toil stats'.
+  --clean {always,onError,never,onSuccess}
+                        Determines the deletion of the jobStore upon
+                        completion of the program. Choices: 'always',
+                        'onError','never', 'onSuccess'. The --stats option
+                        requires information from the jobStore upon completion
+                        so the jobStore will never be deleted withthat flag.
+                        If you wish to be able to restart the run, choose
+                        'never' or 'onSuccess'. Default is 'never' if stats is
+                        enabled, and 'onSuccess' otherwise
+  --cleanWorkDir {always,never,onSuccess,onError}
+                        Determines deletion of temporary worker directory upon
+                        completion of a job. Choices: 'always', 'never',
+                        'onSuccess'. Default = always. WARNING: This option
+                        should be changed for debugging only. Running a full
+                        pipeline with this option could fill your disk with
+                        intermediate data.
+  --clusterStats [CLUSTERSTATS]
+                        If enabled, writes out JSON resource usage statistics
+                        to a file. The default location for this file is the
+                        current working directory, but an absolute path can
+                        also be passed to specify where this file should be
+                        written. This options only applies when using scalable
+                        batch systems.
+
+toil options for restarting an existing workflow:
+  Allows the restart of an existing workflow
+
+  --restart             If --restart is specified then will attempt to restart
+                        existing workflow at the location pointed to by the
+                        --jobStore option. Will raise an exception if the
+                        workflow does not exist
+
+toil options for specifying the batch system:
+  Allows the specification of the batch system, and arguments to the batch
+  system/big batch system (see below).
+
+  --batchSystem BATCHSYSTEM
+                        The type of batch system to run the job(s) with,
+                        currently can be one of LSF, Mesos, Slurm, Torque,
+                        HTCondor, singleMachine, parasol, gridEngine'.
+                        default=singleMachine
+  --disableHotDeployment
+                        Hot-deployment was renamed to auto-deployment. Option
+                        now redirects to --disableAutoDeployment. Left in for
+                        backwards compatibility.
+  --disableAutoDeployment
+                        Should auto-deployment of the user script be
+                        deactivated? If True, the user script/package should
+                        be present at the same location on all workers.
+                        default=false
+  --maxLocalJobs MAXLOCALJOBS
+                        For batch systems that support a local queue for
+                        housekeeping jobs (Mesos, GridEngine, htcondor, lsf,
+                        slurm, torque), the maximum number of these
+                        housekeeping jobs to run on the local system. The
+                        default (equal to the number of cores) is a maximum of
+                        40 concurrent local housekeeping jobs.
+  --manualMemArgs       Do not add the default arguments: 'hv=MEMORY' &
+                        'h_vmem=MEMORY' to the qsub call, and instead rely on
+                        TOIL_GRIDGENGINE_ARGS to supply alternative arguments.
+                        Requires that TOIL_GRIDGENGINE_ARGS be set.
+  --runCwlInternalJobsOnWorkers
+                        Whether to run CWL internal jobs (e.g. CWLScatter) on
+                        the worker nodes instead of the primary node. If false
+                        (default), then all such jobs are run on the primary
+                        node. Setting this to true can speed up the pipeline
+                        for very large workflows with many sub-workflows
+                        and/or scatters, provided that the worker pool is
+                        large enough.
+  --parasolCommand PARASOLCOMMAND
+                        The name or path of the parasol program. Will be
+                        looked up on PATH unless it starts with a slash.
+                        default=parasol
+  --parasolMaxBatches PARASOLMAXBATCHES
+                        Maximum number of job batches the Parasol batch is
+                        allowed to create. One batch is created for jobs with
+                        a a unique set of resource requirements. default=1000
+  --scale SCALE         A scaling factor to change the value of all submitted
+                        tasks's submitted cores. Used in singleMachine batch
+                        system. default=1
+  --linkImports         When using Toil's importFile function for staging,
+                        input files are copied to the job store. Specifying
+                        this option saves space by sym-linking imported files.
+                        As long as caching is enabled Toil will protect the
+                        file automatically by changing the permissions to
+                        read-only.
+  --mesosMaster MESOSMASTERADDRESS
+                        The host and port of the Mesos master separated by
+                        colon. (default: 134.107.226.168:5050)
+
+toil options for autoscaling the cluster of worker nodes:
+  Allows the specification of the minimum and maximum number of nodes in an
+  autoscaled cluster, as well as parameters to control the level of
+  provisioning.
+
+  --provisioner {aws,azure,gce}
+                        The provisioner for cluster auto-scaling. The
+                        currently supported choices are'azure', 'gce', or
+                        'aws'. The default is None.
+  --nodeTypes NODETYPES
+                        List of node types separated by commas. The syntax for
+                        each node type depends on the provisioner used. For
+                        the cgcloud and AWS provisioners this is the name of
+                        an EC2 instance type, optionally followed by a colon
+                        and the price in dollars to bid for a spot instance of
+                        that type, for example 'c3.8xlarge:0.42'.If no spot
+                        bid is specified, nodes of this type will be non-
+                        preemptable.It is acceptable to specify an instance as
+                        both preemptable and non-preemptable, including it
+                        twice in the list. In that case,preemptable nodes of
+                        that type will be preferred when creating new nodes
+                        once the maximum number of preemptable-nodes has
+                        beenreached.
+  --nodeOptions NODEOPTIONS
+                        Options for provisioning the nodes. The syntax depends
+                        on the provisioner used. Neither the CGCloud nor the
+                        AWS provisioner support any node options.
+  --minNodes MINNODES   Mininum number of nodes of each type in the cluster,
+                        if using auto-scaling. This should be provided as a
+                        comma-separated list of the same length as the list of
+                        node types. default=0
+  --maxNodes MAXNODES   Maximum number of nodes of each type in the cluster,
+                        if using autoscaling, provided as a comma-separated
+                        list. The first value is used as a default if the list
+                        length is less than the number of nodeTypes.
+                        default=10
+  --targetTime TARGETTIME
+                        Sets how rapidly you aim to complete jobs in seconds.
+                        Shorter times mean more aggressive parallelization.
+                        The autoscaler attempts to scale up/down so that it
+                        expects all queued jobs will complete within
+                        targetTime seconds. default=1800
+  --betaInertia BETAINERTIA
+                        A smoothing parameter to prevent unnecessary
+                        oscillations in the number of provisioned nodes. This
+                        controls an exponentially weighted moving average of
+                        the estimated number of nodes. A value of 0.0 disables
+                        any smoothing, and a value of 0.9 will smooth so much
+                        that few changes will ever be made. Must be between
+                        0.0 and 0.9. default=0.1
+  --scaleInterval SCALEINTERVAL
+                        The interval (seconds) between assessing if the scale
+                        of the cluster needs to change. default=60
+  --preemptableCompensation PREEMPTABLECOMPENSATION
+                        The preference of the autoscaler to replace
+                        preemptable nodes with non-preemptable nodes, when
+                        preemptable nodes cannot be started for some reason.
+                        Defaults to 0.0. This value must be between 0.0 and
+                        1.0, inclusive. A value of 0.0 disables such
+                        compensation, a value of 0.5 compensates two missing
+                        preemptable nodes with a non-preemptable one. A value
+                        of 1.0 replaces every missing pre-emptable node with a
+                        non-preemptable one.
+  --nodeStorage NODESTORAGE
+                        Specify the size of the root volume of worker nodes
+                        when they are launched in gigabytes. You may want to
+                        set this if your jobs require a lot of disk space. The
+                        default value is 50.
+  --metrics             Enable the prometheus/grafana dashboard for monitoring
+                        CPU/RAM usage, queue size, and issued jobs.
+
+toil options for limiting the number of service jobs and detecting service deadlocks:
+  Allows the specification of the maximum number of service jobs in a
+  cluster. By keeping this limited we can avoid all the nodes being occupied
+  with services, so causing a deadlock
+
+  --maxServiceJobs MAXSERVICEJOBS
+                        The maximum number of service jobs that can be run
+                        concurrently, excluding service jobs running on
+                        preemptable nodes. default=9223372036854775807
+  --maxPreemptableServiceJobs MAXPREEMPTABLESERVICEJOBS
+                        The maximum number of service jobs that can run
+                        concurrently on preemptable nodes.
+                        default=9223372036854775807
+  --deadlockWait DEADLOCKWAIT
+                        The minimum number of seconds to observe the cluster
+                        stuck running only the same service jobs before
+                        throwing a deadlock exception. default=60
+  --statePollingWait STATEPOLLINGWAIT
+                        Time, in seconds, to wait before doing a scheduler
+                        query for job state. Return cached results if within
+                        the waiting period.
+
+toil options for cores/memory requirements:
+  The options to specify default cores/memory requirements (if not specified
+  by the jobs themselves), and to limit the total amount of memory/cores
+  requested from the batch system.
+
+  --defaultMemory INT   The default amount of memory to request for a job.
+                        Only applicable to jobs that do not specify an
+                        explicit value for this requirement. Standard suffixes
+                        like K, Ki, M, Mi, G or Gi are supported. Default is
+                        2.0 Gi
+  --defaultCores FLOAT  The default number of CPU cores to dedicate a job.
+                        Only applicable to jobs that do not specify an
+                        explicit value for this requirement. Fractions of a
+                        core (for example 0.1) are supported on some batch
+                        systems, namely Mesos and singleMachine. Default is
+                        1.0
+  --defaultDisk INT     The default amount of disk space to dedicate a job.
+                        Only applicable to jobs that do not specify an
+                        explicit value for this requirement. Standard suffixes
+                        like K, Ki, M, Mi, G or Gi are supported. Default is
+                        2.0 Gi
+  --defaultPreemptable
+  --maxCores INT        The maximum number of CPU cores to request from the
+                        batch system at any one time. Standard suffixes like
+                        K, Ki, M, Mi, G or Gi are supported. Default is 8.0 Ei
+  --maxMemory INT       The maximum amount of memory to request from the batch
+                        system at any one time. Standard suffixes like K, Ki,
+                        M, Mi, G or Gi are supported. Default is 8.0 Ei
+  --maxDisk INT         The maximum amount of disk space to request from the
+                        batch system at any one time. Standard suffixes like
+                        K, Ki, M, Mi, G or Gi are supported. Default is 8.0 Ei
+
+toil options for rescuing/killing/restarting jobs:
+  The options for jobs that either run too long/fail or get lost (some batch
+  systems have issues!)
+
+  --retryCount RETRYCOUNT
+                        Number of times to retry a failing job before giving
+                        up and labeling job failed. default=1
+  --maxJobDuration MAXJOBDURATION
+                        Maximum runtime of a job (in seconds) before we kill
+                        it (this is a lower bound, and the actual time before
+                        killing the job may be longer).
+                        default=9223372036854775807
+  --rescueJobsFrequency RESCUEJOBSFREQUENCY
+                        Period of time to wait (in seconds) between checking
+                        for missing/overlong jobs, that is jobs which get lost
+                        by the batch system. Expert parameter. default=3600
+
+Toil Miscellaneous Options:
+  Miscellaneous Options
+
+  --disableCaching      Disables caching in the file store. This flag must be
+                        set to use a batch system that does not support
+                        caching such as Grid Engine, Parasol, LSF, or Slurm
+  --disableChaining     Disables chaining of jobs (chaining uses one job's
+                        resource allocation for its successor job if
+                        possible).
+  --maxLogFileSize MAXLOGFILESIZE
+                        The maximum size of a job log file to keep (in bytes),
+                        log files larger than this will be truncated to the
+                        last X bytes. Setting this option to zero will prevent
+                        any truncation. Setting this option to a negative
+                        value will truncate from the beginning.Default=62.5 K
+  --writeLogs [WRITELOGS]
+                        Write worker logs received by the leader into their
+                        own files at the specified path. The current working
+                        directory will be used if a path is not specified
+                        explicitly. Note: By default only the logs of failed
+                        jobs are returned to leader. Set log level to 'debug'
+                        to get logs back from successful jobs, and adjust
+                        'maxLogFileSize' to control the truncation limit for
+                        worker logs.
+  --writeLogsGzip [WRITELOGSGZIP]
+                        Identical to --writeLogs except the logs files are
+                        gzipped on the leader.
+  --realTimeLogging     Enable real-time logging from workers to masters
+  --sseKey SSEKEY       Path to file containing 32 character key to be used
+                        for server-side encryption on awsJobStore or
+                        googleJobStore. SSE will not be used if this flag is
+                        not passed.
+  --cseKey CSEKEY       Path to file containing 256-bit key to be used for
+                        client-side encryption on azureJobStore. By default,
+                        no encryption is used.
+  --setEnv NAME=VALUE or NAME, -e NAME=VALUE or NAME
+                        Set an environment variable early on in the worker. If
+                        VALUE is omitted, it will be looked up in the current
+                        environment. Independently of this option, the worker
+                        will try to emulate the leader's environment before
+                        running a job. Using this option, a variable can be
+                        injected into the worker process itself before it is
+                        started.
+  --servicePollingInterval SERVICEPOLLINGINTERVAL
+                        Interval of time service jobs wait between polling for
+                        the existence of the keep-alive flag (defailt=60)
+  --forceDockerAppliance
+                        Disables sanity checking the existence of the docker
+                        image specified by TOIL_APPLIANCE_SELF, which Toil
+                        uses to provision mesos for autoscaling.
+
+toil debug options:
+  Debug options
+
+  --debugWorker         Experimental no forking mode for local debugging.
+                        Specifically, workers are not forked and stderr/stdout
+                        are not redirected to the log.
+  --badWorker BADWORKER
+                        For testing purposes randomly kill 'badWorker'
+                        proportion of jobs using SIGKILL, default=0.0
+  --badWorkerFailInterval BADWORKERFAILINTERVAL
+                        When killing the job pick uniformly within the
+                        interval from 0.0 to 'badWorkerFailInterval' seconds
+                        after the worker starts, default=0.01

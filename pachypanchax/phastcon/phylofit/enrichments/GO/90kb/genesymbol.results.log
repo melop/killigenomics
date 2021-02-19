@@ -1,0 +1,8 @@
+Reading target.txt column 3 for ids
+Reading bg.txt column 3 for ids
+Converted gene list: /beegfs/group_dv/home/RCui/killifish_genomes/pathway_analyses/tmp/4261884642/55_target.txt.txt
+Converted background list: /beegfs/group_dv/home/RCui/killifish_genomes/pathway_analyses/tmp/4261884642/4_bg.txt.txt
+Submitting gene lists to server...
+Server responded.
+Converted background genes: 2851 of 4752; candidate genes:  1868 of 3079
+Submitting options to server ...

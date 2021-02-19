@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<cactus_workflow_experiment config="/beegfs/group_dv/home/RCui/killifish_genomes/phastcon/cactus/config.xml" outputSequenceDir="./sequenceData" sequences="/beegfs/group_dv/home/RCui/killifish_genomes/phastcon/cactus/xmac5.0male/softmasked.fa /beegfs/group_dv/home/RCui/killifish_genomes/phastcon/cactus/Fhet3.0.2/softmasked.fa /beegfs/group_dv/home/RCui/killifish_genomes/phastcon/cactus/austrofundulus/softmasked.fa /beegfs/group_dv/home/RCui/killifish_genomes/phastcon/cactus/kryptolebias/softmasked.fa /beegfs/group_dv/home/RCui/killifish_genomes/phastcon/cactus/PLP/softmasked.fa /beegfs/group_dv/home/RCui/killifish_genomes/phastcon/cactus/CTO/softmasked.fa /beegfs/group_dv/home/RCui/killifish_genomes/phastcon/cactus/AAU/softmasked.fa /beegfs/group_dv/home/RCui/killifish_genomes/phastcon/cactus/NOR/softmasked.fa /beegfs/group_dv/home/RCui/killifish_genomes/phastcon/cactus/NFZ2.0/softmasked.fa " species_tree="((xmac:0.0625331663221,fundulus:0.0954429018242):0.0566378970463,((austrofundulus:0.0921512825152,kryptolebias:0.0432473353156):0.031784508135,(PLP:0.0814685639747,(CTO:0.0515395448469,(AAU:0.0214712458876,(NOR:0.00285257005796,NFZ:0.00364845497804):0.0317491268704):0.0429334624999):0.0203573633192):0.0106479654213):0.0179815215491);">
+	<cactus_disk>
+		<st_kv_database_conf type="kyoto_tycoon">
+			<kyoto_tycoon in_memory="1" port="1978" snapshot="0"/>
+		</st_kv_database_conf>
+	</cactus_disk>
+</cactus_workflow_experiment>

@@ -1,0 +1,8 @@
+p-value	q-value	pathway	source	external_id	members_input_overlap	members_input_overlap_geneids	size	effective_size
+0.00706267156675	0.200481773311	Signaling by NOTCH4	Reactome	R-HSA-1980150	ADAM10; JAG1	102; 182	12	2
+0.00706267156675	0.200481773311	Receptor-ligand binding initiates the second proteolytic cleavage of Notch receptor	Reactome	R-HSA-156988	ADAM10; JAG1	102; 182	13	2
+0.00706267156675	0.200481773311	Constitutive Signaling by NOTCH1 HD Domain Mutants	Reactome	R-HSA-2691232	ADAM10; JAG1	102; 182	15	2
+0.00706267156675	0.200481773311	Signaling by NOTCH1 HD Domain Mutants in Cancer	Reactome	R-HSA-2691230	ADAM10; JAG1	102; 182	15	2
+0.00706267156675	0.200481773311	Aflatoxin activation and detoxification	Reactome	R-HSA-5423646	GGT1; GGT7	2678; 2686	22	2
+0.00706267156675	0.200481773311	Lysosomal oligosaccharide catabolism	Reactome	R-HSA-8853383	MAN2C1; MANBA	4123; 4126	4	2
+0.00971788662516	0.200481773311	Sema4D induced cell migration and growth-cone collapse	Reactome	R-HSA-416572	MYL6; ARHGEF12; ROCK2	9475; 23365; 4637	20	6

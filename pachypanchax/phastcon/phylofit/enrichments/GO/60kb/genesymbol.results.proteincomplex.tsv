@@ -1,0 +1,2 @@
+p-value	q-value	complex_name	source	members_input_overlap	members_input_overlap_geneids	size	effective_size
+0.00328110152739	0.548985788599	ECM proteins:Integrin alpha:Integrin beta:Cav-1:Fyn:Shc	INOH	COL8A1; ITGB6; SHC3; COL9A2; BGN; ITGA11; COL4A1; COL16A1; LUM; CAV1	633; 857; 1282; 1295; 1298; 1307; 3694; 4060; 22801; 53358	83	11

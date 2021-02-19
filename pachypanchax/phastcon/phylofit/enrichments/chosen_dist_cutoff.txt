@@ -1,0 +1,10 @@
+null device 
+          1 
+median background:  -99239.5median plp:  -171635
+	Wilcoxon rank sum test with continuity correction
+
+data:  datBg$V19 and datTarget$V19
+W = 2.4457e+10, p-value < 2.2e-16
+alternative hypothesis: true location shift is not equal to 0
+
+Chosen distance cutoff is: 10^ 5.25   =  177827.9 

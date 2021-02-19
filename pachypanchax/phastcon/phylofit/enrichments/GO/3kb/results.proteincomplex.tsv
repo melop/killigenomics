@@ -1,0 +1,3 @@
+p-value	q-value	complex_name	source	members_input_overlap	members_input_overlap_geneids	size	effective_size
+0.00153960205815	0.0153960205815	POU5F1:SOX2:NANOG:KLF4:PBX1:SMAD2:FOXP1-ES:NANOG gene	Reactome	ENSG00000111704; ENSG00000185630	5087; 79923	9	2
+0.00876935893017	0.0438467946508	TFTC-type histone acetyl transferase complex	CORUM	ENSG00000108510; ENSG00000108773	2648; 9969	11	4
