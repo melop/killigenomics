@@ -1,0 +1,1 @@
+/beegfs/group_dv/software/source/bcftools-1.6/bcftools merge -o PLP_merged.vcf.gz -O z --threads 20 /beegfs/group_dv/home/RCui/killifish_genomes/WGS_seq/bwamap/PLPv1.2LG/vcfs/vcfs_ind/PML.var.vcf.gz ~/killifish_genomes/WGS_seq/bwamap/PLPv1.2LG/vcfs/vcfs_ind/PLP_*.realigned.var.vcf.gz
