@@ -1,0 +1,660 @@
+
+TreeMix v. 1.13
+$Revision: 231 $
+
+npop:7 nsnp:4048660
+WARNING: no counts at SNP 1222213 population 1
+WARNING: no counts at SNP 1222213 population 2
+WARNING: no counts at SNP 1222213 population 3
+WARNING: no counts at SNP 1222213 population 4
+WARNING: no counts at SNP 1222214 population 1
+WARNING: no counts at SNP 1222214 population 2
+WARNING: no counts at SNP 1222214 population 3
+WARNING: no counts at SNP 1222214 population 4
+WARNING: no counts at SNP 1222215 population 1
+WARNING: no counts at SNP 1222215 population 2
+WARNING: no counts at SNP 1222215 population 4
+WARNING: no counts at SNP 1222216 population 1
+WARNING: no counts at SNP 1222216 population 2
+WARNING: no counts at SNP 1222216 population 4
+WARNING: no counts at SNP 1222217 population 1
+WARNING: no counts at SNP 1222217 population 2
+WARNING: no counts at SNP 1222217 population 3
+WARNING: no counts at SNP 1222217 population 4
+WARNING: no counts at SNP 1222218 population 1
+WARNING: no counts at SNP 1222218 population 2
+WARNING: no counts at SNP 1222218 population 3
+WARNING: no counts at SNP 1222218 population 4
+WARNING: no counts at SNP 1222219 population 1
+WARNING: no counts at SNP 1222219 population 2
+WARNING: no counts at SNP 1222219 population 4
+WARNING: no counts at SNP 1222220 population 1
+WARNING: no counts at SNP 1222220 population 2
+WARNING: no counts at SNP 1222220 population 3
+WARNING: no counts at SNP 1222220 population 4
+WARNING: no counts at SNP 1222221 population 1
+WARNING: no counts at SNP 1222221 population 2
+WARNING: no counts at SNP 1222221 population 3
+WARNING: no counts at SNP 1222221 population 4
+WARNING: no counts at SNP 1222222 population 1
+WARNING: no counts at SNP 1222222 population 2
+WARNING: no counts at SNP 1222222 population 4
+WARNING: no counts at SNP 1222223 population 1
+WARNING: no counts at SNP 1222223 population 2
+WARNING: no counts at SNP 1222223 population 4
+WARNING: no counts at SNP 1222224 population 1
+WARNING: no counts at SNP 1222224 population 2
+WARNING: no counts at SNP 1222224 population 4
+WARNING: no counts at SNP 1222225 population 1
+WARNING: no counts at SNP 1222225 population 2
+WARNING: no counts at SNP 1222225 population 4
+WARNING: no counts at SNP 1222226 population 1
+WARNING: no counts at SNP 1222226 population 2
+WARNING: no counts at SNP 1222226 population 3
+WARNING: no counts at SNP 1222226 population 4
+WARNING: no counts at SNP 1222227 population 0
+WARNING: no counts at SNP 1222227 population 1
+WARNING: no counts at SNP 1222227 population 2
+WARNING: no counts at SNP 1222227 population 4
+WARNING: no counts at SNP 1222228 population 1
+WARNING: no counts at SNP 1222228 population 2
+WARNING: no counts at SNP 1222228 population 3
+WARNING: no counts at SNP 1222228 population 4
+WARNING: no counts at SNP 1222229 population 1
+WARNING: no counts at SNP 1222229 population 2
+WARNING: no counts at SNP 1222229 population 4
+WARNING: no counts at SNP 1222230 population 1
+WARNING: no counts at SNP 1222230 population 2
+WARNING: no counts at SNP 1222230 population 3
+WARNING: no counts at SNP 1222230 population 4
+WARNING: no counts at SNP 1222231 population 1
+WARNING: no counts at SNP 1222231 population 2
+WARNING: no counts at SNP 1222231 population 3
+WARNING: no counts at SNP 1222231 population 4
+WARNING: no counts at SNP 1222232 population 1
+WARNING: no counts at SNP 1222232 population 2
+WARNING: no counts at SNP 1222232 population 3
+WARNING: no counts at SNP 1222232 population 4
+WARNING: no counts at SNP 1222233 population 1
+WARNING: no counts at SNP 1222233 population 2
+WARNING: no counts at SNP 1222233 population 3
+WARNING: no counts at SNP 1222233 population 4
+WARNING: no counts at SNP 1222234 population 1
+WARNING: no counts at SNP 1222234 population 2
+WARNING: no counts at SNP 1222234 population 3
+WARNING: no counts at SNP 1222234 population 4
+WARNING: no counts at SNP 1222235 population 1
+WARNING: no counts at SNP 1222235 population 2
+WARNING: no counts at SNP 1222235 population 3
+WARNING: no counts at SNP 1222235 population 4
+WARNING: no counts at SNP 1222236 population 1
+WARNING: no counts at SNP 1222236 population 2
+WARNING: no counts at SNP 1222236 population 3
+WARNING: no counts at SNP 1222236 population 4
+WARNING: no counts at SNP 1222237 population 1
+WARNING: no counts at SNP 1222237 population 2
+WARNING: no counts at SNP 1222237 population 3
+WARNING: no counts at SNP 1222237 population 4
+WARNING: no counts at SNP 1222238 population 1
+WARNING: no counts at SNP 1222238 population 2
+WARNING: no counts at SNP 1222238 population 3
+WARNING: no counts at SNP 1222238 population 4
+WARNING: no counts at SNP 1222239 population 1
+WARNING: no counts at SNP 1222239 population 2
+WARNING: no counts at SNP 1222239 population 3
+WARNING: no counts at SNP 1222239 population 4
+WARNING: no counts at SNP 1222240 population 1
+WARNING: no counts at SNP 1222240 population 2
+WARNING: no counts at SNP 1222240 population 3
+WARNING: no counts at SNP 1222240 population 4
+WARNING: no counts at SNP 1222241 population 1
+WARNING: no counts at SNP 1222241 population 2
+WARNING: no counts at SNP 1222241 population 3
+WARNING: no counts at SNP 1222241 population 4
+WARNING: no counts at SNP 1222242 population 1
+WARNING: no counts at SNP 1222242 population 2
+WARNING: no counts at SNP 1222242 population 3
+WARNING: no counts at SNP 1222242 population 4
+WARNING: no counts at SNP 1222243 population 1
+WARNING: no counts at SNP 1222243 population 2
+WARNING: no counts at SNP 1222243 population 3
+WARNING: no counts at SNP 1222243 population 4
+WARNING: no counts at SNP 1222244 population 1
+WARNING: no counts at SNP 1222244 population 2
+WARNING: no counts at SNP 1222244 population 3
+WARNING: no counts at SNP 1222244 population 4
+WARNING: no counts at SNP 1222245 population 1
+WARNING: no counts at SNP 1222245 population 2
+WARNING: no counts at SNP 1222245 population 3
+WARNING: no counts at SNP 1222245 population 4
+WARNING: no counts at SNP 1222246 population 1
+WARNING: no counts at SNP 1222246 population 2
+WARNING: no counts at SNP 1222246 population 3
+WARNING: no counts at SNP 1222246 population 4
+WARNING: no counts at SNP 1222247 population 1
+WARNING: no counts at SNP 1222247 population 2
+WARNING: no counts at SNP 1222247 population 3
+WARNING: no counts at SNP 1222247 population 4
+WARNING: no counts at SNP 1222248 population 1
+WARNING: no counts at SNP 1222248 population 2
+WARNING: no counts at SNP 1222248 population 3
+WARNING: no counts at SNP 1222248 population 4
+WARNING: no counts at SNP 1222249 population 1
+WARNING: no counts at SNP 1222249 population 2
+WARNING: no counts at SNP 1222249 population 3
+WARNING: no counts at SNP 1222249 population 4
+WARNING: no counts at SNP 1222250 population 1
+WARNING: no counts at SNP 1222250 population 2
+WARNING: no counts at SNP 1222250 population 3
+WARNING: no counts at SNP 1222250 population 4
+WARNING: no counts at SNP 1222251 population 1
+WARNING: no counts at SNP 1222251 population 2
+WARNING: no counts at SNP 1222251 population 3
+WARNING: no counts at SNP 1222251 population 4
+WARNING: no counts at SNP 1222252 population 1
+WARNING: no counts at SNP 1222252 population 2
+WARNING: no counts at SNP 1222252 population 3
+WARNING: no counts at SNP 1222252 population 4
+WARNING: no counts at SNP 1222253 population 1
+WARNING: no counts at SNP 1222253 population 2
+WARNING: no counts at SNP 1222253 population 3
+WARNING: no counts at SNP 1222253 population 4
+WARNING: no counts at SNP 1222254 population 1
+WARNING: no counts at SNP 1222254 population 2
+WARNING: no counts at SNP 1222254 population 4
+WARNING: no counts at SNP 1222255 population 1
+WARNING: no counts at SNP 1222255 population 2
+WARNING: no counts at SNP 1222255 population 4
+WARNING: no counts at SNP 1222256 population 1
+WARNING: no counts at SNP 1222256 population 2
+WARNING: no counts at SNP 1222256 population 3
+WARNING: no counts at SNP 1222256 population 4
+WARNING: no counts at SNP 1222257 population 0
+WARNING: no counts at SNP 1222257 population 1
+WARNING: no counts at SNP 1222257 population 2
+WARNING: no counts at SNP 1222257 population 3
+WARNING: no counts at SNP 1222257 population 4
+WARNING: no counts at SNP 1222258 population 1
+WARNING: no counts at SNP 1222258 population 2
+WARNING: no counts at SNP 1222258 population 3
+WARNING: no counts at SNP 1222258 population 4
+WARNING: no counts at SNP 1222259 population 1
+WARNING: no counts at SNP 1222259 population 2
+WARNING: no counts at SNP 1222259 population 3
+WARNING: no counts at SNP 1222259 population 4
+WARNING: no counts at SNP 1222260 population 1
+WARNING: no counts at SNP 1222260 population 2
+WARNING: no counts at SNP 1222260 population 4
+WARNING: no counts at SNP 1222261 population 1
+WARNING: no counts at SNP 1222261 population 2
+WARNING: no counts at SNP 1222261 population 4
+WARNING: no counts at SNP 1222262 population 1
+WARNING: no counts at SNP 1222262 population 2
+WARNING: no counts at SNP 1222262 population 4
+WARNING: no counts at SNP 1222263 population 0
+WARNING: no counts at SNP 1222263 population 1
+WARNING: no counts at SNP 1222263 population 2
+WARNING: no counts at SNP 1222263 population 3
+WARNING: no counts at SNP 1222263 population 4
+WARNING: no counts at SNP 1222264 population 1
+WARNING: no counts at SNP 1222264 population 2
+WARNING: no counts at SNP 1222264 population 3
+WARNING: no counts at SNP 1222264 population 4
+WARNING: no counts at SNP 1222265 population 0
+WARNING: no counts at SNP 1222265 population 1
+WARNING: no counts at SNP 1222265 population 2
+WARNING: no counts at SNP 1222265 population 3
+WARNING: no counts at SNP 1222265 population 4
+WARNING: no counts at SNP 1222266 population 0
+WARNING: no counts at SNP 1222266 population 1
+WARNING: no counts at SNP 1222266 population 2
+WARNING: no counts at SNP 1222266 population 3
+WARNING: no counts at SNP 1222266 population 4
+WARNING: no counts at SNP 1222267 population 1
+WARNING: no counts at SNP 1222267 population 2
+WARNING: no counts at SNP 1222267 population 3
+WARNING: no counts at SNP 1222267 population 4
+WARNING: no counts at SNP 1222268 population 1
+WARNING: no counts at SNP 1222268 population 2
+WARNING: no counts at SNP 1222268 population 3
+WARNING: no counts at SNP 1222268 population 4
+WARNING: no counts at SNP 1222269 population 1
+WARNING: no counts at SNP 1222269 population 2
+WARNING: no counts at SNP 1222269 population 3
+WARNING: no counts at SNP 1222269 population 4
+WARNING: no counts at SNP 1222270 population 1
+WARNING: no counts at SNP 1222270 population 2
+WARNING: no counts at SNP 1222270 population 4
+WARNING: no counts at SNP 1222271 population 1
+WARNING: no counts at SNP 1222271 population 2
+WARNING: no counts at SNP 1222271 population 4
+WARNING: no counts at SNP 1222272 population 1
+WARNING: no counts at SNP 1222272 population 2
+WARNING: no counts at SNP 1222272 population 3
+WARNING: no counts at SNP 1222272 population 4
+WARNING: no counts at SNP 1222273 population 1
+WARNING: no counts at SNP 1222273 population 2
+WARNING: no counts at SNP 1222273 population 4
+WARNING: no counts at SNP 1222274 population 1
+WARNING: no counts at SNP 1222274 population 2
+WARNING: no counts at SNP 1222274 population 3
+WARNING: no counts at SNP 1222274 population 4
+WARNING: no counts at SNP 1222275 population 1
+WARNING: no counts at SNP 1222275 population 2
+WARNING: no counts at SNP 1222275 population 3
+WARNING: no counts at SNP 1222275 population 4
+WARNING: no counts at SNP 1222276 population 1
+WARNING: no counts at SNP 1222276 population 2
+WARNING: no counts at SNP 1222276 population 3
+WARNING: no counts at SNP 1222276 population 4
+WARNING: no counts at SNP 1222277 population 1
+WARNING: no counts at SNP 1222277 population 2
+WARNING: no counts at SNP 1222277 population 3
+WARNING: no counts at SNP 1222277 population 4
+WARNING: no counts at SNP 1222278 population 1
+WARNING: no counts at SNP 1222278 population 2
+WARNING: no counts at SNP 1222278 population 4
+WARNING: no counts at SNP 1222279 population 1
+WARNING: no counts at SNP 1222279 population 2
+WARNING: no counts at SNP 1222279 population 4
+WARNING: no counts at SNP 1222280 population 1
+WARNING: no counts at SNP 1222280 population 2
+WARNING: no counts at SNP 1222280 population 3
+WARNING: no counts at SNP 1222280 population 4
+WARNING: no counts at SNP 1222281 population 1
+WARNING: no counts at SNP 1222281 population 2
+WARNING: no counts at SNP 1222281 population 4
+WARNING: no counts at SNP 1222282 population 1
+WARNING: no counts at SNP 1222282 population 2
+WARNING: no counts at SNP 1222282 population 4
+WARNING: no counts at SNP 1222283 population 1
+WARNING: no counts at SNP 1222283 population 2
+WARNING: no counts at SNP 1222283 population 4
+WARNING: no counts at SNP 1222284 population 1
+WARNING: no counts at SNP 1222284 population 2
+WARNING: no counts at SNP 1222284 population 4
+WARNING: no counts at SNP 1222285 population 1
+WARNING: no counts at SNP 1222285 population 2
+WARNING: no counts at SNP 1222285 population 4
+WARNING: no counts at SNP 1222286 population 1
+WARNING: no counts at SNP 1222286 population 2
+WARNING: no counts at SNP 1222286 population 4
+WARNING: no counts at SNP 1222287 population 1
+WARNING: no counts at SNP 1222287 population 2
+WARNING: no counts at SNP 1222287 population 4
+WARNING: no counts at SNP 1222288 population 1
+WARNING: no counts at SNP 1222288 population 2
+WARNING: no counts at SNP 1222288 population 4
+WARNING: no counts at SNP 1222289 population 1
+WARNING: no counts at SNP 1222289 population 2
+WARNING: no counts at SNP 1222289 population 4
+WARNING: no counts at SNP 1222290 population 1
+WARNING: no counts at SNP 1222290 population 2
+WARNING: no counts at SNP 1222290 population 4
+WARNING: no counts at SNP 1222291 population 1
+WARNING: no counts at SNP 1222291 population 2
+WARNING: no counts at SNP 1222291 population 4
+WARNING: no counts at SNP 1222292 population 1
+WARNING: no counts at SNP 1222292 population 2
+WARNING: no counts at SNP 1222292 population 4
+WARNING: no counts at SNP 1222293 population 1
+WARNING: no counts at SNP 1222293 population 2
+WARNING: no counts at SNP 1222293 population 4
+WARNING: no counts at SNP 1222294 population 1
+WARNING: no counts at SNP 1222294 population 2
+WARNING: no counts at SNP 1222294 population 4
+WARNING: no counts at SNP 1222295 population 1
+WARNING: no counts at SNP 1222295 population 2
+WARNING: no counts at SNP 1222295 population 4
+WARNING: no counts at SNP 1222296 population 1
+WARNING: no counts at SNP 1222296 population 2
+WARNING: no counts at SNP 1222296 population 4
+WARNING: no counts at SNP 1222297 population 1
+WARNING: no counts at SNP 1222297 population 2
+WARNING: no counts at SNP 1222297 population 4
+WARNING: no counts at SNP 1222298 population 1
+WARNING: no counts at SNP 1222298 population 2
+WARNING: no counts at SNP 1222298 population 4
+WARNING: no counts at SNP 1222299 population 1
+WARNING: no counts at SNP 1222299 population 2
+WARNING: no counts at SNP 1222299 population 4
+WARNING: no counts at SNP 1222300 population 1
+WARNING: no counts at SNP 1222300 population 2
+WARNING: no counts at SNP 1222300 population 4
+WARNING: no counts at SNP 1222301 population 1
+WARNING: no counts at SNP 1222301 population 2
+WARNING: no counts at SNP 1222301 population 4
+WARNING: no counts at SNP 1222302 population 1
+WARNING: no counts at SNP 1222302 population 2
+WARNING: no counts at SNP 1222302 population 4
+WARNING: no counts at SNP 1222303 population 1
+WARNING: no counts at SNP 1222303 population 2
+WARNING: no counts at SNP 1222303 population 4
+WARNING: no counts at SNP 1222304 population 1
+WARNING: no counts at SNP 1222304 population 2
+WARNING: no counts at SNP 1222304 population 4
+WARNING: no counts at SNP 1222305 population 1
+WARNING: no counts at SNP 1222305 population 2
+WARNING: no counts at SNP 1222305 population 4
+WARNING: no counts at SNP 1222306 population 1
+WARNING: no counts at SNP 1222306 population 2
+WARNING: no counts at SNP 1222306 population 4
+WARNING: no counts at SNP 1222307 population 1
+WARNING: no counts at SNP 1222307 population 2
+WARNING: no counts at SNP 1222307 population 4
+WARNING: no counts at SNP 1222308 population 0
+WARNING: no counts at SNP 1222308 population 1
+WARNING: no counts at SNP 1222308 population 2
+WARNING: no counts at SNP 1222308 population 4
+WARNING: no counts at SNP 1222309 population 1
+WARNING: no counts at SNP 1222309 population 2
+WARNING: no counts at SNP 1222309 population 3
+WARNING: no counts at SNP 1222309 population 4
+WARNING: no counts at SNP 1222310 population 1
+WARNING: no counts at SNP 1222310 population 2
+WARNING: no counts at SNP 1222310 population 3
+WARNING: no counts at SNP 1222310 population 4
+Estimating covariance matrix in 1686 blocks of size 2400
+SEED: 1585221594
+Starting from:
+((G.MaheSouth:0.100958,D.LaDigue:0.0158897):0.029054,A.PraslinPasquereRiver:0.029054);
+Adding C.PraslinWest [4/7]
+ln(likelihood): -758.85036 
+((G.MaheSouth:0.107626,D.LaDigue:0.0194593):0.0152194,(A.PraslinPasquereRiver:0.0246444,C.PraslinWest:0.0331721):0.0152194);
+Adding B.PraslinPlaineHollandaise [5/7]
+ln(likelihood): -2239.6809 
+((G.MaheSouth:0.10912,(A.PraslinPasquereRiver:0.0203125,(C.PraslinWest:0.00871028,B.PraslinPlaineHollandaise:0.00867973):0.0283109):0.0308631):0.00725901,D.LaDigue:0.00725901);
+Adding F.Curieuse [6/7]
+ln(likelihood): -2624.6258 
+((G.MaheSouth:0.105277,((A.PraslinPasquereRiver:0.0191263,(C.PraslinWest:0.00860784,B.PraslinPlaineHollandaise:0.00867328):0.0317062):0.0137194,F.Curieuse:0.0709185):0.0183551):0.00712121,D.LaDigue:0.00712121);
+Adding E.MaheNorth [7/7]
+ln(likelihood): -2547.6278 
+((F.Curieuse:0.0681325,((G.MaheSouth:0.0814071,E.MaheNorth:0.090453):0.0314166,D.LaDigue:0.0163434):0.0108566):0.00801132,(A.PraslinPasquereRiver:0.0174404,(C.PraslinWest:0.00680259,B.PraslinPlaineHollandaise:0.00719507):0.0318385):0.00801132);
+Testing global rearrangements
+F.Curieuse:0.0681325 G.MaheSouth:0.0814071
+-9957.2555 -2547.6278
+F.Curieuse:0.0681325 (G.MaheSouth:0.0814071,E.MaheNorth:0.090453):0.0314166
+-3451.31 -2547.6278
+F.Curieuse:0.0681325 E.MaheNorth:0.090453
+-9957.2555 -2547.6278
+F.Curieuse:0.0681325 A.PraslinPasquereRiver:0.0174404
+-4454.9808 -2547.6278
+G.MaheSouth:0.0814071 F.Curieuse:0.0681325
+-11586.958 -2547.6278
+G.MaheSouth:0.0814071 D.LaDigue:0.0163434
+-7008.0627 -2547.6278
+E.MaheNorth:0.090453 F.Curieuse:0.0681325
+-11586.958 -2547.6278
+D.LaDigue:0.0163434 G.MaheSouth:0.0814071
+-7008.0627 -2547.6278
+D.LaDigue:0.0163434 C.PraslinWest:0.00680259
+-11577.355 -2547.6278
+D.LaDigue:0.0163434 (C.PraslinWest:0.00680259,B.PraslinPlaineHollandaise:0.00719507):0.0318385
+-5974.5419 -2547.6278
+D.LaDigue:0.0163434 B.PraslinPlaineHollandaise:0.00719507
+-11577.355 -2547.6278
+A.PraslinPasquereRiver:0.0174404 F.Curieuse:0.0681325
+-4454.9808 -2547.6278
+A.PraslinPasquereRiver:0.0174404 C.PraslinWest:0.00680259
+-6345.6414 -2547.6278
+A.PraslinPasquereRiver:0.0174404 B.PraslinPlaineHollandaise:0.00719507
+-6345.6414 -2547.6278
+C.PraslinWest:0.00680259 D.LaDigue:0.0163434
+-15861.911 -2547.6278
+Targeting migration to vicinity of:
+A.PraslinPasquereRiver F.Curieuse
+D.LaDigue C.PraslinWest
+D.LaDigue B.PraslinPlaineHollandaise
+F.Curieuse E.MaheNorth
+
+A.PraslinPasquereRiver F.Curieuse
+C.PraslinWest D.LaDigue
+B.PraslinPlaineHollandaise D.LaDigue
+D.LaDigue C.PraslinWest
+D.LaDigue B.PraslinPlaineHollandaise
+F.Curieuse A.PraslinPasquereRiver
+D.LaDigue C.PraslinWest
+D.LaDigue B.PraslinPlaineHollandaise
+F.Curieuse A.PraslinPasquereRiver
+D.LaDigue G.MaheSouth
+F.Curieuse E.MaheNorth
+Trying A.PraslinPasquereRiver F.Curieuse
+A.PraslinPasquereRiver:0.0174404 F.Curieuse:0.0681325
+1->2 0.43132201 -1822.8751 -2547.6278
+2->1 0.38801861 -1554.4454 -1822.8751
+p1->2 0.099995285 -2547.6278 -1554.4454
+p2->1 0.099995285 -2547.6278 -1554.4454
+Trying B.PraslinPlaineHollandaise D.LaDigue
+B.PraslinPlaineHollandaise:0.00719507 D.LaDigue:0.0163434
+1->2 0.31624016 -729.44686 -1554.4454
+2->1 0.12956221 -2369.7293 -729.44686
+p1->2 0.34683096 -741.97811 -729.44686
+p2->1 0.0049482337 -2547.571 -729.44686
+(C.PraslinWest:0.00654805,B.PraslinPlaineHollandaise:0.00752243):0.0320621 D.LaDigue:0.0163434
+2->1 0.41733605 -498.75907 -729.44686
+p1->2 0.56883031 -1640.905 -498.75907
+p2->1 0.45024511 -1777.9888 -498.75907
+Trying C.PraslinWest D.LaDigue
+(C.PraslinWest:0.00681969,B.PraslinPlaineHollandaise:0.00721217):0.141675 D.LaDigue:0.0159109
+C.PraslinWest:0.00681969 D.LaDigue:0.0159109
+1->2 0.31522036 -730.04343 -498.75907
+2->1 0.18130976 -2070.1031 -498.75907
+p2->1 0.15353434 -2376.6464 -498.75907
+Trying D.LaDigue B.PraslinPlaineHollandaise
+D.LaDigue:0.0162059 B.PraslinPlaineHollandaise:0
+D.LaDigue:0.0162059 (B.PraslinPlaineHollandaise:0,C.PraslinWest:0.0210243):0.038798
+Trying D.LaDigue C.PraslinWest
+D.LaDigue:0.0162059 (B.PraslinPlaineHollandaise:0,C.PraslinWest:0.0210243):0.038798
+D.LaDigue:0.0162059 C.PraslinWest:0.0210243
+Trying D.LaDigue G.MaheSouth
+D.LaDigue:0.0162059 G.MaheSouth:0.0814177
+1->2 0.56512684 -2335.8489 -498.75907
+2->1 0.10146535 -2335.8489 -498.75907
+p1->2 4.0751289e-05 -2547.6278 -498.75907
+(F.Curieuse:0.0681325,((E.MaheNorth:0.0904517,G.MaheSouth:0.081415):0.0314179,D.LaDigue:0.0163434):0.0108566):0.00801132 G.MaheSouth:0.081415
+1->2 3.8719494e-07 -2547.628 -498.75907
+((E.MaheNorth:0.090453,G.MaheSouth:0.0814072):0.0314166,D.LaDigue:0.0163434):0.0108566 G.MaheSouth:0.0814072
+Trying F.Curieuse A.PraslinPasquereRiver
+F.Curieuse:0.0681325 A.PraslinPasquereRiver:0.0174404
+Trying F.Curieuse E.MaheNorth
+F.Curieuse:0.0681325 E.MaheNorth:0.090453
+1->2 0.32121536 -1907.191 -498.75907
+2->1 0.29937404 -1559.6582 -498.75907
+p1->2 0.48024994 -2333.1136 -498.75907
+p2->1 0.32859775 -1640.9021 -498.75907
+F.Curieuse:0.172275 (G.MaheSouth:0.0814071,E.MaheNorth:0.090453):0.0342284
+1->2 0.34539771 -1655.4741 -498.75907
+p1->2 4.0751289e-05 -2547.6278 -498.75907
+Migration added
+Local updates around node 1: 0 ln(lk):-498.75907 
+Local updates around node 2: 0 ln(lk):-498.75907 
+Updates in migration position: 0 ln(lk):-498.75907 
+Switches in migration direction: 0 ln(lk):-498.75907 
+ln(likelihood):-498.75907 
+Targeting migration to vicinity of:
+F.Curieuse E.MaheNorth
+D.LaDigue G.MaheSouth
+A.PraslinPasquereRiver B.PraslinPlaineHollandaise
+A.PraslinPasquereRiver F.Curieuse
+
+A.PraslinPasquereRiver B.PraslinPlaineHollandaise
+B.PraslinPlaineHollandaise A.PraslinPasquereRiver
+A.PraslinPasquereRiver F.Curieuse
+D.LaDigue G.MaheSouth
+G.MaheSouth D.LaDigue
+F.Curieuse E.MaheNorth
+D.LaDigue G.MaheSouth
+F.Curieuse E.MaheNorth
+Trying A.PraslinPasquereRiver B.PraslinPlaineHollandaise
+(A.PraslinPasquereRiver:0,(C.PraslinWest:0.00684326,B.PraslinPlaineHollandaise:0.00723575):0.123373):0.0156186 (C.PraslinWest:0.00684326,B.PraslinPlaineHollandaise:0.00723575):0.123373
+1->2 0.074174039 -498.75907 -498.75907
+(A.PraslinPasquereRiver:0,(C.PraslinWest:0.00684326,B.PraslinPlaineHollandaise:0.00723575):0.16199):0.0156186 B.PraslinPlaineHollandaise:0.00723575
+1->2 0.077303804 -481.65651 -498.75907
+A.PraslinPasquereRiver:0 (C.PraslinWest:0.00369352,B.PraslinPlaineHollandaise:0.0117852):0.132814
+p2->1 0.79623598 -425.52899 -481.65651
+A.PraslinPasquereRiver:0 B.PraslinPlaineHollandaise:0.00721463
+1->2 0.077303804 -481.65651 -425.52899
+2->1 0.18564485 -389.14351 -425.52899
+Trying A.PraslinPasquereRiver F.Curieuse
+A.PraslinPasquereRiver:0.0160174 F.Curieuse:0.0585373
+1->2 0.18901017 -498.75907 -389.14351
+2->1 0.25744852 -395.31037 -389.14351
+p1->2 0.00084665493 -498.75907 -389.14351
+p2->1 0.56735206 -425.52899 -389.14351
+Trying B.PraslinPlaineHollandaise A.PraslinPasquereRiver
+(C.PraslinWest:0.00682215,B.PraslinPlaineHollandaise:0.00721463):0.108191 A.PraslinPasquereRiver:0
+B.PraslinPlaineHollandaise:0.00721463 A.PraslinPasquereRiver:0
+Trying D.LaDigue G.MaheSouth
+D.LaDigue:0.0235676 G.MaheSouth:0.0814267
+1->2 0.28641167 -266.63523 -389.14351
+2->1 0.083783321 -249.91311 -266.63523
+p1->2 4.0751289e-05 -498.7591 -249.91311
+p2->1 0.12770388 -434.04483 -249.91311
+Trying F.Curieuse E.MaheNorth
+F.Curieuse:0.0607579 E.MaheNorth:0.0904428
+1->2 0.21845503 -140.43381 -249.91311
+2->1 0.18921024 -81.563373 -140.43381
+p1->2 0.33226594 -269.34779 -81.563373
+p2->1 0.25858375 -161.57181 -81.563373
+F.Curieuse:0.125938 (G.MaheSouth:0.0812873,E.MaheNorth:0.0903332):0.0299478
+1->2 0.30197251 -169.15825 -81.563373
+p1->2 4.0751289e-05 -498.75909 -81.563373
+Trying G.MaheSouth D.LaDigue
+G.MaheSouth:0.0814478 D.LaDigue:0.0230192
+Migration added
+Local updates around node 1: 0 ln(lk):-81.563373 
+Local updates around node 2: 0 ln(lk):-81.563373 
+Updates in migration position: 0 ln(lk):-81.563373 
+Switches in migration direction: 0 ln(lk):-81.563373 
+ln(likelihood):-81.277582 
+Targeting migration to vicinity of:
+D.LaDigue G.MaheSouth
+A.PraslinPasquereRiver B.PraslinPlaineHollandaise
+A.PraslinPasquereRiver E.MaheNorth
+C.PraslinWest E.MaheNorth
+
+A.PraslinPasquereRiver B.PraslinPlaineHollandaise
+B.PraslinPlaineHollandaise A.PraslinPasquereRiver
+A.PraslinPasquereRiver E.MaheNorth
+C.PraslinWest E.MaheNorth
+A.PraslinPasquereRiver E.MaheNorth
+C.PraslinWest E.MaheNorth
+D.LaDigue G.MaheSouth
+G.MaheSouth D.LaDigue
+Trying A.PraslinPasquereRiver B.PraslinPlaineHollandaise
+((C.PraslinWest:0.00682278,B.PraslinPlaineHollandaise:0.00721526):0.119002,A.PraslinPasquereRiver:0):0.00931554 B.PraslinPlaineHollandaise:0.00721526
+1->2 0.087171294 -62.553304 -81.277582
+A.PraslinPasquereRiver:0 B.PraslinPlaineHollandaise:0.0123576
+1->2 0.087171294 -62.553304 -62.553304
+2->1 0.033629756 -62.218773 -62.553304
+Trying A.PraslinPasquereRiver E.MaheNorth
+A.PraslinPasquereRiver:0 E.MaheNorth:0.091412
+1->2 0.14624406 84.451834 -62.218773
+2->1 0.025203839 -31.005145 84.451834
+p1->2 0.14935705 84.073734 84.451834
+p2->1 0.016573921 -77.268347 84.451834
+Trying B.PraslinPlaineHollandaise A.PraslinPasquereRiver
+B.PraslinPlaineHollandaise:0.0072125 A.PraslinPasquereRiver:0
+Trying C.PraslinWest E.MaheNorth
+C.PraslinWest:0.00682002 E.MaheNorth:0.0914321
+1->2 0.034126829 -60.22078 84.451834
+2->1 0.010372989 -70.277091 84.451834
+p1->2 0.14581811 85.019335 84.451834
+p2->1 0.058843862 -67.742793 85.019335
+Trying D.LaDigue G.MaheSouth
+D.LaDigue:0.0184572 G.MaheSouth:0.080322
+1->2 0.28554955 76.671243 85.019335
+2->1 0.068382211 58.192458 85.019335
+p1->2 4.0751289e-05 -81.277612 85.019335
+p2->1 0.038203243 -72.519445 85.019335
+Trying G.MaheSouth D.LaDigue
+G.MaheSouth:0.080386 D.LaDigue:0.0214426
+Migration added
+Local updates around node 1: 0 ln(lk):85.019335 
+Local updates around node 2: 0 ln(lk):85.019335 
+Updates in migration position: 0 ln(lk):85.019335 
+Switches in migration direction: 0 ln(lk):85.019335 
+ln(likelihood):86.668532 
+Targeting migration to vicinity of:
+A.PraslinPasquereRiver B.PraslinPlaineHollandaise
+A.PraslinPasquereRiver F.Curieuse
+C.PraslinWest E.MaheNorth
+D.LaDigue G.MaheSouth
+
+A.PraslinPasquereRiver B.PraslinPlaineHollandaise
+B.PraslinPlaineHollandaise A.PraslinPasquereRiver
+A.PraslinPasquereRiver F.Curieuse
+C.PraslinWest E.MaheNorth
+Trying A.PraslinPasquereRiver B.PraslinPlaineHollandaise
+A.PraslinPasquereRiver:0 B.PraslinPlaineHollandaise:0.0072147
+1->2 0.090387508 106.68137 86.668532
+2->1 0.032656487 103.32884 106.68137
+p1->2 0.090387508 106.68137 106.68137
+p2->1 0.36693719 111.69272 106.68137
+Trying A.PraslinPasquereRiver F.Curieuse
+A.PraslinPasquereRiver:0 F.Curieuse:0.102355
+1->2 0.51427311 86.668532 111.69272
+2->1 0.14376511 126.19438 111.69272
+p1->2 0.54896885 86.668532 126.19438
+p2->1 0.17160192 111.64583 126.19438
+Trying B.PraslinPlaineHollandaise A.PraslinPasquereRiver
+B.PraslinPlaineHollandaise:0.00720438 A.PraslinPasquereRiver:0
+Trying C.PraslinWest E.MaheNorth
+C.PraslinWest:0.00681189 E.MaheNorth:0.137586
+1->2 0.0085036624 87.164167 126.19438
+2->1 0.012816369 96.698044 126.19438
+p2->1 0.057692215 100.35465 126.19438
+Migration added
+Local updates around node 1: 0 ln(lk):126.19438 
+Local updates around node 2: 0 ln(lk):126.19438 
+Updates in migration position: 1 ln(lk):126.33729 
+Switches in migration direction: 0 ln(lk):126.33729 
+Local updates around node 1: 0 ln(lk):126.33729 
+Local updates around node 2: 0 ln(lk):126.33729 
+Switches in migration direction: 0 ln(lk):126.33729 
+Updates in migration position: 0 ln(lk):126.33729 
+Trying all local rearrangements
+Local rearrangements: 0 ln(lk):126.33729 
+ln(likelihood):140.62208 
+Targeting migration to vicinity of:
+A.PraslinPasquereRiver B.PraslinPlaineHollandaise
+C.PraslinWest E.MaheNorth
+D.LaDigue G.MaheSouth
+A.PraslinPasquereRiver G.MaheSouth
+
+A.PraslinPasquereRiver B.PraslinPlaineHollandaise
+B.PraslinPlaineHollandaise A.PraslinPasquereRiver
+C.PraslinWest E.MaheNorth
+C.PraslinWest E.MaheNorth
+Trying A.PraslinPasquereRiver B.PraslinPlaineHollandaise
+A.PraslinPasquereRiver:0 B.PraslinPlaineHollandaise:0.00720031
+1->2 0.095507957 167.74127 140.62208
+2->1 0.066833243 146.38728 167.74127
+p1->2 0.092614345 165.71363 167.74127
+p2->1 0.00057903241 140.62768 167.74127
+(A.PraslinPasquereRiver:0,(C.PraslinWest:0.00680753,B.PraslinPlaineHollandaise:0.00720002):0.128826):0.0195632 B.PraslinPlaineHollandaise:0.00720002
+Trying B.PraslinPlaineHollandaise A.PraslinPasquereRiver
+B.PraslinPlaineHollandaise:0.00720002 A.PraslinPasquereRiver:0
+Trying C.PraslinWest E.MaheNorth
+C.PraslinWest:0.00680753 (G.MaheSouth:0.0708477,E.MaheNorth:0.130635):0.038107
+1->2 3.0968394e-07 140.6219 167.74127
+2->1 0.079074882 165.29933 167.74127
+p1->2 3.0968394e-07 140.62205 167.74127
+p2->1 0.12832078 168.51093 167.74127
+C.PraslinWest:0.0170138 E.MaheNorth:0.130466
+1->2 0.00063651579 140.63004 168.51093
+2->1 0.020145776 155.84908 168.51093
+p1->2 3.0968394e-07 140.62208 168.51093
+Migration added
+Local updates around node 1: 0 ln(lk):168.51093 
+Local updates around node 2: 0 ln(lk):168.51093 
+Updates in migration position: 2 ln(lk):172.78835 
+Switches in migration direction: 0 ln(lk):172.78835 
+Local updates around node 1: 0 ln(lk):172.78835 
+Local updates around node 2: 0 ln(lk):172.78835 
+Switches in migration direction: 0 ln(lk):172.78835 
+Updates in migration position: 0 ln(lk):172.78835 
+Trying all local rearrangements
+Local rearrangements: 0 ln(lk):172.78835 
+ln(likelihood):174.66474 
+DONE.
