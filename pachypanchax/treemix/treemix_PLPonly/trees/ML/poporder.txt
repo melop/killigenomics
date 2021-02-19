@@ -1,0 +1,7 @@
+A.PraslinPasquereRiver
+B.PraslinPlaineHollandaise
+C.PraslinWest
+D.LaDigue
+E.MaheNorth
+F.Curieuse
+G.MaheSouth

@@ -1,0 +1,1 @@
+(((E.MaheNorth:0.0904484,G.MaheSouth:0.0813894):0.0314172,D.LaDigue:0.0163455):0.00542786,(F.Curieuse:0.0681325,((B.PraslinPlaineHollandaise:0.00720091,C.PraslinWest:0.00680923):0.0318263,A.PraslinPasquereRiver:0.0174394):0.016015):0.00542786);
